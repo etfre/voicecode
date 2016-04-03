@@ -1,0 +1,20 @@
+{
+    "Scopes": {
+
+    },
+
+    "Commands": {
+        "join lines": "{ctrl+j}",
+        "toggle comment": "{ctrl+/}"
+    },
+
+    "NumberedCommands": {
+        "undo": "{ctrl+z}",
+        "snipe": "{backspace}",
+        "up": "{left}",
+        "left": "{left}",
+        "down": "{left}",
+        "right": "{left}"
+    }
+
+}

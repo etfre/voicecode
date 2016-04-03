@@ -1,0 +1,14 @@
+{
+    "Scopes": {
+        "language": "python"
+    },
+
+
+    "Commands": {
+        "new set": "set(){left}",
+        "new dictionary": "{{}}{left}",
+        "new function": "def ():{left}{left}{left}",
+        "new class": "class :{left}",
+        "condition": "if"
+    }
+}
