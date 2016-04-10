@@ -9,6 +9,10 @@
         "new dictionary": "{{}}{left}",
         "new function": "def ():{left}{left}{left}",
         "new class": "class :{left}",
-        "condition": "if"
+        "condition": "if",
+        "crunk path": "path",
+        "crunk os": "os",
+        "crunk time": "time",
+        "crunk dunder": "____{left}{left}"
     }
 }

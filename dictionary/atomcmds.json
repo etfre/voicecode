@@ -5,16 +5,33 @@
 
     "Commands": {
         "join lines": "{ctrl+j}",
-        "toggle comment": "{ctrl+/}"
+        "toggle comment": "{ctrl+/}",
+        "clear select": "{ctrl+alt+3}",
+        "select": "",
+        "delete": "",
+        "copy": "",
+        "grab": "",
+        "until": "t",
+        "after": "f",
+        "before": "F",
+        "fuzzy": "{ctrl+t}",
+        "save file": "{ctrl+s}",
+        "halt": "",
+        "module": "",
+        "drop": "{ctrl+enter}",
+        "climb": "{ctrl+shift+enter}"
     },
 
     "NumberedCommands": {
         "undo": "{ctrl+z}",
-        "snipe": "{backspace}",
         "up": "{left}",
         "left": "{left}",
         "down": "{left}",
-        "right": "{left}"
+        "right": "{left}",
+        "line": "",
+        "word": "",
+        "indent": "{ctrl+]}",
+        "outdent": "{ctrl+[}"
     }
 
 }

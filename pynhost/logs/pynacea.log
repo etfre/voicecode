@@ -2459,3 +2459,999 @@ SyntaxError: invalid syntax
 2016-04-03 00:40:29,123 INFO log_message(161) Received input "snipe 3"
 2016-04-03 00:40:29,126 INFO log_message(161) Input "snipe 3" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.atom_cmds.AtomCommandsGrammar object at 0x0000019E399144A8>
 2016-04-03 01:00:58,938 INFO log_message(161) Stopped listening for input
+2016-04-03 01:13:54,641 INFO log_message(161) Started listening for input
+2016-04-03 01:14:01,052 INFO log_message(161) Received input "clear select"
+2016-04-03 01:14:01,054 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom_cmds.AtomCommandsGrammar object at 0x000002123B0C44A8>
+2016-04-03 01:19:26,874 INFO log_message(161) Stopped listening for input
+2016-04-03 01:23:15,782 INFO log_message(161) Started listening for input
+2016-04-03 01:23:32,314 INFO log_message(161) Received input "until single"
+2016-04-03 01:23:32,316 INFO log_message(161) Input "until single" matched rule <Rule: [(delete|copy|select|grab)] (until) (space|x-ray|lace|november|eke|oscar|papa|romeo|victor|charlie|delta|yankee|semicolon|double|plus|race|star|comma|rack|india|rye|uniform|dash|lang|single|foxtrot|lack|kilo|late|bar|wave|bravo|echo|percent|hotel|whiskey|quebec|alpha|mike|lima|juliet|sierra|colon|rang|golf|tango|zulu) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000028FFC901F60>
+2016-04-03 01:23:37,371 INFO log_message(161) Received input "score one until single"
+2016-04-03 01:23:37,373 INFO log_message(161) Input "score one until single" matched rule <Rule: (camel|score) <any><1->> in grammar <pynhost.grammars.atom.dictation.AtomDictationGrammar object at 0x0000028FFC9017B8>
+2016-04-03 01:24:05,581 INFO log_message(161) Received input "star left until single"
+2016-04-03 01:24:05,583 INFO log_message(161) Input "star" matched rule <Rule: (double|dash|lang|space|semicolon|lace|plus|race|star|comma|rack|lack|eke|late|colon|bar|rye|wave|single|rang|percent)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000028FFC8E39E8>
+2016-04-03 01:24:05,591 INFO log_message(161) Input "left" matched rule <Rule: [(delete|copy|select|grab)] (right|down|up|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000028FFC901F60>
+2016-04-03 01:24:05,595 INFO log_message(161) Input "until single" matched rule <Rule: [(delete|copy|select|grab)] (until) (space|x-ray|lace|november|eke|oscar|papa|romeo|victor|charlie|delta|yankee|semicolon|double|plus|race|star|comma|rack|india|rye|uniform|dash|lang|single|foxtrot|lack|kilo|late|bar|wave|bravo|echo|percent|hotel|whiskey|quebec|alpha|mike|lima|juliet|sierra|colon|rang|golf|tango|zulu) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000028FFC901F60>
+2016-04-03 01:24:46,910 INFO log_message(161) Stopped listening for input
+2016-04-03 01:24:47,948 INFO log_message(161) Started listening for input
+2016-04-03 01:25:00,186 INFO log_message(161) Received input "select until zulu"
+2016-04-03 01:25:00,188 INFO log_message(161) Input "select until zulu" matched rule <Rule: [(copy|select|grab|delete)] (until) (bravo|race|uniform|bar|single|wave|papa|delta|november|lack|quebec|zulu|tango|dash|juliet|comma|whiskey|lace|lang|x-ray|late|plus|echo|semicolon|romeo|golf|rang|yankee|sierra|rye|india|double|lima|hotel|colon|kilo|victor|star|eke|rack|foxtrot|mike|percent|alpha|oscar|charlie|space) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001DCA07D1F98>
+2016-04-03 01:25:04,151 INFO log_message(161) Received input "clear select"
+2016-04-03 01:25:04,153 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom_cmds.AtomCommandsGrammar object at 0x000001DCA07AD390>
+2016-04-03 01:25:09,840 INFO log_message(161) Received input "left 3"
+2016-04-03 01:25:09,844 INFO log_message(161) Input "left 3" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001DCA07D1F98>
+2016-04-03 01:25:16,591 INFO log_message(161) Received input "select left"
+2016-04-03 01:25:16,594 INFO log_message(161) Input "select left" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001DCA07D1F98>
+2016-04-03 01:25:19,523 INFO log_message(161) Received input "right 4"
+2016-04-03 01:25:19,524 INFO log_message(161) Input "right 4" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001DCA07D1F98>
+2016-04-03 01:25:45,276 INFO log_message(161) Received input "clear select"
+2016-04-03 01:25:45,278 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom_cmds.AtomCommandsGrammar object at 0x000001DCA07AD390>
+2016-04-03 01:25:48,100 INFO log_message(161) Received input "left 2 0"
+2016-04-03 01:25:48,102 INFO log_message(161) Input "left 2 0" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001DCA07D1F98>
+2016-04-03 01:31:06,835 INFO log_message(161) Stopped listening for input
+2016-04-03 01:31:07,542 ERROR log_message(161) 'JavascriptKeywordsGrammar' object has no attribute 'add_command'
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 52, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 107, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\javascript.py", line 9, in __init__
+    self.add_command('new function')
+AttributeError: 'JavascriptKeywordsGrammar' object has no attribute 'add_command'
+2016-04-03 01:31:07,555 INFO log_message(161) Stopped listening for input
+2016-04-03 01:31:23,781 INFO log_message(161) Started listening for input
+2016-04-03 01:31:35,726 INFO log_message(161) Received input "new function"
+2016-04-03 01:31:35,727 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000002D75CEF0668>
+2016-04-03 01:31:44,460 INFO log_message(161) Received input "new function"
+2016-04-03 01:31:44,462 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000002D75CEF0668>
+2016-04-03 01:33:11,812 INFO log_message(161) Stopped listening for input
+2016-04-03 01:33:12,552 INFO log_message(161) Started listening for input
+2016-04-03 01:33:19,448 INFO log_message(161) Received input "new function"
+2016-04-03 01:33:19,449 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000001DABBA20BA8>
+2016-04-03 01:33:26,743 INFO log_message(161) Received input "new function"
+2016-04-03 01:33:26,746 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000001DABBA20BA8>
+2016-04-03 01:33:57,530 INFO log_message(161) Stopped listening for input
+2016-04-03 01:33:58,200 INFO log_message(161) Started listening for input
+2016-04-03 01:34:01,433 INFO log_message(161) Received input "new function"
+2016-04-03 01:34:01,434 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000002AFCF9B0710>
+2016-04-03 01:34:30,865 INFO log_message(161) Stopped listening for input
+2016-04-03 01:34:31,502 INFO log_message(161) Started listening for input
+2016-04-03 01:34:36,326 INFO log_message(161) Received input "new function"
+2016-04-03 01:34:36,327 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x0000021D32641BE0>
+2016-04-03 01:35:00,380 INFO log_message(161) Stopped listening for input
+2016-04-03 01:35:01,362 INFO log_message(161) Started listening for input
+2016-04-03 01:35:19,838 INFO log_message(161) Stopped listening for input
+2016-04-03 01:35:21,118 INFO log_message(161) Started listening for input
+2016-04-03 01:35:24,399 INFO log_message(161) Received input "new function"
+2016-04-03 01:35:24,401 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x00000298CAAD0D30>
+2016-04-03 01:35:44,871 INFO log_message(161) Stopped listening for input
+2016-04-03 11:06:43,150 INFO log_message(161) Started listening for input
+2016-04-03 11:06:52,579 INFO log_message(161) Received input "new function"
+2016-04-03 11:06:52,583 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x00000170333EF1D0>
+2016-04-03 11:06:57,591 INFO log_message(161) Received input "enable language javascript"
+2016-04-03 11:07:41,267 INFO log_message(161) Stopped listening for input
+2016-04-03 11:07:42,086 INFO log_message(161) Started listening for input
+2016-04-03 11:07:59,416 INFO log_message(161) Received input "enable language python"
+2016-04-03 11:08:38,915 INFO log_message(161) Stopped listening for input
+2016-04-03 11:08:39,689 INFO log_message(161) Started listening for input
+2016-04-03 11:08:45,520 INFO log_message(161) Received input "enable language python"
+2016-04-03 11:08:45,523 INFO log_message(161) Input "enable language python" matched rule <Rule: enable <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000002B53FC23F60>
+2016-04-03 11:08:51,083 INFO log_message(161) Received input "new function"
+2016-04-03 11:08:51,086 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000002B53FC174A8>
+2016-04-03 11:08:56,890 INFO log_message(161) Received input "enable language javascript"
+2016-04-03 11:08:56,895 INFO log_message(161) Input "enable language javascript" matched rule <Rule: enable <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000002B53FC23F60>
+2016-04-03 11:08:59,325 INFO log_message(161) Received input "new function"
+2016-04-03 11:08:59,328 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000002B53FC40518>
+2016-04-03 11:09:15,231 INFO log_message(161) Stopped listening for input
+2016-04-03 11:09:49,267 INFO log_message(161) Started listening for input
+2016-04-03 11:09:56,338 INFO log_message(161) Received input "enable language javascript"
+2016-04-03 11:09:56,342 INFO log_message(161) Input "enable language javascript" matched rule <Rule: enable <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000002B006083F98>
+2016-04-03 11:09:58,514 INFO log_message(161) Received input "new function"
+2016-04-03 11:09:58,517 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000002B0060A00F0>
+2016-04-03 11:10:16,642 INFO log_message(161) Received input "score hello world"
+2016-04-03 11:10:16,645 INFO log_message(161) Input "score hello world" matched rule <Rule: (camel|score) <any><1->> in grammar <pynhost.grammars.atom.dictation.AtomDictationGrammar object at 0x000002B0060A0B00>
+2016-04-03 11:10:32,821 INFO log_message(161) Received input "new function"
+2016-04-03 11:10:32,823 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000002B0060A00F0>
+2016-04-03 11:11:38,141 INFO log_message(161) Received input "new function"
+2016-04-03 11:11:38,144 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.javascript.JavascriptKeywordsGrammar object at 0x000002B0060A00F0>
+2016-04-03 12:05:38,127 INFO log_message(161) Stopped listening for input
+2016-04-03 12:15:39,945 ERROR log_message(161) invalid syntax (manip.py, line 25)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 40, in load_grammars
+    for module in utilities.get_modules_in_dir(grammar_dir):
+  File "C:\Users\evan\modules\voicecode\pynhost\utilities.py", line 169, in get_modules_in_dir
+    yield __import__('.'.join(['pynhost.grammars' + root, py]), fromlist=[py])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\manip.py", line 25
+    'after': 'f'
+           ^
+SyntaxError: invalid syntax
+2016-04-03 12:15:39,953 INFO log_message(161) Stopped listening for input
+2016-04-03 12:15:46,998 INFO log_message(161) Started listening for input
+2016-04-03 12:15:54,091 INFO log_message(161) Received input "space"
+2016-04-03 12:15:54,092 INFO log_message(161) Input "space" matched rule <Rule: (rye|double|comma|star|eke|rang|lack|lace|race|space|plus|wave|colon|single|rack|bar|semicolon|percent|dash|lang|late)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025AE8027AC8>
+2016-04-03 12:16:57,715 INFO log_message(161) Stopped listening for input
+2016-04-03 12:16:58,492 ERROR log_message(161) Expecting ',' delimiter: line 14 column 9 (char 248)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom_cmds.py", line 7, in __init__
+    self.dict_file = 'atomcmds.json'
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 76, in dict_file
+    self.dict_obj = self.dict_json(os.path.join(self.dictionary_root, value))
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 91, in dict_json
+    return json.loads(f.read())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 14 column 9 (char 248)
+2016-04-03 12:16:58,513 INFO log_message(161) Stopped listening for input
+2016-04-03 12:17:12,994 INFO log_message(161) Started listening for input
+2016-04-03 12:17:18,915 INFO log_message(161) Received input "after romeo"
+2016-04-03 12:17:18,917 INFO log_message(161) Input "after romeo" matched rule <Rule: [(grab|select|copy|delete)] (after|until) (yankee|colon|lima|lace|rye|juliet|oscar|sierra|plus|lang|delta|hotel|bravo|whiskey|alpha|mike|wave|india|space|uniform|golf|semicolon|papa|single|dash|foxtrot|percent|lack|double|rack|eke|zulu|victor|late|november|echo|race|star|romeo|quebec|rang|kilo|comma|bar|x-ray|charlie|tango) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3A6B0D240>
+2016-04-03 12:17:26,592 INFO log_message(161) Received input "select after romeo"
+2016-04-03 12:17:26,596 INFO log_message(161) Input "select after romeo" matched rule <Rule: [(grab|select|copy|delete)] (after|until) (yankee|colon|lima|lace|rye|juliet|oscar|sierra|plus|lang|delta|hotel|bravo|whiskey|alpha|mike|wave|india|space|uniform|golf|semicolon|papa|single|dash|foxtrot|percent|lack|double|rack|eke|zulu|victor|late|november|echo|race|star|romeo|quebec|rang|kilo|comma|bar|x-ray|charlie|tango) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3A6B0D240>
+2016-04-03 12:17:30,403 INFO log_message(161) Received input "clear select"
+2016-04-03 12:17:30,405 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom_cmds.AtomCommandsGrammar object at 0x000001D3A6AE7400>
+2016-04-03 12:17:39,529 INFO log_message(161) Received input "select until double 2"
+2016-04-03 12:17:39,532 INFO log_message(161) Input "select until double 2" matched rule <Rule: [(grab|select|copy|delete)] (after|until) (yankee|colon|lima|lace|rye|juliet|oscar|sierra|plus|lang|delta|hotel|bravo|whiskey|alpha|mike|wave|india|space|uniform|golf|semicolon|papa|single|dash|foxtrot|percent|lack|double|rack|eke|zulu|victor|late|november|echo|race|star|romeo|quebec|rang|kilo|comma|bar|x-ray|charlie|tango) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3A6B0D240>
+2016-04-03 13:28:32,326 INFO log_message(161) Stopped listening for input
+2016-04-03 13:28:34,147 ERROR log_message(161) Expecting property name enclosed in double quotes: line 16 column 5 (char 289)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom_cmds.py", line 7, in __init__
+    self.dict_file = 'atomcmds.json'
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 76, in dict_file
+    self.dict_obj = self.dict_json(os.path.join(self.dictionary_root, value))
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 91, in dict_json
+    return json.loads(f.read())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 16 column 5 (char 289)
+2016-04-03 13:28:34,171 INFO log_message(161) Stopped listening for input
+2016-04-03 13:28:58,220 INFO log_message(161) Started listening for input
+2016-04-03 15:11:06,745 INFO log_message(161) Stopped listening for input
+2016-04-03 15:11:10,754 ERROR log_message(161) cannot import name 'AtomBaseGrammar'
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 40, in load_grammars
+    for module in utilities.get_modules_in_dir(grammar_dir):
+  File "C:\Users\evan\modules\voicecode\pynhost\utilities.py", line 169, in get_modules_in_dir
+    yield __import__('.'.join(['pynhost.grammars' + root, py]), fromlist=[py])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\atom_cmds.py", line 2, in <module>
+    from pynhost.grammars.atom import AtomBaseGrammar
+ImportError: cannot import name 'AtomBaseGrammar'
+2016-04-03 15:11:10,766 INFO log_message(161) Stopped listening for input
+2016-04-03 15:12:27,793 INFO log_message(161) Started listening for input
+2016-04-03 15:12:34,251 INFO log_message(161) Received input "line 8"
+2016-04-03 15:12:34,253 INFO log_message(161) Input "line 8" matched rule <Rule: line <num>> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000227A45179E8>
+2016-04-03 15:12:34,256 ERROR log_message(161) Can't convert 'int' object to str implicitly
+Traceback (most recent call last):
+  File "pynacea.py", line 40, in main
+    raise e
+  File "pynacea.py", line 35, in main
+    command_history.run_command(current_command)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 13, in run_command
+    self.execute_command(pos, -1, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 26, in execute_command
+    self.execute_actions(command_pos, i, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 34, in execute_actions
+    if not self.execute_string_or_func(action):
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 48, in execute_string_or_func
+    action[0](*action[1], **action[2])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\atom_cmds.py", line 19, in go_to_line
+    self.do_command('l' + num)
+TypeError: Can't convert 'int' object to str implicitly
+2016-04-03 15:12:34,273 INFO log_message(161) Stopped listening for input
+2016-04-03 15:12:57,963 INFO log_message(161) Started listening for input
+2016-04-03 15:13:02,025 INFO log_message(161) Received input "line 8"
+2016-04-03 15:13:02,026 INFO log_message(161) Input "line 8" matched rule <Rule: line <num>> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001CF393579E8>
+2016-04-03 15:13:44,258 INFO log_message(161) Received input "line 1 8"
+2016-04-03 15:13:44,258 INFO log_message(161) Input "line 1" matched rule <Rule: line <num>> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001CF393579E8>
+2016-04-03 15:14:01,999 INFO log_message(161) Stopped listening for input
+2016-04-03 15:14:02,566 INFO log_message(161) Started listening for input
+2016-04-03 15:14:16,025 INFO log_message(161) Received input "line 2"
+2016-04-03 15:14:16,027 INFO log_message(161) Input "line 2" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000173170779E8>
+2016-04-03 15:14:19,085 INFO log_message(161) Received input "line 1 8"
+2016-04-03 15:14:19,086 INFO log_message(161) Input "line 1 8" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000173170779E8>
+2016-04-03 15:14:26,272 INFO log_message(161) Received input "select down"
+2016-04-03 15:14:26,273 INFO log_message(161) Input "select down" matched rule <Rule: [(select|delete|grab|copy)] (down|up|left|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000173170885C0>
+2016-04-03 15:14:29,460 INFO log_message(161) Received input "lang 2 3"
+2016-04-03 15:14:29,461 INFO log_message(161) Input "lang" matched rule <Rule: (percent|lace|semicolon|dash|lang|colon|wave|rye|late|lack|rack|race|double|comma|single|eke|star|rang|plus|space|bar)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000017317057400>
+2016-04-03 15:17:13,257 INFO log_message(161) Stopped listening for input
+2016-04-03 15:17:13,802 INFO log_message(161) Started listening for input
+2016-04-03 15:17:19,056 INFO log_message(161) Received input "line 4 0"
+2016-04-03 15:17:19,057 INFO log_message(161) Input "line 4 0" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:17:22,997 INFO log_message(161) Received input "select down 2"
+2016-04-03 15:17:23,000 INFO log_message(161) Input "select down 2" matched rule <Rule: [(delete|copy|grab|select)] (down|up|left|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001FBE1A6D208>
+2016-04-03 15:17:39,742 INFO log_message(161) Received input "line 4 8"
+2016-04-03 15:17:39,743 INFO log_message(161) Input "line 4 8" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:17:44,117 INFO log_message(161) Received input "clear select"
+2016-04-03 15:17:44,118 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:17:52,503 INFO log_message(161) Received input "clear select"
+2016-04-03 15:17:52,506 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:17:54,872 INFO log_message(161) Received input "line 4"
+2016-04-03 15:17:54,875 INFO log_message(161) Input "line 4" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:18:00,250 INFO log_message(161) Received input "line delete"
+2016-04-03 15:18:04,561 INFO log_message(161) Received input "score ash"
+2016-04-03 15:18:04,564 INFO log_message(161) Input "score ash" matched rule <Rule: (camel|score) <any><1->> in grammar <pynhost.grammars.atom.dictation.AtomDictationGrammar object at 0x000001FBE1A77160>
+2016-04-03 15:18:09,312 INFO log_message(161) Received input "undo 2"
+2016-04-03 15:18:09,315 INFO log_message(161) Input "undo 2" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:18:12,498 INFO log_message(161) Received input "line 9"
+2016-04-03 15:18:12,500 INFO log_message(161) Input "line 9" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:18:33,688 INFO log_message(161) Received input "select until"
+2016-04-03 15:18:46,183 INFO log_message(161) Received input "undo"
+2016-04-03 15:18:46,186 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:18:50,622 INFO log_message(161) Received input "select until tango"
+2016-04-03 15:18:50,625 INFO log_message(161) Input "select until tango" matched rule <Rule: [(delete|copy|grab|select)] (after|until) (comma|india|sierra|lace|race|plus|rack|delta|foxtrot|zulu|victor|rye|star|bar|uniform|yankee|space|lima|hotel|eke|semicolon|golf|quebec|dash|papa|tango|greater|charlie|oscar|lesser|percent|alpha|bravo|juliet|echo|x-ray|double|november|mike|colon|wave|kilo|lack|single|whiskey|romeo|late) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001FBE1A6D208>
+2016-04-03 15:18:53,684 INFO log_message(161) Received input "clear select"
+2016-04-03 15:18:53,687 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FBE1A686A0>
+2016-04-03 15:19:14,497 INFO log_message(161) Received input "left"
+2016-04-03 15:19:14,499 INFO log_message(161) Input "left" matched rule <Rule: [(delete|copy|grab|select)] (down|up|left|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001FBE1A6D208>
+2016-04-03 15:19:21,001 INFO log_message(161) Received input "down 3"
+2016-04-03 15:19:21,003 INFO log_message(161) Input "down 3" matched rule <Rule: [(delete|copy|grab|select)] (down|up|left|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001FBE1A6D208>
+2016-04-03 15:23:50,898 INFO log_message(161) Received input "left 5"
+2016-04-03 15:24:00,954 INFO log_message(161) Stopped listening for input
+2016-04-03 15:31:34,661 INFO log_message(161) Started listening for input
+2016-04-03 15:34:29,460 INFO log_message(161) Stopped listening for input
+2016-04-03 15:34:31,444 INFO log_message(161) Started listening for input
+2016-04-03 15:34:51,540 INFO log_message(161) Received input "down"
+2016-04-03 15:34:51,542 INFO log_message(161) Input "down" matched rule <Rule: [(delete|copy|grab|select)] (right|left|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001693A42E208>
+2016-04-03 15:39:25,832 INFO log_message(161) Received input "tango"
+2016-04-03 15:39:25,835 INFO log_message(161) Input "tango" matched rule <Rule: (foxtrot|uniform|kilo|zulu|bravo|golf|whiskey|india|papa|delta|tango|oscar|sierra|victor|yankee|x-ray|alpha|charlie|november|hotel|lima|echo|mike|juliet|romeo|quebec)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001693A407400>
+2016-04-03 15:42:14,253 INFO log_message(161) Stopped listening for input
+2016-04-03 15:42:14,870 INFO log_message(161) Started listening for input
+2016-04-03 15:42:31,733 INFO log_message(161) Received input "down 0"
+2016-04-03 15:42:55,308 INFO log_message(161) Received input "fuzzy"
+2016-04-03 15:42:55,312 INFO log_message(161) Input "fuzzy" matched rule <Rule: fuzzy> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000024755067668>
+2016-04-03 15:43:02,185 INFO log_message(161) Received input "charlie"
+2016-04-03 15:43:02,188 INFO log_message(161) Input "charlie" matched rule <Rule: (zulu|echo|alpha|juliet|foxtrot|golf|hotel|november|romeo|victor|sierra|kilo|quebec|papa|oscar|bravo|tango|delta|mike|whiskey|charlie|uniform|x-ray|lima|india|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000024755047400>
+2016-04-03 15:43:21,058 INFO log_message(161) Received input "space"
+2016-04-03 15:43:21,061 INFO log_message(161) Input "space" matched rule <Rule: (colon|rack|plus|bar|lace|semicolon|dash|comma|eke|race|wave|star|late|double|greater|single|lesser|percent|space|lack|rye)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000024755047400>
+2016-04-03 15:43:38,311 INFO log_message(161) Received input "whiskey"
+2016-04-03 15:43:38,314 INFO log_message(161) Input "whiskey" matched rule <Rule: (zulu|echo|alpha|juliet|foxtrot|golf|hotel|november|romeo|victor|sierra|kilo|quebec|papa|oscar|bravo|tango|delta|mike|whiskey|charlie|uniform|x-ray|lima|india|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000024755047400>
+2016-04-03 15:46:21,548 INFO log_message(161) Stopped listening for input
+2016-04-03 15:46:22,285 INFO log_message(161) Started listening for input
+2016-04-03 15:46:28,219 INFO log_message(161) Received input "before tango"
+2016-04-03 15:46:28,220 INFO log_message(161) Input "before tango" matched rule <Rule: [(copy|select|grab|delete)] (after|until|before) (colon|bravo|india|zulu|oscar|victor|quebec|romeo|race|semicolon|double|space|delta|rye|kilo|lace|plus|hotel|comma|lesser|bar|rack|golf|lack|eke|tango|wave|x-ray|percent|dash|papa|november|single|sierra|alpha|greater|late|yankee|charlie|juliet|star|echo|lima|foxtrot|mike|uniform|whiskey) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F0A536E518>
+2016-04-03 15:47:02,780 INFO log_message(161) Received input "before tango"
+2016-04-03 15:47:02,783 INFO log_message(161) Input "before tango" matched rule <Rule: [(copy|select|grab|delete)] (after|until|before) (colon|bravo|india|zulu|oscar|victor|quebec|romeo|race|semicolon|double|space|delta|rye|kilo|lace|plus|hotel|comma|lesser|bar|rack|golf|lack|eke|tango|wave|x-ray|percent|dash|papa|november|single|sierra|alpha|greater|late|yankee|charlie|juliet|star|echo|lima|foxtrot|mike|uniform|whiskey) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F0A536E518>
+2016-04-03 15:47:26,657 INFO log_message(161) Received input "select before tango 3"
+2016-04-03 15:47:26,661 INFO log_message(161) Input "select before tango 3" matched rule <Rule: [(copy|select|grab|delete)] (after|until|before) (colon|bravo|india|zulu|oscar|victor|quebec|romeo|race|semicolon|double|space|delta|rye|kilo|lace|plus|hotel|comma|lesser|bar|rack|golf|lack|eke|tango|wave|x-ray|percent|dash|papa|november|single|sierra|alpha|greater|late|yankee|charlie|juliet|star|echo|lima|foxtrot|mike|uniform|whiskey) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F0A536E518>
+2016-04-03 15:49:36,028 INFO log_message(161) Received input "after sierra"
+2016-04-03 15:49:36,031 INFO log_message(161) Input "after sierra" matched rule <Rule: [(copy|select|grab|delete)] (after|until|before) (colon|bravo|india|zulu|oscar|victor|quebec|romeo|race|semicolon|double|space|delta|rye|kilo|lace|plus|hotel|comma|lesser|bar|rack|golf|lack|eke|tango|wave|x-ray|percent|dash|papa|november|single|sierra|alpha|greater|late|yankee|charlie|juliet|star|echo|lima|foxtrot|mike|uniform|whiskey) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F0A536E518>
+2016-04-03 15:49:45,537 INFO log_message(161) Received input "after eke"
+2016-04-03 15:49:45,540 INFO log_message(161) Input "after eke" matched rule <Rule: [(copy|select|grab|delete)] (after|until|before) (colon|bravo|india|zulu|oscar|victor|quebec|romeo|race|semicolon|double|space|delta|rye|kilo|lace|plus|hotel|comma|lesser|bar|rack|golf|lack|eke|tango|wave|x-ray|percent|dash|papa|november|single|sierra|alpha|greater|late|yankee|charlie|juliet|star|echo|lima|foxtrot|mike|uniform|whiskey) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F0A536E518>
+2016-04-03 15:52:55,672 INFO log_message(161) Stopped listening for input
+2016-04-10 10:57:13,906 INFO log_message(161) Started listening for input
+2016-04-10 10:57:22,090 INFO log_message(161) Stopped listening for input
+2016-04-10 10:57:24,058 INFO log_message(161) Started listening for input
+2016-04-10 10:57:41,282 INFO log_message(161) Stopped listening for input
+2016-04-10 10:57:43,798 INFO log_message(161) Started listening for input
+2016-04-10 10:57:47,677 INFO log_message(161) Received input "foxtrot"
+2016-04-10 10:57:47,679 INFO log_message(161) Input "foxtrot" matched rule <Rule: (victor|charlie|yankee|november|uniform|india|lima|quebec|juliet|mike|kilo|tango|sierra|golf|echo|zulu|romeo|foxtrot|whiskey|delta|oscar|bravo|alpha|hotel|x-ray|papa)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000150F83D7438>
+2016-04-10 10:57:58,498 INFO log_message(161) Received input "activate atom"
+2016-04-10 10:57:58,503 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x00000150F83E2F28>
+2016-04-10 10:58:02,247 INFO log_message(161) Received input "activate firefox"
+2016-04-10 10:58:02,251 INFO log_message(161) Input "activate firefox" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x00000150F83E2F28>
+2016-04-10 11:00:08,579 INFO log_message(161) Received input "activate atom"
+2016-04-10 11:00:08,582 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x00000150F83E2F28>
+2016-04-10 11:01:21,089 INFO log_message(161) Stopped listening for input
+2016-04-10 11:01:24,892 INFO log_message(161) Started listening for input
+2016-04-10 11:01:26,130 INFO log_message(161) Stopped listening for input
+2016-04-10 11:01:28,515 INFO log_message(161) Started listening for input
+2016-04-10 11:01:32,127 INFO log_message(161) Received input "activate atom"
+2016-04-10 11:01:32,129 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001CD27732F60>
+2016-04-10 11:01:35,201 INFO log_message(161) Received input "activate command"
+2016-04-10 11:01:35,204 INFO log_message(161) Input "activate command" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001CD27732F60>
+2016-04-10 11:01:48,142 INFO log_message(161) Received input "activate firefox"
+2016-04-10 11:01:48,145 INFO log_message(161) Input "activate firefox" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001CD27732F60>
+2016-04-10 11:03:15,453 INFO log_message(161) Received input "down 0"
+2016-04-10 11:03:19,766 INFO log_message(161) Received input "activate command"
+2016-04-10 11:03:19,769 INFO log_message(161) Input "activate command" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001CD27732F60>
+2016-04-10 11:03:23,704 INFO log_message(161) Received input "foxtrot"
+2016-04-10 11:03:23,707 INFO log_message(161) Input "foxtrot" matched rule <Rule: (hotel|echo|november|foxtrot|lima|zulu|sierra|quebec|oscar|kilo|bravo|uniform|tango|yankee|mike|juliet|victor|india|papa|golf|charlie|x-ray|whiskey|romeo|delta|alpha)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CD27727400>
+2016-04-10 11:07:40,899 INFO log_message(161) Received input "right 0 0 0 0 1"
+2016-04-10 11:07:40,903 INFO log_message(161) Input "right 0 0 0 0 1" matched rule <Rule: [(copy|grab|delete|select)] (down|up|left|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001CD2774EC88>
+2016-04-10 11:11:04,960 INFO log_message(161) Stopped listening for input
+2016-04-10 11:11:05,980 INFO log_message(161) Started listening for input
+2016-04-10 11:11:10,922 INFO log_message(161) Received input "django restart server"
+2016-04-10 11:11:10,924 INFO log_message(161) Input "django restart server" matched rule <Rule: django restart server> in grammar <pynhost.grammars.cmdprompt.CommandPromptGrammar object at 0x0000026F79EF2D68>
+2016-04-10 11:12:27,937 INFO log_message(161) Stopped listening for input
+2016-04-10 11:12:28,559 INFO log_message(161) Started listening for input
+2016-04-10 11:12:32,495 INFO log_message(161) Received input "activate atom"
+2016-04-10 11:12:32,497 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x0000022C02330710>
+2016-04-10 11:12:35,329 INFO log_message(161) Received input "django restart server"
+2016-04-10 11:12:56,141 INFO log_message(161) Received input "activate command"
+2016-04-10 11:12:56,144 INFO log_message(161) Input "activate command" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x0000022C02330710>
+2016-04-10 11:13:06,888 INFO log_message(161) Received input "django restart server"
+2016-04-10 11:13:06,890 INFO log_message(161) Input "django restart server" matched rule <Rule: django restart server> in grammar <pynhost.grammars.cmdprompt.CommandPromptGrammar object at 0x0000022C02322F28>
+2016-04-10 11:13:06,896 ERROR log_message(161) module 'pynhost.api' has no attribute 'open_window'
+Traceback (most recent call last):
+  File "pynacea.py", line 40, in main
+    raise e
+  File "pynacea.py", line 35, in main
+    command_history.run_command(current_command)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 13, in run_command
+    self.execute_command(pos, -1, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 26, in execute_command
+    self.execute_actions(command_pos, i, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 34, in execute_actions
+    if not self.execute_string_or_func(action):
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 48, in execute_string_or_func
+    action[0](*action[1], **action[2])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\cmdprompt.py", line 15, in restart_server
+    api.open_window('Command Prompt')
+AttributeError: module 'pynhost.api' has no attribute 'open_window'
+2016-04-10 11:13:06,940 INFO log_message(161) Stopped listening for input
+2016-04-10 11:14:25,595 INFO log_message(161) Started listening for input
+2016-04-10 11:14:33,249 INFO log_message(161) Received input "activate command"
+2016-04-10 11:14:33,251 INFO log_message(161) Input "activate command" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000002B84C1B07B8>
+2016-04-10 11:15:07,071 INFO log_message(161) Received input "django restart server"
+2016-04-10 11:15:07,072 INFO log_message(161) Input "django restart server" matched rule <Rule: django restart server> in grammar <pynhost.grammars.cmdprompt.CommandPromptGrammar object at 0x000002B84C1A2F28>
+2016-04-10 11:15:23,645 INFO log_message(161) Stopped listening for input
+2016-04-10 11:15:24,230 INFO log_message(161) Started listening for input
+2016-04-10 11:15:36,286 INFO log_message(161) Received input "django restart server"
+2016-04-10 11:15:36,289 INFO log_message(161) Input "django restart server" matched rule <Rule: django restart server> in grammar <pynhost.grammars.cmdprompt.CommandPromptGrammar object at 0x000001E0CDD72F28>
+2016-04-10 11:16:12,028 INFO log_message(161) Received input "activate atom"
+2016-04-10 11:16:12,031 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001E0CDD804E0>
+2016-04-10 11:16:15,353 INFO log_message(161) Received input "score send string"
+2016-04-10 11:16:15,356 INFO log_message(161) Input "score send string" matched rule <Rule: (camel|score) <any><1->> in grammar <pynhost.grammars.atom.dictation.AtomDictationGrammar object at 0x000001E0CDD8FC18>
+2016-04-10 11:16:27,920 INFO log_message(161) Received input "new function"
+2016-04-10 11:16:27,923 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001E0CDD99860>
+2016-04-10 11:16:32,298 INFO log_message(161) Received input "undo"
+2016-04-10 11:16:32,302 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001E0CDD87D30>
+2016-04-10 11:16:35,356 INFO log_message(161) Received input "undo 2"
+2016-04-10 11:16:35,359 INFO log_message(161) Input "undo 2" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001E0CDD87D30>
+2016-04-10 11:25:51,233 INFO log_message(161) Received input "mike"
+2016-04-10 11:25:51,233 INFO log_message(161) Input "mike" matched rule <Rule: (bravo|x-ray|kilo|juliet|charlie|foxtrot|sierra|india|mike|golf|alpha|romeo|echo|victor|november|hotel|papa|oscar|quebec|delta|zulu|tango|lima|yankee|whiskey|uniform)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001E0CDD69400>
+2016-04-10 11:30:47,094 INFO log_message(161) Stopped listening for input
+2016-04-10 11:30:47,922 ERROR log_message(161) Expecting property name enclosed in double quotes: line 18 column 5 (char 341)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\atom_cmds.py", line 7, in __init__
+    self.dict_file = 'atomcmds.json'
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 76, in dict_file
+    self.dict_obj = self.dict_json(os.path.join(self.dictionary_root, value))
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 91, in dict_json
+    return json.loads(f.read())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 18 column 5 (char 341)
+2016-04-10 11:30:47,954 INFO log_message(161) Stopped listening for input
+2016-04-10 11:30:59,407 ERROR log_message(161) Expecting property name enclosed in double quotes: line 18 column 5 (char 341)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\atom_cmds.py", line 7, in __init__
+    self.dict_file = 'atomcmds.json'
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 76, in dict_file
+    self.dict_obj = self.dict_json(os.path.join(self.dictionary_root, value))
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 91, in dict_json
+    return json.loads(f.read())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 18 column 5 (char 341)
+2016-04-10 11:30:59,429 INFO log_message(161) Stopped listening for input
+2016-04-10 11:31:36,541 ERROR log_message(161) invalid syntax (keywords.py, line 35)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 40, in load_grammars
+    for module in utilities.get_modules_in_dir(grammar_dir):
+  File "C:\Users\evan\modules\voicecode\pynhost\utilities.py", line 169, in get_modules_in_dir
+    yield __import__('.'.join(['pynhost.grammars' + root, py]), fromlist=[py])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\python\keywords.py", line 35
+    }
+    ^
+SyntaxError: invalid syntax
+2016-04-10 11:31:36,549 INFO log_message(161) Stopped listening for input
+2016-04-10 11:32:27,831 ERROR log_message(161) 'crunk {}'
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\python\keywords.py", line 35, in __init__
+    self.load_literal('path')
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\python\keywords.py", line 38, in load_literal
+    self.load_command('crunk {}').format(text)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 105, in load_command
+    self.mapping[text] = self.command[text]
+KeyError: 'crunk {}'
+2016-04-10 11:32:27,848 INFO log_message(161) Stopped listening for input
+2016-04-10 11:34:36,638 ERROR log_message(161) 'crunk {}'
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\python\keywords.py", line 35, in __init__
+    self.load_literal('path')
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\python\keywords.py", line 38, in load_literal
+    self.load_command('crunk {}').format(text)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 106, in load_command
+    self.mapping[text] = self.command[text]
+KeyError: 'crunk {}'
+2016-04-10 11:34:36,652 INFO log_message(161) Stopped listening for input
+2016-04-10 11:36:37,552 INFO log_message(161) Started listening for input
+2016-04-10 11:36:42,716 INFO log_message(161) Received input "crunk path"
+2016-04-10 11:36:42,716 INFO log_message(161) Input "crunk path" matched rule <Rule: crunk path> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x00000265844D6AC8>
+2016-04-10 11:38:05,737 INFO log_message(161) Stopped listening for input
+2016-04-10 11:38:07,012 INFO log_message(161) Started listening for input
+2016-04-10 11:38:11,261 INFO log_message(161) Received input "crunk os"
+2016-04-10 11:38:28,605 INFO log_message(161) Stopped listening for input
+2016-04-10 11:38:29,311 INFO log_message(161) Started listening for input
+2016-04-10 11:38:32,682 INFO log_message(161) Received input "crunk os"
+2016-04-10 11:38:32,684 INFO log_message(161) Input "crunk os" matched rule <Rule: crunk os> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000017075919860>
+2016-04-10 11:39:23,023 INFO log_message(161) Stopped listening for input
+2016-04-10 11:39:24,125 INFO log_message(161) Started listening for input
+2016-04-10 11:39:30,157 INFO log_message(161) Received input "line"
+2016-04-10 11:39:33,825 INFO log_message(161) Received input "crunk time"
+2016-04-10 11:39:33,827 INFO log_message(161) Input "crunk time" matched rule <Rule: crunk time> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001A068DD8AC8>
+2016-04-10 11:39:43,226 INFO log_message(161) Received input "down grab right 8 0"
+2016-04-10 11:39:43,228 INFO log_message(161) Input "down" matched rule <Rule: [(select|grab|delete|copy)] (up|down|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A067565E80>
+2016-04-10 11:39:43,237 INFO log_message(161) Input "grab right 8 0" matched rule <Rule: [(select|grab|delete|copy)] (up|down|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A067565E80>
+2016-04-10 11:40:45,988 INFO log_message(161) Received input "line 1"
+2016-04-10 11:40:45,992 INFO log_message(161) Input "line 1" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A068DC7D30>
+2016-04-10 11:40:51,668 INFO log_message(161) Received input "line 1 5"
+2016-04-10 11:40:51,673 INFO log_message(161) Input "line 1 5" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A068DC7D30>
+2016-04-10 11:41:01,920 INFO log_message(161) Received input "snipe"
+2016-04-10 11:41:01,923 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A068DC7D30>
+2016-04-10 11:41:04,543 INFO log_message(161) Received input "undo"
+2016-04-10 11:41:04,546 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A068DC7D30>
+2016-04-10 11:42:54,726 INFO log_message(161) Stopped listening for input
+2016-04-10 11:42:55,655 INFO log_message(161) Started listening for input
+2016-04-10 11:43:01,478 INFO log_message(161) Received input "activate atom"
+2016-04-10 11:43:01,481 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001946A790748>
+2016-04-10 11:43:07,409 INFO log_message(161) Received input "halt"
+2016-04-10 11:43:07,411 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:43:24,567 INFO log_message(161) Received input "right 0 right"
+2016-04-10 11:43:24,569 INFO log_message(161) Input "right 0" matched rule <Rule: [(select|grab|copy|delete)] (up|right|down|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001946A782C88>
+2016-04-10 11:43:24,579 INFO log_message(161) Input "right" matched rule <Rule: [(select|grab|copy|delete)] (up|right|down|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001946A782C88>
+2016-04-10 11:44:10,290 INFO log_message(161) Received input "halt"
+2016-04-10 11:44:10,291 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:44:14,739 INFO log_message(161) Received input "down 1"
+2016-04-10 11:44:14,742 INFO log_message(161) Input "down 1" matched rule <Rule: [(select|grab|copy|delete)] (up|right|down|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001946A782C88>
+2016-04-10 11:44:55,759 INFO log_message(161) Received input "left"
+2016-04-10 11:44:55,761 INFO log_message(161) Input "left" matched rule <Rule: [(select|grab|copy|delete)] (up|right|down|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001946A782C88>
+2016-04-10 11:45:19,738 INFO log_message(161) Received input "right 0"
+2016-04-10 11:45:19,739 INFO log_message(161) Input "right 0" matched rule <Rule: [(select|grab|copy|delete)] (up|right|down|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001946A782C88>
+2016-04-10 11:45:21,394 INFO log_message(161) Received input "right"
+2016-04-10 11:45:21,397 INFO log_message(161) Input "right" matched rule <Rule: [(select|grab|copy|delete)] (up|right|down|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001946A782C88>
+2016-04-10 11:45:23,952 INFO log_message(161) Received input "halt"
+2016-04-10 11:45:23,954 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:45:32,764 INFO log_message(161) Received input "halt"
+2016-04-10 11:45:32,767 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:45:38,076 INFO log_message(161) Received input "undo"
+2016-04-10 11:45:38,078 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:45:40,258 INFO log_message(161) Received input "undo"
+2016-04-10 11:45:40,259 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:45:41,890 INFO log_message(161) Received input "halt"
+2016-04-10 11:45:41,893 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:45:45,539 INFO log_message(161) Received input "lima 8 0"
+2016-04-10 11:45:45,542 INFO log_message(161) Input "lima" matched rule <Rule: (uniform|tango|kilo|oscar|yankee|november|bravo|whiskey|alpha|india|charlie|hotel|zulu|romeo|foxtrot|victor|quebec|papa|echo|mike|golf|juliet|x-ray|lima|sierra|delta)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001946A777400>
+2016-04-10 11:46:03,098 INFO log_message(161) Received input "lima 8 0"
+2016-04-10 11:46:03,100 INFO log_message(161) Input "lima" matched rule <Rule: (uniform|tango|kilo|oscar|yankee|november|bravo|whiskey|alpha|india|charlie|hotel|zulu|romeo|foxtrot|victor|quebec|papa|echo|mike|golf|juliet|x-ray|lima|sierra|delta)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001946A777400>
+2016-04-10 11:46:09,792 INFO log_message(161) Received input "echo 3"
+2016-04-10 11:46:09,794 INFO log_message(161) Input "echo" matched rule <Rule: (uniform|tango|kilo|oscar|yankee|november|bravo|whiskey|alpha|india|charlie|hotel|zulu|romeo|foxtrot|victor|quebec|papa|echo|mike|golf|juliet|x-ray|lima|sierra|delta)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001946A777400>
+2016-04-10 11:46:14,234 INFO log_message(161) Received input "down"
+2016-04-10 11:54:50,384 INFO log_message(161) Received input "activate atom"
+2016-04-10 11:54:50,385 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001946A790748>
+2016-04-10 11:54:52,264 INFO log_message(161) Received input "halt"
+2016-04-10 11:54:52,267 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:54:58,202 INFO log_message(161) Received input "undo 2"
+2016-04-10 11:54:58,205 INFO log_message(161) Input "undo 2" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:55:02,389 INFO log_message(161) Received input "halt"
+2016-04-10 11:55:02,392 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:55:04,453 INFO log_message(161) Received input "halt"
+2016-04-10 11:55:04,455 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:55:08,390 INFO log_message(161) Received input "snipe 4"
+2016-04-10 11:55:08,393 INFO log_message(161) Input "snipe 4" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001946A797CF8>
+2016-04-10 11:58:12,299 INFO log_message(161) Stopped listening for input
+2016-04-10 12:52:58,100 INFO log_message(161) Started listening for input
+2016-04-10 12:53:11,200 INFO log_message(161) Received input "activate atom"
+2016-04-10 12:53:11,201 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001F8F1DD04E0>
+2016-04-10 13:26:29,530 INFO log_message(161) Stopped listening for input
+2016-04-10 13:29:04,123 ERROR log_message(161) Expecting ':' delimiter: line 20 column 5 (char 378)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\atom_cmds.py", line 7, in __init__
+    self.dict_file = 'atomcmds.json'
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 76, in dict_file
+    self.dict_obj = self.dict_json(os.path.join(self.dictionary_root, value))
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 91, in dict_json
+    return json.loads(f.read())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 20 column 5 (char 378)
+2016-04-10 13:29:04,149 INFO log_message(161) Stopped listening for input
+2016-04-10 13:29:23,885 ERROR log_message(161) 'AtomDictationGrammar' object has no attribute 'text_objects'
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\manip.py", line 32, in __init__
+    '[{}] {} {} [<num>]'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
+AttributeError: 'AtomDictationGrammar' object has no attribute 'text_objects'
+2016-04-10 13:29:23,898 INFO log_message(161) Stopped listening for input
+2016-04-10 13:30:49,046 ERROR log_message(161) tuple index out of range
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\manip.py", line 38, in __init__
+    '[{}] {} {} [<num>]'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
+IndexError: tuple index out of range
+2016-04-10 13:30:49,060 INFO log_message(161) Stopped listening for input
+2016-04-10 13:31:06,223 INFO log_message(161) Started listening for input
+2016-04-10 13:31:12,689 INFO log_message(161) Received input "select word"
+2016-04-10 13:31:12,690 INFO log_message(161) Input "select word" matched rule <Rule: (select|grab|delete|copy) (line|word|module)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002121E3277F0>
+2016-04-10 13:31:16,511 INFO log_message(161) Received input "clear select"
+2016-04-10 13:31:16,513 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002121E327C18>
+2016-04-10 13:31:24,325 INFO log_message(161) Received input "clear select"
+2016-04-10 13:31:24,328 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002121E327C18>
+2016-04-10 13:31:34,017 INFO log_message(161) Received input "until charlie"
+2016-04-10 13:31:34,019 INFO log_message(161) Input "until charlie" matched rule <Rule: [(select|grab|delete|copy)] (before|until|after) (whiskey|eke|late|charlie|comma|dash|foxtrot|lima|november|double|percent|wave|race|juliet|echo|star|lace|lack|space|quebec|romeo|plus|greater|rye|colon|kilo|bravo|delta|rack|mike|sierra|uniform|single|oscar|india|papa|golf|hotel|alpha|bar|lesser|yankee|semicolon|zulu|tango|x-ray|victor) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002121E3277F0>
+2016-04-10 13:31:38,076 INFO log_message(161) Received input "left"
+2016-04-10 13:31:38,078 INFO log_message(161) Input "left" matched rule <Rule: [(select|grab|delete|copy)] (down|right|left|up) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002121E3277F0>
+2016-04-10 13:31:46,454 INFO log_message(161) Received input "select word tango"
+2016-04-10 13:31:46,456 INFO log_message(161) Input "select word" matched rule <Rule: (select|grab|delete|copy) (line|word|module)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002121E3277F0>
+2016-04-10 13:31:46,461 INFO log_message(161) Input "tango" matched rule <Rule: (whiskey|charlie|bravo|quebec|oscar|foxtrot|lima|november|sierra|uniform|delta|india|kilo|juliet|echo|papa|golf|hotel|alpha|yankee|mike|romeo|zulu|tango|x-ray|victor)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000002121E307400>
+2016-04-10 13:31:48,828 INFO log_message(161) Received input "undo"
+2016-04-10 13:31:48,830 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002121E327C18>
+2016-04-10 13:32:06,264 INFO log_message(161) Received input "select after sierra"
+2016-04-10 13:32:06,268 INFO log_message(161) Input "select after sierra" matched rule <Rule: [(select|grab|delete|copy)] (before|until|after) (whiskey|eke|late|charlie|comma|dash|foxtrot|lima|november|double|percent|wave|race|juliet|echo|star|lace|lack|space|quebec|romeo|plus|greater|rye|colon|kilo|bravo|delta|rack|mike|sierra|uniform|single|oscar|india|papa|golf|hotel|alpha|bar|lesser|yankee|semicolon|zulu|tango|x-ray|victor) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002121E3277F0>
+2016-04-10 13:32:11,701 INFO log_message(161) Received input "clear select"
+2016-04-10 13:32:11,704 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002121E327C18>
+2016-04-10 13:32:14,578 INFO log_message(161) Received input "select module"
+2016-04-10 13:32:14,581 INFO log_message(161) Input "select module" matched rule <Rule: (select|grab|delete|copy) (line|word|module)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002121E3277F0>
+2016-04-10 13:32:18,266 INFO log_message(161) Received input "clear select"
+2016-04-10 13:32:18,269 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002121E327C18>
+2016-04-10 13:36:22,953 INFO log_message(161) Received input "right"
+2016-04-10 13:36:22,955 INFO log_message(161) Input "right" matched rule <Rule: [(select|grab|delete|copy)] (down|right|left|up) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002121E3277F0>
+2016-04-10 13:36:31,516 INFO log_message(161) Received input "down 1"
+2016-04-10 13:36:31,517 INFO log_message(161) Input "down 1" matched rule <Rule: [(select|grab|delete|copy)] (down|right|left|up) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002121E3277F0>
+2016-04-10 13:38:49,514 INFO log_message(161) Received input "halt"
+2016-04-10 13:38:49,516 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002121E327C18>
+2016-04-10 13:39:11,057 INFO log_message(161) Stopped listening for input
+2016-04-10 13:39:12,139 INFO log_message(161) Started listening for input
+2016-04-10 13:39:15,137 INFO log_message(161) Received input "indent"
+2016-04-10 13:39:19,968 INFO log_message(161) Received input "outdent"
+2016-04-10 13:40:22,411 INFO log_message(161) Received input "line"
+2016-04-10 13:41:10,121 INFO log_message(161) Stopped listening for input
+2016-04-10 13:41:11,248 INFO log_message(161) Started listening for input
+2016-04-10 13:41:16,171 INFO log_message(161) Received input "indent 2"
+2016-04-10 13:41:16,172 INFO log_message(161) Input "indent 2" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001FD1D297C18>
+2016-04-10 13:41:16,174 ERROR log_message(161) invalid keypress string '{ctrl+{{}'
+Traceback (most recent call last):
+  File "pynacea.py", line 40, in main
+    raise e
+  File "pynacea.py", line 35, in main
+    command_history.run_command(current_command)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 13, in run_command
+    self.execute_command(pos, -1, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 26, in execute_command
+    self.execute_actions(command_pos, i, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 34, in execute_actions
+    if not self.execute_string_or_func(action):
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 48, in execute_string_or_func
+    action[0](*action[1], **action[2])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 115, in num_cmd_func
+    api.send_string(text)
+  File "C:\Users\evan\modules\voicecode\pynhost\api.py", line 5, in send_string
+    tokenized_keys = keyinput.tokenize_keypresses(string_to_send)
+  File "C:\Users\evan\modules\voicecode\pynhost\keyinput.py", line 10, in tokenize_keypresses
+    raise ValueError("invalid keypress string '{}'".format(input_str))
+ValueError: invalid keypress string '{ctrl+{{}'
+2016-04-10 13:41:16,195 INFO log_message(161) Stopped listening for input
+2016-04-10 13:41:59,855 INFO log_message(161) Started listening for input
+2016-04-10 13:42:03,840 INFO log_message(161) Received input "indent 2"
+2016-04-10 13:42:03,841 INFO log_message(161) Input "indent 2" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002D487D97D30>
+2016-04-10 13:42:09,044 INFO log_message(161) Received input "outdent"
+2016-04-10 13:42:09,046 INFO log_message(161) Input "outdent" matched rule <Rule: outdent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002D487D97D30>
+2016-04-10 13:42:10,917 INFO log_message(161) Received input "outdent 3"
+2016-04-10 13:42:10,920 INFO log_message(161) Input "outdent 3" matched rule <Rule: outdent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002D487D97D30>
+2016-04-10 13:42:13,858 INFO log_message(161) Received input "outdent 3"
+2016-04-10 13:42:13,861 INFO log_message(161) Input "outdent 3" matched rule <Rule: outdent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002D487D97D30>
+2016-04-10 13:42:17,647 INFO log_message(161) Received input "down down"
+2016-04-10 13:42:17,648 INFO log_message(161) Input "down" matched rule <Rule: [(select|grab|delete|copy)] (left|up|down|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002D487DB1240>
+2016-04-10 13:42:17,653 INFO log_message(161) Input "down" matched rule <Rule: [(select|grab|delete|copy)] (left|up|down|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002D487DB1240>
+2016-04-10 13:42:22,104 INFO log_message(161) Received input "down"
+2016-04-10 13:42:22,107 INFO log_message(161) Input "down" matched rule <Rule: [(select|grab|delete|copy)] (left|up|down|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002D487DB1240>
+2016-04-10 13:43:12,352 INFO log_message(161) Received input "indent"
+2016-04-10 13:43:12,353 INFO log_message(161) Input "indent" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000002D487D97D30>
+2016-04-10 13:43:20,141 INFO log_message(161) Stopped listening for input
+2016-04-10 13:43:21,871 INFO log_message(161) Started listening for input
+2016-04-10 13:43:38,804 INFO log_message(161) Received input "activate atom"
+2016-04-10 13:43:38,806 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001AD07AE04E0>
+2016-04-10 13:43:43,367 INFO log_message(161) Received input "line 1 6"
+2016-04-10 13:43:43,368 INFO log_message(161) Input "line 1 6" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AD07AE7CF8>
+2016-04-10 13:43:45,688 INFO log_message(161) Received input "indent"
+2016-04-10 13:43:45,691 INFO log_message(161) Input "indent" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AD07AE7CF8>
+2016-04-10 13:43:48,312 INFO log_message(161) Received input "outdent 2"
+2016-04-10 13:43:48,315 INFO log_message(161) Input "outdent 2" matched rule <Rule: outdent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AD07AE7CF8>
+2016-04-10 13:43:50,311 INFO log_message(161) Received input "indent"
+2016-04-10 13:43:50,313 INFO log_message(161) Input "indent" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AD07AE7CF8>
+2016-04-10 13:43:55,692 INFO log_message(161) Received input "outdent 2"
+2016-04-10 13:43:55,695 INFO log_message(161) Input "outdent 2" matched rule <Rule: outdent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AD07AE7CF8>
+2016-04-10 13:43:57,810 INFO log_message(161) Received input "indent 2"
+2016-04-10 13:43:57,812 INFO log_message(161) Input "indent 2" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AD07AE7CF8>
+2016-04-10 14:01:14,935 INFO log_message(161) Received input "left"
+2016-04-10 14:01:14,938 INFO log_message(161) Input "left" matched rule <Rule: [(delete|copy|select|grab)] (up|down|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AD07B01208>
+2016-04-10 14:01:17,184 INFO log_message(161) Received input "fuzzy"
+2016-04-10 14:01:17,187 INFO log_message(161) Input "fuzzy" matched rule <Rule: fuzzy> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AD07AE7CF8>
+2016-04-10 14:01:24,500 INFO log_message(161) Received input "tango echo"
+2016-04-10 14:01:24,503 INFO log_message(161) Input "tango" matched rule <Rule: (sierra|echo|india|oscar|romeo|golf|whiskey|mike|zulu|quebec|tango|hotel|papa|victor|november|yankee|juliet|kilo|x-ray|foxtrot|alpha|lima|uniform|bravo|delta|charlie)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AD07AD2588>
+2016-04-10 14:01:24,521 INFO log_message(161) Input "echo" matched rule <Rule: (sierra|echo|india|oscar|romeo|golf|whiskey|mike|zulu|quebec|tango|hotel|papa|victor|november|yankee|juliet|kilo|x-ray|foxtrot|alpha|lima|uniform|bravo|delta|charlie)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AD07AD2588>
+2016-04-10 14:05:43,277 INFO log_message(161) Stopped listening for input
+2016-04-10 14:05:43,899 INFO log_message(161) Started listening for input
+2016-04-10 14:05:47,146 INFO log_message(161) Received input "enter"
+2016-04-10 14:05:47,147 INFO log_message(161) Input "enter" matched rule <Rule: enter <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000002569E2F7390>
+2016-04-10 14:12:51,796 INFO log_message(161) Stopped listening for input
+2016-04-10 14:12:52,564 ERROR log_message(161) Expecting ',' delimiter: line 14 column 9 (char 206)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\global.py", line 9, in __init__
+    self.dict_file = 'global.json'
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 76, in dict_file
+    self.dict_obj = self.dict_json(os.path.join(self.dictionary_root, value))
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 91, in dict_json
+    return json.loads(f.read())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 14 column 9 (char 206)
+2016-04-10 14:12:52,591 INFO log_message(161) Stopped listening for input
+2016-04-10 14:15:37,103 INFO log_message(161) Started listening for input
+2016-04-10 14:16:17,429 INFO log_message(161) Received input "activate atom"
+2016-04-10 14:16:17,432 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BF595706D8>
+2016-04-10 14:16:19,230 INFO log_message(161) Received input "snipe"
+2016-04-10 14:16:19,232 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001BF59577630>
+2016-04-10 14:16:21,105 INFO log_message(161) Received input "snipe 4"
+2016-04-10 14:16:21,107 INFO log_message(161) Input "snipe 4" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001BF59577630>
+2016-04-10 14:16:22,923 INFO log_message(161) Received input "undo"
+2016-04-10 14:16:22,926 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BF59581B38>
+2016-04-10 14:16:24,919 INFO log_message(161) Received input "undo"
+2016-04-10 14:16:24,921 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BF59581B38>
+2016-04-10 14:18:01,356 INFO log_message(161) Received input "activate atom"
+2016-04-10 14:18:01,359 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BF595706D8>
+2016-04-10 14:21:32,601 INFO log_message(161) Stopped listening for input
+2016-04-10 14:21:33,412 ERROR log_message(161) Expecting property name enclosed in double quotes: line 22 column 5 (char 454)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 41, in load_grammars
+    self.load_grammars_from_module(module)
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 53, in load_grammars_from_module
+    grammar = self.initialize_grammar(member[1])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 108, in initialize_grammar
+    grammar = grammar_class()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\atom_cmds.py", line 7, in __init__
+    self.dict_file = 'atomcmds.json'
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 76, in dict_file
+    self.dict_obj = self.dict_json(os.path.join(self.dictionary_root, value))
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\dumbobase.py", line 91, in dict_json
+    return json.loads(f.read())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "c:\users\evan\appdata\local\programs\python\python35\Lib\json\decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 22 column 5 (char 454)
+2016-04-10 14:21:33,435 INFO log_message(161) Stopped listening for input
+2016-04-10 14:21:40,855 INFO log_message(161) Started listening for input
+2016-04-10 14:21:44,254 INFO log_message(161) Received input "activate atom"
+2016-04-10 14:21:44,255 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x0000021C155E07B8>
+2016-04-10 14:21:46,531 INFO log_message(161) Received input "left 3"
+2016-04-10 14:21:46,534 INFO log_message(161) Input "left 3" matched rule <Rule: [(grab|copy|select|delete)] (up|left|right|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000021C15600C50>
+2016-04-10 14:21:48,592 INFO log_message(161) Received input "climb"
+2016-04-10 14:21:48,595 INFO log_message(161) Input "climb" matched rule <Rule: climb> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000021C155F1A20>
+2016-04-10 14:21:51,152 INFO log_message(161) Received input "drop"
+2016-04-10 14:21:51,156 INFO log_message(161) Input "drop" matched rule <Rule: drop> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000021C155F1A20>
+2016-04-10 14:21:54,092 INFO log_message(161) Received input "undo 2"
+2016-04-10 14:21:54,096 INFO log_message(161) Input "undo 2" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000021C155F1A20>
+2016-04-10 14:22:18,467 INFO log_message(161) Received input "before plus"
+2016-04-10 14:22:18,470 INFO log_message(161) Input "before plus" matched rule <Rule: [(grab|copy|select|delete)] (until|before|after) (zulu|percent|late|juliet|yankee|space|lesser|india|race|mike|november|delta|charlie|romeo|oscar|echo|greater|x-ray|victor|sierra|single|papa|eke|comma|plus|colon|kilo|dash|bravo|lace|rye|foxtrot|quebec|rack|star|wave|whiskey|golf|uniform|tango|lima|hotel|double|alpha|semicolon|bar|lack) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000021C15600C50>
+2016-04-10 14:22:23,089 INFO log_message(161) Received input "before sierra"
+2016-04-10 14:22:23,090 INFO log_message(161) Input "before sierra" matched rule <Rule: [(grab|copy|select|delete)] (until|before|after) (zulu|percent|late|juliet|yankee|space|lesser|india|race|mike|november|delta|charlie|romeo|oscar|echo|greater|x-ray|victor|sierra|single|papa|eke|comma|plus|colon|kilo|dash|bravo|lace|rye|foxtrot|quebec|rack|star|wave|whiskey|golf|uniform|tango|lima|hotel|double|alpha|semicolon|bar|lack) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000021C15600C50>
+2016-04-10 14:22:31,089 INFO log_message(161) Received input "before sierra"
+2016-04-10 14:22:31,091 INFO log_message(161) Input "before sierra" matched rule <Rule: [(grab|copy|select|delete)] (until|before|after) (zulu|percent|late|juliet|yankee|space|lesser|india|race|mike|november|delta|charlie|romeo|oscar|echo|greater|x-ray|victor|sierra|single|papa|eke|comma|plus|colon|kilo|dash|bravo|lace|rye|foxtrot|quebec|rack|star|wave|whiskey|golf|uniform|tango|lima|hotel|double|alpha|semicolon|bar|lack) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000021C15600C50>
+2016-04-10 14:23:18,093 INFO log_message(161) Received input "select line"
+2016-04-10 14:23:18,095 INFO log_message(161) Input "select line" matched rule <Rule: (grab|copy|select|delete) (module|line|word)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000021C15600C50>
+2016-04-10 14:23:23,094 INFO log_message(161) Received input "select line 4"
+2016-04-10 14:23:23,097 INFO log_message(161) Input "select line" matched rule <Rule: (grab|copy|select|delete) (module|line|word)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000021C15600C50>
+2016-04-10 14:24:58,128 INFO log_message(161) Stopped listening for input
+2016-04-10 14:24:58,825 INFO log_message(161) Started listening for input
+2016-04-10 14:25:03,256 INFO log_message(161) Received input "activate atom"
+2016-04-10 14:25:03,258 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x00000239D73607B8>
+2016-04-10 14:25:10,326 INFO log_message(161) Received input "select line"
+2016-04-10 14:25:10,329 INFO log_message(161) Input "select line" matched rule <Rule: (copy|grab|delete|select) (line|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000239D7380908>
+2016-04-10 14:25:13,642 INFO log_message(161) Received input "select line 5"
+2016-04-10 14:25:13,644 INFO log_message(161) Input "select line 5" matched rule <Rule: (copy|grab|delete|select) (line|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000239D7380908>
+2016-04-10 14:25:17,826 INFO log_message(161) Received input "clear select"
+2016-04-10 14:25:17,829 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000239D7371A20>
+2016-04-10 14:25:38,521 INFO log_message(161) Received input "after alpha"
+2016-04-10 14:25:38,523 INFO log_message(161) Input "after alpha" matched rule <Rule: [(copy|grab|delete|select)] (after|before|until) (double|x-ray|golf|dash|kilo|yankee|lace|comma|papa|star|whiskey|wave|lesser|november|echo|uniform|plus|lima|romeo|victor|lack|space|bravo|eke|juliet|single|quebec|rye|mike|charlie|sierra|alpha|colon|race|foxtrot|percent|india|late|semicolon|delta|greater|oscar|rack|bar|zulu|hotel|tango) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000239D7380908>
+2016-04-10 14:25:44,078 INFO log_message(161) Received input "select word"
+2016-04-10 14:25:44,081 INFO log_message(161) Input "select word" matched rule <Rule: (copy|grab|delete|select) (line|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000239D7380908>
+2016-04-10 14:25:49,013 INFO log_message(161) Received input "select word"
+2016-04-10 14:25:49,016 INFO log_message(161) Input "select word" matched rule <Rule: (copy|grab|delete|select) (line|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000239D7380908>
+2016-04-10 14:25:52,577 INFO log_message(161) Received input "clear select"
+2016-04-10 14:25:52,580 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000239D7371A20>
+2016-04-10 14:26:11,142 INFO log_message(161) Received input "after sierra 2"
+2016-04-10 14:26:11,145 INFO log_message(161) Input "after sierra 2" matched rule <Rule: [(copy|grab|delete|select)] (after|before|until) (double|x-ray|golf|dash|kilo|yankee|lace|comma|papa|star|whiskey|wave|lesser|november|echo|uniform|plus|lima|romeo|victor|lack|space|bravo|eke|juliet|single|quebec|rye|mike|charlie|sierra|alpha|colon|race|foxtrot|percent|india|late|semicolon|delta|greater|oscar|rack|bar|zulu|hotel|tango) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000239D7380908>
+2016-04-10 14:37:19,352 INFO log_message(161) Received input "down 0"
+2016-04-10 14:37:19,354 INFO log_message(161) Input "down 0" matched rule <Rule: [(copy|grab|delete|select)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000239D7380908>
+2016-04-10 14:42:51,030 INFO log_message(161) Stopped listening for input
+2016-04-10 14:42:52,382 INFO log_message(161) Started listening for input
+2016-04-10 14:42:55,247 INFO log_message(161) Received input "activate atom"
+2016-04-10 14:42:55,249 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x00000167D5DE07F0>
+2016-04-10 14:43:03,013 INFO log_message(161) Received input "left"
+2016-04-10 14:43:03,015 INFO log_message(161) Input "left" matched rule <Rule: [(copy|select|delete|grab)] (up|right|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000167D5E00C18>
+2016-04-10 14:43:07,082 INFO log_message(161) Received input "select line"
+2016-04-10 14:43:07,085 INFO log_message(161) Input "select line" matched rule <Rule: (copy|select|delete|grab) (word|line|module) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000167D5E00C18>
+2016-04-10 14:43:09,449 INFO log_message(161) Received input "clear select"
+2016-04-10 14:43:09,452 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:43:11,640 INFO log_message(161) Received input "select line 2"
+2016-04-10 14:43:11,643 INFO log_message(161) Input "select line 2" matched rule <Rule: (copy|select|delete|grab) (word|line|module) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000167D5E00C18>
+2016-04-10 14:43:13,957 INFO log_message(161) Received input "clear select"
+2016-04-10 14:43:13,960 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:43:17,765 INFO log_message(161) Received input "indent"
+2016-04-10 14:43:17,768 INFO log_message(161) Input "indent" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:43:20,637 INFO log_message(161) Received input "indent"
+2016-04-10 14:43:20,640 INFO log_message(161) Input "indent" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:43:23,261 INFO log_message(161) Received input "indent"
+2016-04-10 14:43:23,263 INFO log_message(161) Input "indent" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:43:25,266 INFO log_message(161) Received input "before"
+2016-04-10 14:43:28,262 INFO log_message(161) Received input "undo"
+2016-04-10 14:43:28,265 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:43:34,200 INFO log_message(161) Received input "activate command"
+2016-04-10 14:43:34,203 INFO log_message(161) Input "activate command" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x00000167D5DE07F0>
+2016-04-10 14:43:37,263 INFO log_message(161) Received input "activate command"
+2016-04-10 14:43:37,266 INFO log_message(161) Input "activate command" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x00000167D5DE07F0>
+2016-04-10 14:43:54,779 INFO log_message(161) Received input "word to"
+2016-04-10 14:44:21,139 INFO log_message(161) Received input "halt"
+2016-04-10 14:44:21,142 INFO log_message(161) Input "halt" matched rule <Rule: halt> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:44:30,066 INFO log_message(161) Received input "down"
+2016-04-10 14:44:30,067 INFO log_message(161) Input "down" matched rule <Rule: [(copy|select|delete|grab)] (up|right|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000167D5E00C18>
+2016-04-10 14:45:01,392 INFO log_message(161) Received input "undo"
+2016-04-10 14:45:01,395 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:45:03,200 INFO log_message(161) Received input "undo"
+2016-04-10 14:45:03,202 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000167D5DF1B38>
+2016-04-10 14:45:30,963 INFO log_message(161) Received input "down"
+2016-04-10 14:45:30,964 INFO log_message(161) Input "down" matched rule <Rule: [(copy|select|delete|grab)] (up|right|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000167D5E00C18>
+2016-04-10 14:45:55,437 INFO log_message(161) Stopped listening for input
+2016-04-10 14:45:56,024 INFO log_message(161) Started listening for input
+2016-04-10 14:46:25,176 INFO log_message(161) Received input "tab"
+2016-04-10 14:46:25,178 INFO log_message(161) Input "tab" matched rule <Rule: tab <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:46:29,658 INFO log_message(161) Received input "snipe"
+2016-04-10 14:46:29,660 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:46:32,217 INFO log_message(161) Received input "snipe"
+2016-04-10 14:46:32,219 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:46:33,530 INFO log_message(161) Received input "tab"
+2016-04-10 14:46:33,533 INFO log_message(161) Input "tab" matched rule <Rule: tab <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:46:35,095 INFO log_message(161) Received input "tab 2"
+2016-04-10 14:46:35,097 INFO log_message(161) Input "tab 2" matched rule <Rule: tab <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:46:37,969 INFO log_message(161) Received input "snipe"
+2016-04-10 14:46:37,972 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:46:39,794 INFO log_message(161) Received input "snipe"
+2016-04-10 14:46:39,797 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:46:42,341 INFO log_message(161) Received input "snipe"
+2016-04-10 14:46:42,344 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:46:44,614 INFO log_message(161) Received input "sierra"
+2016-04-10 14:46:44,616 INFO log_message(161) Input "sierra" matched rule <Rule: (lima|yankee|foxtrot|charlie|sierra|juliet|alpha|bravo|zulu|mike|delta|tango|romeo|golf|kilo|november|papa|india|victor|echo|oscar|whiskey|x-ray|hotel|uniform|quebec)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001D5C496A518>
+2016-04-10 14:46:48,282 INFO log_message(161) Received input "snipe"
+2016-04-10 14:46:48,284 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001D5C49876A0>
+2016-04-10 14:47:07,970 INFO log_message(161) Received input "sierra"
+2016-04-10 14:47:07,973 INFO log_message(161) Input "sierra" matched rule <Rule: (lima|yankee|foxtrot|charlie|sierra|juliet|alpha|bravo|zulu|mike|delta|tango|romeo|golf|kilo|november|papa|india|victor|echo|oscar|whiskey|x-ray|hotel|uniform|quebec)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001D5C496A518>
+2016-04-10 14:48:32,051 INFO log_message(161) Stopped listening for input
+2016-04-10 14:48:32,665 INFO log_message(161) Started listening for input
+2016-04-10 14:48:36,948 INFO log_message(161) Received input "save file"
+2016-04-10 14:48:36,950 INFO log_message(161) Input "save file" matched rule <Rule: save file> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000021A4A1D1828>
+2016-04-10 14:48:39,529 INFO log_message(161) Received input "snipe"
+2016-04-10 14:48:39,532 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000021A4A1C75F8>
+2016-04-10 14:48:41,842 INFO log_message(161) Received input "save file"
+2016-04-10 14:48:41,844 INFO log_message(161) Input "save file" matched rule <Rule: save file> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000021A4A1D1828>
+2016-04-10 14:49:23,436 INFO log_message(161) Stopped listening for input
+2016-04-10 14:49:24,360 INFO log_message(161) Started listening for input
+2016-04-10 14:49:32,232 INFO log_message(161) Received input "crunk dunder"
+2016-04-10 14:49:32,234 INFO log_message(161) Input "crunk dunder" matched rule <Rule: crunk dunder> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000016D18140E10>
+2016-04-10 14:49:42,776 INFO log_message(161) Received input "late down double 1"
+2016-04-10 14:49:42,780 INFO log_message(161) Input "late" matched rule <Rule: (star|colon|space|comma|wave|late|greater|double|semicolon|lace|dash|lesser|race|eke|single|bar|rye|rack|percent|lack|plus)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000016D1810A518>
+2016-04-10 14:49:42,793 INFO log_message(161) Input "down" matched rule <Rule: [(delete|copy|grab|select)] (up|right|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000016D18140D68>
+2016-04-10 14:49:42,805 INFO log_message(161) Input "double" matched rule <Rule: (star|colon|space|comma|wave|late|greater|double|semicolon|lace|dash|lesser|race|eke|single|bar|rye|rack|percent|lack|plus)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000016D1810A518>
+2016-04-10 14:51:12,919 INFO log_message(161) Received input "right"
+2016-04-10 14:51:12,921 INFO log_message(161) Input "right" matched rule <Rule: [(delete|copy|grab|select)] (up|right|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000016D18140D68>
+2016-04-10 14:51:39,048 INFO log_message(161) Received input "down"
+2016-04-10 14:51:39,050 INFO log_message(161) Input "down" matched rule <Rule: [(delete|copy|grab|select)] (up|right|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000016D18140D68>
+2016-04-10 14:54:08,671 INFO log_message(161) Received input "copy word"
+2016-04-10 14:54:08,673 INFO log_message(161) Input "copy word" matched rule <Rule: (delete|copy|grab|select) (module|line|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000016D18140D68>
+2016-04-10 14:54:12,481 INFO log_message(161) Received input "clear select"
+2016-04-10 14:54:12,484 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000016D18131860>
+2016-04-10 14:54:14,302 INFO log_message(161) Received input "space 2"
+2016-04-10 14:54:14,305 INFO log_message(161) Input "space" matched rule <Rule: (star|colon|space|comma|wave|late|greater|double|semicolon|lace|dash|lesser|race|eke|single|bar|rye|rack|percent|lack|plus)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000016D1810A518>
+2016-04-10 14:55:40,400 INFO log_message(161) Stopped listening for input
+2016-04-10 14:55:40,981 INFO log_message(161) Started listening for input
+2016-04-10 14:55:44,469 INFO log_message(161) Received input "paste"
+2016-04-10 14:55:44,470 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x00000214ECB965F8>
+2016-04-10 14:55:48,918 INFO log_message(161) Received input "undo"
+2016-04-10 14:55:48,921 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000214ECBA0438>
+2016-04-10 14:55:56,169 INFO log_message(161) Received input "copy word"
+2016-04-10 14:55:56,171 INFO log_message(161) Input "copy word" matched rule <Rule: (grab|delete|select|copy) (module|line|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 14:55:58,107 INFO log_message(161) Received input "clear select"
+2016-04-10 14:55:58,110 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000214ECBA0438>
+2016-04-10 14:56:16,484 INFO log_message(161) Received input "paste 2"
+2016-04-10 14:56:16,487 INFO log_message(161) Input "paste 2" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x00000214ECB965F8>
+2016-04-10 14:56:19,049 INFO log_message(161) Received input "undo"
+2016-04-10 14:56:19,052 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000214ECBA0438>
+2016-04-10 14:56:23,984 INFO log_message(161) Received input "paste 2 0"
+2016-04-10 14:56:23,987 INFO log_message(161) Input "paste 2 0" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x00000214ECB965F8>
+2016-04-10 14:56:26,481 INFO log_message(161) Received input "undo"
+2016-04-10 14:56:26,484 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000214ECBA0438>
+2016-04-10 14:56:38,673 INFO log_message(161) Received input "right 0 5 1"
+2016-04-10 14:56:38,676 INFO log_message(161) Input "right 0 5 1" matched rule <Rule: [(grab|delete|select|copy)] (left|up|down|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 14:56:40,437 INFO log_message(161) Received input "right 1"
+2016-04-10 14:56:40,439 INFO log_message(161) Input "right 1" matched rule <Rule: [(grab|delete|select|copy)] (left|up|down|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 14:57:04,605 INFO log_message(161) Received input "down"
+2016-04-10 14:57:04,608 INFO log_message(161) Input "down" matched rule <Rule: [(grab|delete|select|copy)] (left|up|down|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 14:57:29,543 INFO log_message(161) Received input "up 2"
+2016-04-10 14:57:29,545 INFO log_message(161) Input "up 2" matched rule <Rule: [(grab|delete|select|copy)] (left|up|down|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 14:57:31,858 INFO log_message(161) Received input "delete line"
+2016-04-10 14:57:31,861 INFO log_message(161) Input "delete line" matched rule <Rule: (grab|delete|select|copy) (module|line|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 14:57:39,667 INFO log_message(161) Received input "save file"
+2016-04-10 14:57:39,670 INFO log_message(161) Input "save file" matched rule <Rule: save file> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000214ECBA0438>
+2016-04-10 14:58:11,295 INFO log_message(161) Received input "india"
+2016-04-10 14:58:11,298 INFO log_message(161) Input "india" matched rule <Rule: (papa|india|november|quebec|uniform|echo|juliet|hotel|delta|golf|romeo|x-ray|yankee|bravo|charlie|whiskey|mike|alpha|tango|lima|zulu|sierra|victor|kilo|foxtrot|oscar)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000214ECB82588>
+2016-04-10 14:58:16,544 INFO log_message(161) Received input "lima"
+2016-04-10 14:58:16,546 INFO log_message(161) Input "lima" matched rule <Rule: (papa|india|november|quebec|uniform|echo|juliet|hotel|delta|golf|romeo|x-ray|yankee|bravo|charlie|whiskey|mike|alpha|tango|lima|zulu|sierra|victor|kilo|foxtrot|oscar)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000214ECB82588>
+2016-04-10 14:58:17,734 INFO log_message(161) Received input "right"
+2016-04-10 14:58:17,737 INFO log_message(161) Input "right" matched rule <Rule: [(grab|delete|select|copy)] (left|up|down|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 14:58:21,297 INFO log_message(161) Received input "november"
+2016-04-10 14:58:21,300 INFO log_message(161) Input "november" matched rule <Rule: (papa|india|november|quebec|uniform|echo|juliet|hotel|delta|golf|romeo|x-ray|yankee|bravo|charlie|whiskey|mike|alpha|tango|lima|zulu|sierra|victor|kilo|foxtrot|oscar)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000214ECB82588>
+2016-04-10 14:58:26,187 INFO log_message(161) Received input "snipe 4"
+2016-04-10 14:58:26,190 INFO log_message(161) Input "snipe 4" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x00000214ECB965F8>
+2016-04-10 14:58:35,794 INFO log_message(161) Received input "outdent 3"
+2016-04-10 14:58:35,797 INFO log_message(161) Input "outdent 3" matched rule <Rule: outdent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000214ECBA0438>
+2016-04-10 14:58:38,363 INFO log_message(161) Received input "indent 2"
+2016-04-10 14:58:38,367 INFO log_message(161) Input "indent 2" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000214ECBA0438>
+2016-04-10 14:58:45,109 INFO log_message(161) Received input "until uniform november"
+2016-04-10 14:58:45,112 INFO log_message(161) Input "until uniform" matched rule <Rule: [(grab|delete|select|copy)] (before|until|after) (papa|lace|quebec|uniform|echo|double|rack|delta|golf|comma|yankee|bravo|charlie|plus|greater|semicolon|eke|whiskey|lack|lima|zulu|sierra|victor|rye|late|bar|india|november|star|single|juliet|hotel|kilo|romeo|dash|mike|lesser|x-ray|space|race|percent|tango|alpha|wave|colon|foxtrot|oscar) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 14:58:45,137 INFO log_message(161) Input "november" matched rule <Rule: (papa|india|november|quebec|uniform|echo|juliet|hotel|delta|golf|romeo|x-ray|yankee|bravo|charlie|whiskey|mike|alpha|tango|lima|zulu|sierra|victor|kilo|foxtrot|oscar)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000214ECB82588>
+2016-04-10 15:00:18,295 INFO log_message(161) Received input "line 6 5"
+2016-04-10 15:00:18,298 INFO log_message(161) Input "line 6 5" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x00000214ECBA0438>
+2016-04-10 15:00:32,047 INFO log_message(161) Received input "late"
+2016-04-10 15:00:32,049 INFO log_message(161) Input "late" matched rule <Rule: (lesser|wave|plus|lace|race|greater|semicolon|percent|star|space|single|double|eke|comma|rye|colon|late|bar|dash|rack|lack)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000214ECB82588>
+2016-04-10 15:00:52,293 INFO log_message(161) Received input "delete line"
+2016-04-10 15:00:52,295 INFO log_message(161) Input "delete line" matched rule <Rule: (grab|delete|select|copy) (module|line|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000214ECBB7390>
+2016-04-10 15:03:06,209 INFO log_message(161) Stopped listening for input
+2016-04-10 15:03:07,053 INFO log_message(161) Started listening for input
+2016-04-10 15:03:11,853 INFO log_message(161) Received input "mike"
+2016-04-10 15:03:11,854 INFO log_message(161) Input "mike" matched rule <Rule: (tango|x-ray|quebec|kilo|golf|juliet|foxtrot|romeo|november|india|yankee|oscar|alpha|hotel|echo|lima|charlie|bravo|sierra|uniform|zulu|mike|papa|whiskey|victor|delta)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000029BA0035518>
+2016-04-10 15:03:14,872 INFO log_message(161) Received input "until"
+2016-04-10 15:03:22,372 INFO log_message(161) Received input "until sierra"
+2016-04-10 15:03:22,374 INFO log_message(161) Input "until sierra" matched rule <Rule: [(delete|grab|select|copy)] (before|until|after) (rack|comma|semicolon|star|quebec|plus|kilo|juliet|percent|papa|oscar|hotel|double|lesser|sierra|eke|late|greater|mike|dash|whiskey|space|delta|tango|race|x-ray|wave|single|golf|charlie|rye|foxtrot|romeo|colon|november|india|yankee|alpha|echo|lima|lack|bravo|bar|uniform|zulu|lace|victor) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000029BA006EAC8>
+2016-04-10 15:03:33,069 INFO log_message(161) Received input "until alpha lima"
+2016-04-10 15:03:33,072 INFO log_message(161) Input "until alpha lima" matched rule <Rule: [(delete|grab|select|copy)] (before|until|after) (rack|comma|semicolon|star|quebec|plus|kilo|juliet|percent|papa|oscar|hotel|double|lesser|sierra|eke|late|greater|mike|dash|whiskey|space|delta|tango|race|x-ray|wave|single|golf|charlie|rye|foxtrot|romeo|colon|november|india|yankee|alpha|echo|lima|lack|bravo|bar|uniform|zulu|lace|victor) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000029BA006EAC8>
+2016-04-10 15:04:29,061 INFO log_message(161) Stopped listening for input
+2016-04-10 15:04:29,771 INFO log_message(161) Started listening for input
+2016-04-10 15:04:36,629 INFO log_message(161) Received input "until alpha"
+2016-04-10 15:04:36,631 INFO log_message(161) Input "until alpha" matched rule <Rule: [(copy|delete|grab|select)] (after|until|before) (papa|greater|hotel|dash|yankee|sierra|november|wave|star|rack|x-ray|delta|space|lima|quebec|romeo|lesser|mike|alpha|kilo|juliet|comma|lack|rye|plus|colon|foxtrot|uniform|victor|semicolon|tango|race|oscar|late|double|golf|bar|lace|charlie|zulu|single|india|whiskey|eke|bravo|echo|percent) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022A41A8EA90>
+2016-04-10 15:04:39,391 INFO log_message(161) Received input "until alpha lima"
+2016-04-10 15:04:39,394 INFO log_message(161) Input "until alpha lima" matched rule <Rule: [(copy|delete|grab|select)] (after|until|before) (papa|greater|hotel|dash|yankee|sierra|november|wave|star|rack|x-ray|delta|space|lima|quebec|romeo|lesser|mike|alpha|kilo|juliet|comma|lack|rye|plus|colon|foxtrot|uniform|victor|semicolon|tango|race|oscar|late|double|golf|bar|lace|charlie|zulu|single|india|whiskey|eke|bravo|echo|percent) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022A41A8EA90>
+2016-04-10 15:05:40,241 INFO log_message(161) Stopped listening for input
+2016-04-10 15:05:41,848 INFO log_message(161) Started listening for input
+2016-04-10 15:05:47,649 INFO log_message(161) Received input "until alpha lima"
+2016-04-10 15:05:47,650 INFO log_message(161) Input "until alpha lima" matched rule <Rule: [(grab|select|delete|copy)] (after|until|before) (lace|semicolon|zulu|hotel|charlie|lesser|november|yankee|golf|rye|oscar|uniform|eke|papa|comma|lima|bravo|bar|echo|race|india|greater|percent|delta|alpha|dash|double|x-ray|rack|space|whiskey|juliet|lack|kilo|colon|romeo|late|single|wave|mike|tango|sierra|foxtrot|victor|plus|star|quebec) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000020B424ED978>
+2016-04-10 15:06:15,780 INFO log_message(161) Received input "before"
+2016-04-10 15:06:27,590 INFO log_message(161) Received input "right"
+2016-04-10 15:06:37,843 INFO log_message(161) Stopped listening for input
+2016-04-10 15:12:54,892 INFO log_message(161) Started listening for input
+2016-04-10 15:13:20,671 INFO log_message(161) Received input "until tango"
+2016-04-10 15:13:20,673 INFO log_message(161) Input "until tango" matched rule <Rule: [(select|grab|delete|copy)] (before|after|until) (quebec|greater|whiskey|sierra|yankee|rack|lima|dash|papa|tango|kilo|percent|bar|uniform|zulu|plus|india|mike|race|charlie|november|single|delta|victor|rye|star|lesser|colon|romeo|lace|echo|space|wave|hotel|eke|foxtrot|comma|double|juliet|alpha|lack|late|oscar|semicolon|x-ray|bravo|golf) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000195E24CEAC8>
+2016-04-10 15:13:39,751 INFO log_message(161) Received input "until november golf"
+2016-04-10 15:13:39,755 INFO log_message(161) Input "until november golf" matched rule <Rule: [(select|grab|delete|copy)] (before|after|until) (quebec|greater|whiskey|sierra|yankee|rack|lima|dash|papa|tango|kilo|percent|bar|uniform|zulu|plus|india|mike|race|charlie|november|single|delta|victor|rye|star|lesser|colon|romeo|lace|echo|space|wave|hotel|eke|foxtrot|comma|double|juliet|alpha|lack|late|oscar|semicolon|x-ray|bravo|golf) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000195E24CEAC8>
+2016-04-10 15:13:50,223 INFO log_message(161) Received input "select until november 0"
+2016-04-10 15:13:50,225 INFO log_message(161) Input "select until november 0" matched rule <Rule: [(select|grab|delete|copy)] (before|after|until) (quebec|greater|whiskey|sierra|yankee|rack|lima|dash|papa|tango|kilo|percent|bar|uniform|zulu|plus|india|mike|race|charlie|november|single|delta|victor|rye|star|lesser|colon|romeo|lace|echo|space|wave|hotel|eke|foxtrot|comma|double|juliet|alpha|lack|late|oscar|semicolon|x-ray|bravo|golf) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000195E24CEAC8>
+2016-04-10 15:14:22,165 INFO log_message(161) Stopped listening for input
+2016-04-10 15:14:23,099 INFO log_message(161) Started listening for input
+2016-04-10 15:14:36,788 INFO log_message(161) Received input "until november echo"
+2016-04-10 15:14:36,789 INFO log_message(161) Input "until november echo" matched rule <Rule: [(grab|copy|select|delete)] (after|until|before) (hotel|romeo|alpha|wave|november|tango|sierra|double|papa|victor|percent|comma|golf|race|eke|juliet|greater|uniform|bravo|semicolon|lace|foxtrot|kilo|yankee|charlie|x-ray|echo|lesser|late|quebec|india|star|dash|whiskey|mike|lima|zulu|rack|plus|space|single|colon|bar|oscar|delta|lack|rye) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000021D832984A8>
+2016-04-10 15:14:53,545 INFO log_message(161) Received input "until mike"
+2016-04-10 15:14:53,547 INFO log_message(161) Input "until mike" matched rule <Rule: [(grab|copy|select|delete)] (after|until|before) (hotel|romeo|alpha|wave|november|tango|sierra|double|papa|victor|percent|comma|golf|race|eke|juliet|greater|uniform|bravo|semicolon|lace|foxtrot|kilo|yankee|charlie|x-ray|echo|lesser|late|quebec|india|star|dash|whiskey|mike|lima|zulu|rack|plus|space|single|colon|bar|oscar|delta|lack|rye) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000021D832984A8>
+2016-04-10 15:16:09,548 INFO log_message(161) Stopped listening for input
+2016-04-10 15:16:12,057 INFO log_message(161) Started listening for input
+2016-04-10 15:16:24,858 INFO log_message(161) Received input "until november uniform"
+2016-04-10 15:16:24,859 INFO log_message(161) Input "until november uniform" matched rule <Rule: [(grab|delete|copy|select)] (before|after|until) (rye|zulu|lesser|greater|dash|juliet|eke|kilo|sierra|uniform|late|india|plus|foxtrot|rack|romeo|tango|wave|papa|bravo|comma|echo|quebec|victor|lack|single|x-ray|race|yankee|hotel|percent|november|delta|star|double|whiskey|semicolon|colon|oscar|golf|lace|charlie|bar|alpha|mike|space|lima) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AB3DC67438>
+2016-04-10 15:17:27,195 INFO log_message(161) Received input "until november uniform"
+2016-04-10 15:17:27,196 INFO log_message(161) Input "until november uniform" matched rule <Rule: [(grab|delete|copy|select)] (before|after|until) (rye|zulu|lesser|greater|dash|juliet|eke|kilo|sierra|uniform|late|india|plus|foxtrot|rack|romeo|tango|wave|papa|bravo|comma|echo|quebec|victor|lack|single|x-ray|race|yankee|hotel|percent|november|delta|star|double|whiskey|semicolon|colon|oscar|golf|lace|charlie|bar|alpha|mike|space|lima) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AB3DC67438>
+2016-04-10 15:18:52,804 INFO log_message(161) Received input "until november uniform"
+2016-04-10 15:18:52,805 INFO log_message(161) Input "until november uniform" matched rule <Rule: [(grab|delete|copy|select)] (before|after|until) (rye|zulu|lesser|greater|dash|juliet|eke|kilo|sierra|uniform|late|india|plus|foxtrot|rack|romeo|tango|wave|papa|bravo|comma|echo|quebec|victor|lack|single|x-ray|race|yankee|hotel|percent|november|delta|star|double|whiskey|semicolon|colon|oscar|golf|lace|charlie|bar|alpha|mike|space|lima) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AB3DC67438>
+2016-04-10 15:21:36,858 INFO log_message(161) Stopped listening for input

@@ -18,5 +18,5 @@ NUMBERS_MAP = {
     'for': '4',
 }
 GLOBAL_CONTEXTS = {
-
+    'language': 'python'
 }

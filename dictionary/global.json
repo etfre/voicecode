@@ -1,0 +1,19 @@
+{
+    "Scopes": {
+
+    },
+
+    "Commands": {
+        "activate atom": "",
+        "activate firefox": "",
+        "activate command": ""
+    },
+
+    "NumberedCommands": {
+        "enter": "{enter}",
+        "snipe": "{backspace}",
+        "tab": "{tab}",
+        "paste": "{ctrl+v}"
+    }
+
+}

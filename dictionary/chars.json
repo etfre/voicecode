@@ -1,6 +1,5 @@
 {
     "Commands": {
-        "until": "t",
     },
 
     "NumberedCommands": {
@@ -41,8 +40,8 @@
         "plus": "+",
         "bar": "-",
         "star": "*",
-        "lang": "<",
-        "rang": ">",
+        "lesser": "<",
+        "greater": ">",
         "semicolon": ";",
         "colon": ":",
         "wave": "",

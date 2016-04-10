@@ -6,6 +6,9 @@ class PythonKeywordsGrammar(AtomBaseGrammar):
         super().__init__()
         self.app_context = 'Atom'
         self.dict_file = 'python.json'
+        self.context_filters = {
+            'language': 'python'
+        }
         self.mapping = {
             'new set': self.command['new set'],
             'new class': self.command['new class'],
@@ -29,6 +32,14 @@ class PythonKeywordsGrammar(AtomBaseGrammar):
 
             'sample goodbye <num>': self.goodbye,
         }
+        self.load_literal('path')
+        self.load_literal('os')
+        self.load_literal('time')
+        self.load_literal('dunder')
+
+
+    def load_literal(self, text):
+        self.load_command('crunk {}'.format(text))
 
     def goodbye(self, words):
         iter_count = int(words[-1])

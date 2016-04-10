@@ -16,7 +16,7 @@ class GrammarBase:
     def __lt__(self, other):
         return self.settings['priority'] < other.settings['priority']
 
-    def _change_global_context(self, context, value):
+    def change_global_context(self, context, value):
         self._handler.process_contexts[context] = value
         # recalculate active grammars
         self._handler.set_active_grammars()

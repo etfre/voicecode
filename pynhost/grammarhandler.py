@@ -48,17 +48,18 @@ class GrammarHandler:
         for member in clsmembers:
             # screen for objects with grammarbase.GrammarBase ancestor
             class_hierarchy = inspect.getmro(member[1])
-            if len(class_hierarchy) > 2 and class_hierarchy[-2] == grammarbase.GrammarBase:
-                grammar = self.initialize_grammar(member[1])
-                app_pattern = grammar.app_context
-                if grammar.app_context != '':
-                    app_pattern = re.compile(grammar.app_context)
-                    try:
-                        self.local_grammars[app_pattern].append(grammar)
-                    except KeyError:
-                        self.local_grammars[app_pattern] = [grammar]
-                else:
-                    self.global_grammars.append(grammar)
+            if len(class_hierarchy) < 3 or class_hierarchy[-2] != grammarbase.GrammarBase:
+                continue
+            grammar = self.initialize_grammar(member[1])
+            app_pattern = grammar.app_context
+            if grammar.app_context != '':
+                app_pattern = re.compile(grammar.app_context)
+                try:
+                    self.local_grammars[app_pattern].append(grammar)
+                except KeyError:
+                    self.local_grammars[app_pattern] = [grammar]
+            else:
+                self.global_grammars.append(grammar)
 
     def set_active_grammars(self):
         try:

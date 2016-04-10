@@ -3,11 +3,7 @@ from pynhost import api
 import time
 
 class AtomDictationGrammar(AtomBaseGrammar):
-    '''
-    Barebones grammar class that can be used as a template for new
-    grammars. See grammars/sample2.py for a more indepth example
-    of grammars.
-    '''
+
     def __init__(self):
         super().__init__()
         self.app_context = 'Atom'
@@ -25,13 +21,21 @@ class AtomDictationGrammar(AtomBaseGrammar):
             'left': '{left}',
         }
         self.limits = {
-            'until': 't'
+            'until': 't',
+            'after': 'f',
+            'before': 'F',
+        }
+
+        self.text_objects = {
+            'word': '{ctrl+d}',
+            'line': '{ctrl+l}',
+            'module': '{ctrl+a}',
         }
 
         self.mapping = {
             '[{}] {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.numbered_directions)): self.numbered_action,
-            '[{}] {} {} [<num>]'.format(self.cmb(self._actions), self.cmb(self.limits), self.cmb(self.all_chars)): self.scan,
-            'sample goodbye <num>': self.goodbye
+            '[{}] {} {} <1-> [<num>]'.format(self.cmb(self._actions), self.cmb(self.limits), self.cmb(self.all_chars)): self.scan,
+            '{} {} [<num>]'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
         }
 
     def numbered_action(self, words):
@@ -44,12 +48,19 @@ class AtomDictationGrammar(AtomBaseGrammar):
             send_str = '{shift+' + keys + '}' + action
         api.send_string(send_str)
 
+    def manip_text_object(self, words):
+        num = self._num(words)
+        text_obj = self.text_objects[' '.join(words[1:])]
+        action = self._actions[words[0]][0]
+        for i in range(num):
+            api.send_string(text_obj + action)
+
     def scan(self, words):
         count = str(self._num(words))
         action_letter = self._actions.get(words[0], '_m')[1]
         if words[0] in self._actions:
             words = words[1:]
         limit_letter = self.limits[words[0]]
-        command = action_letter + limit_letter + self.all_chars[words[1]] + count
-        print(command)
+        search_text = ''.join(self.all_chars[word] for word in words[1:])
+        command = action_letter + limit_letter + search_text + count
         self.do_command(command)

@@ -1,0 +1,9 @@
+{
+    "Scopes": {
+        "language": "javascript"
+    },
+
+    "Commands": {
+        "new function": "function () {{{enter}{enter}{back}}}{left}{left}{left}{left}{left}{left}{left}"
+    }
+}

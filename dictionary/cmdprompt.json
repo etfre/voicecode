@@ -1,0 +1,16 @@
+{
+    "Scopes": {
+
+    },
+
+    "Commands": {
+        "django restart server": "",
+        "activate firefox": "",
+        "activate command": ""
+    },
+
+    "NumberedCommands": {
+
+    }
+
+}
