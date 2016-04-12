@@ -30,6 +30,8 @@ class AtomDictationGrammar(AtomBaseGrammar):
             'word': '{ctrl+d}',
             'line': '{ctrl+l}',
             'module': '{ctrl+a}',
+            'east': 'end',
+            'west': 'home'
         }
 
         self.surround_limits = {
@@ -45,8 +47,8 @@ class AtomDictationGrammar(AtomBaseGrammar):
             '[{}] {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.numbered_directions)): self.numbered_action,
             '[{}] {} {} <1-> [<num>]'.format(self.cmb(self._actions), self.cmb(self.limits), self.cmb(self.all_chars)): self.scan,
             '{} {} [<num>]'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
+            '[{}] (west|east)'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object_card,
             '[{}] (inside|outside) {}'.format(self.cmb(self._actions), self.cmb(self.surround_limits)): self.surround_action,
-
         }
 
     def numbered_action(self, words):
@@ -66,6 +68,18 @@ class AtomDictationGrammar(AtomBaseGrammar):
         cleanup = '' if words[0] != 'copy' else self._shortcuts['clearSelect']
         command = (text_obj + action + cleanup) * num
         api.send_string(command)
+
+    def manip_text_object_card(self, words):
+        action = self._actions.get(words[0], '')
+        if action:
+            action = action[0]
+        cleanup = '' if words[0] != 'copy' else self._shortcuts['clearSelect']
+        text_obj = self.text_objects[words[-1]]
+        if len(words) > 1:
+            print('{{shift+{}}}{}{}'.format(text_obj, action, cleanup))
+            api.send_string('{{shift+{}}}{}{}'.format(text_obj, action, cleanup))
+        else:
+            api.send_string('{{{}}}{}{}'.format(text_obj, action, cleanup))
 
     def surround_action(self, words):
         action_letter = self._actions.get(words[0], '_s')[1]

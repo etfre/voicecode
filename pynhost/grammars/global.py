@@ -8,7 +8,7 @@ class CommandPromptGrammar(DumboBaseGrammar):
         super().__init__()
         self.dict_file = 'global.json'
         self.mapping = {
-
+            'num <num> <1->': self.number
         }
         self.load_numbered_command('enter')
         self.load_command('escape')
@@ -16,7 +16,6 @@ class CommandPromptGrammar(DumboBaseGrammar):
         self.load_numbered_command('tab')
         self.load_numbered_command('paste')
 
-    def restart_server(self, words):
-        api.send_string('{ctrl+c}')
-        time.sleep(.2)
-        api.send_string('python manage.py runserver{enter}')
+    def number(self, words):
+        num = str(self._num(words))
+        api.send_string(num)

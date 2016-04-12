@@ -20,7 +20,9 @@
         "module": "",
         "drop": "{ctrl+enter}",
         "climb": "{ctrl+shift+enter}",
-        "new scope": ""
+        "new scope": "",
+        "east": "",
+        "west": ""
     },
 
     "NumberedCommands": {

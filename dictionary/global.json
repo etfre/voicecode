@@ -21,7 +21,8 @@
         "enter": "{enter}",
         "snipe": "{backspace}",
         "tab": "{tab}",
-        "paste": "{ctrl+v}"
+        "paste": "{ctrl+v}",
+        "num": ""
     }
 
 }

@@ -4589,3 +4589,504 @@ KeyError: 'for enumerate'
 2016-04-11 23:38:48,920 INFO log_message(161) Received input "activate command"
 2016-04-11 23:38:48,923 INFO log_message(161) Input "activate command" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000002DB5A9007F0>
 2016-04-11 23:38:51,999 INFO log_message(161) Stopped listening for input
+2016-04-11 23:55:06,745 INFO log_message(161) Started listening for input
+2016-04-11 23:55:09,799 INFO log_message(161) Received input "activate atom"
+2016-04-11 23:55:09,801 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x0000025DCA000898>
+2016-04-11 23:55:18,435 INFO log_message(161) Received input "delete line 2"
+2016-04-11 23:55:18,438 INFO log_message(161) Input "delete line 2" matched rule <Rule: (select|copy|grab|delete) (line|word|module) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-11 23:55:21,250 INFO log_message(161) Received input "delete line 2"
+2016-04-11 23:55:21,253 INFO log_message(161) Input "delete line 2" matched rule <Rule: (select|copy|grab|delete) (line|word|module) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-11 23:55:24,936 INFO log_message(161) Received input "up delete line"
+2016-04-11 23:55:24,939 INFO log_message(161) Input "up" matched rule <Rule: [(select|copy|grab|delete)] (left|right|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-11 23:55:24,948 INFO log_message(161) Input "delete line" matched rule <Rule: (select|copy|grab|delete) (line|word|module) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-11 23:55:28,809 INFO log_message(161) Received input "for loop"
+2016-04-11 23:55:28,812 INFO log_message(161) Input "for loop" matched rule <Rule: for loop> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000025DCA020048>
+2016-04-11 23:55:32,888 INFO log_message(161) Received input "undo"
+2016-04-11 23:55:32,891 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000025DCA011438>
+2016-04-11 23:55:55,763 INFO log_message(161) Received input "for loop"
+2016-04-11 23:55:55,767 INFO log_message(161) Input "for loop" matched rule <Rule: for loop> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000025DCA020048>
+2016-04-11 23:56:05,638 INFO log_message(161) Received input "for loop"
+2016-04-11 23:56:05,640 INFO log_message(161) Input "for loop" matched rule <Rule: for loop> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000025DCA020048>
+2016-04-11 23:56:10,266 INFO log_message(161) Received input "for enumerate"
+2016-04-11 23:56:10,269 INFO log_message(161) Input "for enumerate" matched rule <Rule: for enumerate> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000025DCA020048>
+2016-04-11 23:56:26,580 INFO log_message(161) Received input "score hello world"
+2016-04-11 23:56:26,583 INFO log_message(161) Input "score hello world" matched rule <Rule: (camel|score) <any><1->> in grammar <pynhost.grammars.atom.dictation.AtomDictationGrammar object at 0x0000025DCA018860>
+2016-04-11 23:56:31,390 INFO log_message(161) Received input "delete word"
+2016-04-11 23:56:31,395 INFO log_message(161) Input "delete word" matched rule <Rule: (select|copy|grab|delete) (line|word|module) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-11 23:56:35,019 INFO log_message(161) Received input "score load command"
+2016-04-11 23:56:35,022 INFO log_message(161) Input "score load command" matched rule <Rule: (camel|score) <any><1->> in grammar <pynhost.grammars.atom.dictation.AtomDictationGrammar object at 0x0000025DCA018860>
+2016-04-11 23:56:39,389 INFO log_message(161) Received input "drop"
+2016-04-11 23:56:39,391 INFO log_message(161) Input "drop" matched rule <Rule: drop> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000025DCA011438>
+2016-04-11 23:56:50,514 INFO log_message(161) Received input "up delete line 2"
+2016-04-11 23:56:50,517 INFO log_message(161) Input "up" matched rule <Rule: [(select|copy|grab|delete)] (left|right|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-11 23:56:50,526 INFO log_message(161) Input "delete line 2" matched rule <Rule: (select|copy|grab|delete) (line|word|module) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-11 23:57:14,641 INFO log_message(161) Received input "crunk dunder"
+2016-04-11 23:57:14,643 INFO log_message(161) Input "crunk dunder" matched rule <Rule: crunk dunder> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000025DCA020048>
+2016-04-11 23:57:21,763 INFO log_message(161) Received input "snipe 2"
+2016-04-11 23:57:21,767 INFO log_message(161) Input "snipe 2" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-11 23:57:25,014 INFO log_message(161) Received input "right 2 snipe 2"
+2016-04-11 23:57:25,017 INFO log_message(161) Input "right 2" matched rule <Rule: [(select|copy|grab|delete)] (left|right|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-11 23:57:25,028 INFO log_message(161) Input "snipe 2" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-11 23:57:49,387 INFO log_message(161) Received input "tree focus"
+2016-04-11 23:57:49,389 INFO log_message(161) Input "tree focus" matched rule <Rule: tree focus> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-11 23:57:53,325 INFO log_message(161) Received input "tree move"
+2016-04-11 23:57:53,327 INFO log_message(161) Input "tree move" matched rule <Rule: tree move> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-11 23:57:56,324 INFO log_message(161) Received input "snipe"
+2016-04-11 23:57:56,327 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-11 23:58:04,766 INFO log_message(161) Received input "india mike"
+2016-04-11 23:58:04,769 INFO log_message(161) Input "india" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:04,785 INFO log_message(161) Input "mike" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:08,074 INFO log_message(161) Received input "papa"
+2016-04-11 23:58:08,077 INFO log_message(161) Input "papa" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:10,201 INFO log_message(161) Received input "oscar"
+2016-04-11 23:58:10,204 INFO log_message(161) Input "oscar" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:11,137 INFO log_message(161) Received input "romeo"
+2016-04-11 23:58:11,140 INFO log_message(161) Input "romeo" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:16,641 INFO log_message(161) Received input "tango alpha november tango"
+2016-04-11 23:58:16,646 INFO log_message(161) Input "tango" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:16,654 INFO log_message(161) Input "alpha" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:16,664 INFO log_message(161) Input "november" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:16,673 INFO log_message(161) Input "tango" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:58:19,762 INFO log_message(161) Received input "enter"
+2016-04-11 23:58:19,765 INFO log_message(161) Input "enter" matched rule <Rule: enter <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-11 23:58:45,169 INFO log_message(161) Received input "tree focus"
+2016-04-11 23:58:45,172 INFO log_message(161) Input "tree focus" matched rule <Rule: tree focus> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-11 23:59:11,668 INFO log_message(161) Received input "tree move"
+2016-04-11 23:59:11,671 INFO log_message(161) Input "tree move" matched rule <Rule: tree move> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-11 23:59:27,792 INFO log_message(161) Received input "snipe"
+2016-04-11 23:59:27,795 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-11 23:59:38,734 INFO log_message(161) Received input "kilo echo yankee"
+2016-04-11 23:59:38,737 INFO log_message(161) Input "kilo" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:59:38,754 INFO log_message(161) Input "echo" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:59:38,769 INFO log_message(161) Input "yankee" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:59:41,167 INFO log_message(161) Received input "whiskey"
+2016-04-11 23:59:41,169 INFO log_message(161) Input "whiskey" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:59:43,171 INFO log_message(161) Received input "oscar"
+2016-04-11 23:59:43,174 INFO log_message(161) Input "oscar" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:59:44,668 INFO log_message(161) Received input "romeo"
+2016-04-11 23:59:44,671 INFO log_message(161) Input "romeo" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:59:50,234 INFO log_message(161) Received input "delta sierra"
+2016-04-11 23:59:50,237 INFO log_message(161) Input "delta" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:59:50,251 INFO log_message(161) Input "sierra" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-11 23:59:51,856 INFO log_message(161) Received input "enter"
+2016-04-11 23:59:51,859 INFO log_message(161) Input "enter" matched rule <Rule: enter <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-11 23:59:57,356 INFO log_message(161) Received input "tree focus"
+2016-04-11 23:59:57,359 INFO log_message(161) Input "tree focus" matched rule <Rule: tree focus> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-11 23:59:59,984 INFO log_message(161) Received input "tree down tab"
+2016-04-11 23:59:59,987 INFO log_message(161) Input "tree down" matched rule <Rule: tree down <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-11 23:59:59,994 INFO log_message(161) Input "tab" matched rule <Rule: tab <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-12 00:00:02,671 INFO log_message(161) Received input "tree down tab"
+2016-04-12 00:00:02,675 INFO log_message(161) Input "tree down" matched rule <Rule: tree down <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-12 00:00:02,682 INFO log_message(161) Input "tab" matched rule <Rule: tab <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-12 00:00:07,730 INFO log_message(161) Received input "tree up"
+2016-04-12 00:00:07,733 INFO log_message(161) Input "tree up" matched rule <Rule: tree up <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-12 00:00:17,921 INFO log_message(161) Received input "tree focus"
+2016-04-12 00:00:17,924 INFO log_message(161) Input "tree focus" matched rule <Rule: tree focus> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-12 00:00:21,672 INFO log_message(161) Received input "tree down"
+2016-04-12 00:00:21,675 INFO log_message(161) Input "tree down" matched rule <Rule: tree down <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-12 00:00:24,294 INFO log_message(161) Received input "tree down 8"
+2016-04-12 00:00:24,297 INFO log_message(161) Input "tree down 8" matched rule <Rule: tree down <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-12 00:00:26,417 INFO log_message(161) Received input "tree up"
+2016-04-12 00:00:26,420 INFO log_message(161) Input "tree up" matched rule <Rule: tree up <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-12 00:00:29,607 INFO log_message(161) Received input "tree duplicate"
+2016-04-12 00:00:29,611 INFO log_message(161) Input "tree duplicate" matched rule <Rule: tree duplicate> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-12 00:00:32,920 INFO log_message(161) Received input "escape"
+2016-04-12 00:00:32,923 INFO log_message(161) Input "escape" matched rule <Rule: escape> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-12 00:00:37,419 INFO log_message(161) Received input "tree file"
+2016-04-12 00:00:37,421 INFO log_message(161) Input "tree file" matched rule <Rule: tree file> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x0000025DCA0205F8>
+2016-04-12 00:00:49,295 INFO log_message(161) Received input "foxtrot oscar oscar"
+2016-04-12 00:00:49,298 INFO log_message(161) Input "foxtrot" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:00:49,312 INFO log_message(161) Input "oscar" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:00:49,327 INFO log_message(161) Input "oscar" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:00:58,107 INFO log_message(161) Received input "copy yankee"
+2016-04-12 00:00:58,111 INFO log_message(161) Input "yankee" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:01:05,115 INFO log_message(161) Received input "snipe 5 papa"
+2016-04-12 00:01:05,119 INFO log_message(161) Input "snipe 5" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-12 00:01:05,126 INFO log_message(161) Input "papa" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:01:06,669 INFO log_message(161) Received input "yankee"
+2016-04-12 00:01:06,672 INFO log_message(161) Input "yankee" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:01:07,731 INFO log_message(161) Received input "enter"
+2016-04-12 00:01:07,735 INFO log_message(161) Input "enter" matched rule <Rule: enter <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-12 00:01:23,919 INFO log_message(161) Received input "new function"
+2016-04-12 00:01:23,922 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000025DCA020048>
+2016-04-12 00:01:35,486 INFO log_message(161) Received input "foxtrot india zulu zulu right"
+2016-04-12 00:01:35,489 INFO log_message(161) Input "foxtrot" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:01:35,505 INFO log_message(161) Input "india" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:01:35,521 INFO log_message(161) Input "zulu" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:01:35,536 INFO log_message(161) Input "zulu" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:01:35,550 INFO log_message(161) Input "right" matched rule <Rule: [(select|copy|grab|delete)] (left|right|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:01:41,992 INFO log_message(161) Received input "word counts"
+2016-04-12 00:01:51,260 INFO log_message(161) Received input "word are all counts"
+2016-04-12 00:02:02,297 INFO log_message(161) Received input "charlie oscar uniform november"
+2016-04-12 00:02:02,301 INFO log_message(161) Input "charlie" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:02,317 INFO log_message(161) Input "oscar" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:02,334 INFO log_message(161) Input "uniform" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:02,344 INFO log_message(161) Input "november" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:03,798 INFO log_message(161) Received input "tango sierra"
+2016-04-12 00:02:03,801 INFO log_message(161) Input "tango" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:03,820 INFO log_message(161) Input "sierra" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:05,108 INFO log_message(161) Received input "snipe"
+2016-04-12 00:02:05,111 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-12 00:02:06,419 INFO log_message(161) Received input "drop"
+2016-04-12 00:02:06,422 INFO log_message(161) Input "drop" matched rule <Rule: drop> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000025DCA011438>
+2016-04-12 00:02:21,732 INFO log_message(161) Received input "before tango"
+2016-04-12 00:02:21,735 INFO log_message(161) Input "before tango" matched rule <Rule: [(select|copy|grab|delete)] (after|before|until) (alpha|echo|colon|star|percent|lace|yankee|toad|india|victor|double|frog|oscar|zulu|charlie|bar|eke|dash|greater|november|delta|comma|semicolon|lima|bravo|space|plus|romeo|lesser|uniform|golf|mike|lack|single|foxtrot|rack|quebec|whiskey|kilo|juliet|race|hotel|sierra|wave|papa|x-ray|tango) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:02:24,485 INFO log_message(161) Received input "copy word down"
+2016-04-12 00:02:24,488 INFO log_message(161) Input "copy word" matched rule <Rule: (select|copy|grab|delete) (line|word|module) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:02:24,497 INFO log_message(161) Input "down" matched rule <Rule: [(select|copy|grab|delete)] (left|right|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:02:28,357 INFO log_message(161) Received input "for loop"
+2016-04-12 00:02:28,361 INFO log_message(161) Input "for loop" matched rule <Rule: for loop> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000025DCA020048>
+2016-04-12 00:02:34,544 INFO log_message(161) Received input "november uniform mike"
+2016-04-12 00:02:34,548 INFO log_message(161) Input "november" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:34,563 INFO log_message(161) Input "uniform" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:34,580 INFO log_message(161) Input "mike" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:45,427 INFO log_message(161) Received input "until charlie"
+2016-04-12 00:02:45,430 INFO log_message(161) Input "until charlie" matched rule <Rule: [(select|copy|grab|delete)] (after|before|until) (alpha|echo|colon|star|percent|lace|yankee|toad|india|victor|double|frog|oscar|zulu|charlie|bar|eke|dash|greater|november|delta|comma|semicolon|lima|bravo|space|plus|romeo|lesser|uniform|golf|mike|lack|single|foxtrot|rack|quebec|whiskey|kilo|juliet|race|hotel|sierra|wave|papa|x-ray|tango) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:02:47,544 INFO log_message(161) Received input "frog"
+2016-04-12 00:02:47,547 INFO log_message(161) Input "frog" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:50,984 INFO log_message(161) Received input "until colon"
+2016-04-12 00:02:50,987 INFO log_message(161) Input "until colon" matched rule <Rule: [(select|copy|grab|delete)] (after|before|until) (alpha|echo|colon|star|percent|lace|yankee|toad|india|victor|double|frog|oscar|zulu|charlie|bar|eke|dash|greater|november|delta|comma|semicolon|lima|bravo|space|plus|romeo|lesser|uniform|golf|mike|lack|single|foxtrot|rack|quebec|whiskey|kilo|juliet|race|hotel|sierra|wave|papa|x-ray|tango) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:02:52,927 INFO log_message(161) Received input "tango"
+2016-04-12 00:02:52,930 INFO log_message(161) Input "tango" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:02:58,046 INFO log_message(161) Received input "snipe toad"
+2016-04-12 00:02:58,049 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-12 00:02:58,057 INFO log_message(161) Input "toad" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:02,980 INFO log_message(161) Received input "drop"
+2016-04-12 00:03:02,984 INFO log_message(161) Input "drop" matched rule <Rule: drop> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000025DCA011438>
+2016-04-12 00:03:06,668 INFO log_message(161) Received input "condition"
+2016-04-12 00:03:06,670 INFO log_message(161) Input "condition" matched rule <Rule: condition> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000025DCA020048>
+2016-04-12 00:03:13,608 INFO log_message(161) Received input "november uniform mike space"
+2016-04-12 00:03:13,613 INFO log_message(161) Input "november" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:13,637 INFO log_message(161) Input "uniform" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:13,651 INFO log_message(161) Input "mike" matched rule <Rule: (romeo|alpha|echo|uniform|whiskey|golf|mike|sierra|yankee|november|india|x-ray|victor|foxtrot|oscar|zulu|charlie|kilo|juliet|quebec|hotel|delta|papa|lima|bravo|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:13,667 INFO log_message(161) Input "space" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:17,231 INFO log_message(161) Received input "percent"
+2016-04-12 00:03:17,234 INFO log_message(161) Input "percent" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:21,043 INFO log_message(161) Received input "space"
+2016-04-12 00:03:21,045 INFO log_message(161) Input "space" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:48,042 INFO log_message(161) Received input "space"
+2016-04-12 00:03:48,044 INFO log_message(161) Input "space" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:50,045 INFO log_message(161) Received input "eke eke"
+2016-04-12 00:03:50,048 INFO log_message(161) Input "eke" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:50,061 INFO log_message(161) Input "eke" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:03:53,108 INFO log_message(161) Received input "space 9 0"
+2016-04-12 00:03:53,111 INFO log_message(161) Input "space" matched rule <Rule: (rack|wave|lesser|eke|space|greater|dash|bar|race|star|lack|lace|colon|toad|percent|double|single|plus|frog|semicolon|comma)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x0000025DCA0005C0>
+2016-04-12 00:05:24,356 INFO log_message(161) Received input "snipe 3"
+2016-04-12 00:05:24,360 INFO log_message(161) Input "snipe 3" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000025DCA007828>
+2016-04-12 00:05:27,481 INFO log_message(161) Received input "up left 2"
+2016-04-12 00:05:27,483 INFO log_message(161) Input "up" matched rule <Rule: [(select|copy|grab|delete)] (left|right|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:05:27,494 INFO log_message(161) Input "left 2" matched rule <Rule: [(select|copy|grab|delete)] (left|right|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:05:34,919 INFO log_message(161) Received input "inside par"
+2016-04-12 00:05:34,922 INFO log_message(161) Input "inside par" matched rule <Rule: [(select|copy|grab|delete)] (inside|outside) (braces|double|single|chevrons|par|brackets)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:05:38,607 INFO log_message(161) Received input "clear select"
+2016-04-12 00:05:38,610 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000025DCA011438>
+2016-04-12 00:05:41,920 INFO log_message(161) Received input "inside par"
+2016-04-12 00:05:41,923 INFO log_message(161) Input "inside par" matched rule <Rule: [(select|copy|grab|delete)] (inside|outside) (braces|double|single|chevrons|par|brackets)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:05:43,862 INFO log_message(161) Received input "outside par"
+2016-04-12 00:05:43,865 INFO log_message(161) Input "outside par" matched rule <Rule: [(select|copy|grab|delete)] (inside|outside) (braces|double|single|chevrons|par|brackets)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:05:45,733 INFO log_message(161) Received input "outside par"
+2016-04-12 00:05:45,736 INFO log_message(161) Input "outside par" matched rule <Rule: [(select|copy|grab|delete)] (inside|outside) (braces|double|single|chevrons|par|brackets)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000025DCA0258D0>
+2016-04-12 00:05:49,857 INFO log_message(161) Received input "clear select"
+2016-04-12 00:05:49,860 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000025DCA011438>
+2016-04-12 00:06:02,359 INFO log_message(161) Received input "save file"
+2016-04-12 00:06:02,365 INFO log_message(161) Input "save file" matched rule <Rule: save file> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000025DCA011438>
+2016-04-12 00:07:59,915 INFO log_message(161) Stopped listening for input
+2016-04-12 00:08:00,829 ERROR log_message(161) invalid syntax (foo.py, line 3)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 40, in load_grammars
+    for module in utilities.get_modules_in_dir(grammar_dir):
+  File "C:\Users\evan\modules\voicecode\pynhost\utilities.py", line 169, in get_modules_in_dir
+    yield __import__('.'.join(['pynhost.grammars' + root, py]), fromlist=[py])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\python\foo.py", line 3
+    if num % 5 ==
+                ^
+SyntaxError: invalid syntax
+2016-04-12 00:08:00,844 INFO log_message(161) Stopped listening for input
+2016-04-12 00:08:21,701 INFO log_message(161) Started listening for input
+2016-04-12 00:08:27,406 INFO log_message(161) Received input "num 1"
+2016-04-12 00:08:27,407 INFO log_message(161) Input "num 1" matched rule <Rule: num <num> <1->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000017C56897470>
+2016-04-12 00:08:27,409 ERROR log_message(161) 'int' object is not iterable
+Traceback (most recent call last):
+  File "pynacea.py", line 40, in main
+    raise e
+  File "pynacea.py", line 35, in main
+    command_history.run_command(current_command)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 13, in run_command
+    self.execute_command(pos, -1, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 26, in execute_command
+    self.execute_actions(command_pos, i, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 34, in execute_actions
+    if not self.execute_string_or_func(action):
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 48, in execute_string_or_func
+    action[0](*action[1], **action[2])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\global.py", line 21, in number
+    api.send_string(num)
+  File "C:\Users\evan\modules\voicecode\pynhost\api.py", line 5, in send_string
+    tokenized_keys = keyinput.tokenize_keypresses(string_to_send)
+  File "C:\Users\evan\modules\voicecode\pynhost\keyinput.py", line 6, in tokenize_keypresses
+    for i, char in enumerate(input_str):
+TypeError: 'int' object is not iterable
+2016-04-12 00:08:27,448 INFO log_message(161) Stopped listening for input
+2016-04-12 00:08:51,076 INFO log_message(161) Started listening for input
+2016-04-12 00:09:01,777 INFO log_message(161) Received input "delete line"
+2016-04-12 00:09:01,778 INFO log_message(161) Input "delete line" matched rule <Rule: (select|grab|delete|copy) (module|line|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AC23E05EF0>
+2016-04-12 00:09:04,278 INFO log_message(161) Received input "up"
+2016-04-12 00:09:04,280 INFO log_message(161) Input "up" matched rule <Rule: [(select|grab|delete|copy)] (right|up|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AC23E05EF0>
+2016-04-12 00:09:06,969 INFO log_message(161) Received input "right 2 0"
+2016-04-12 00:09:06,971 INFO log_message(161) Input "right 2 0" matched rule <Rule: [(select|grab|delete|copy)] (right|up|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AC23E05EF0>
+2016-04-12 00:09:09,029 INFO log_message(161) Received input "left"
+2016-04-12 00:09:09,031 INFO log_message(161) Input "left" matched rule <Rule: [(select|grab|delete|copy)] (right|up|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AC23E05EF0>
+2016-04-12 00:09:12,657 INFO log_message(161) Received input "space num 0"
+2016-04-12 00:09:12,660 INFO log_message(161) Input "space" matched rule <Rule: (greater|dash|lace|wave|percent|race|lesser|comma|rack|space|colon|toad|eke|frog|plus|double|single|bar|lack|semicolon|star)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:12,673 INFO log_message(161) Input "num 0" matched rule <Rule: num <num> <1->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001AC23DE76D8>
+2016-04-12 00:09:18,715 INFO log_message(161) Received input "colon drop"
+2016-04-12 00:09:18,718 INFO log_message(161) Input "colon" matched rule <Rule: (greater|dash|lace|wave|percent|race|lesser|comma|rack|space|colon|toad|eke|frog|plus|double|single|bar|lack|semicolon|star)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:18,731 INFO log_message(161) Input "drop" matched rule <Rule: drop> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AC23DF5438>
+2016-04-12 00:09:24,715 INFO log_message(161) Received input "print single"
+2016-04-12 00:09:24,718 INFO log_message(161) Input "print" matched rule <Rule: print> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001AC23E18D30>
+2016-04-12 00:09:24,725 INFO log_message(161) Input "single" matched rule <Rule: (greater|dash|lace|wave|percent|race|lesser|comma|rack|space|colon|toad|eke|frog|plus|double|single|bar|lack|semicolon|star)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:28,590 INFO log_message(161) Received input "frog"
+2016-04-12 00:09:28,593 INFO log_message(161) Input "frog" matched rule <Rule: (greater|dash|lace|wave|percent|race|lesser|comma|rack|space|colon|toad|eke|frog|plus|double|single|bar|lack|semicolon|star)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:30,291 INFO log_message(161) Received input "india 0"
+2016-04-12 00:09:30,294 INFO log_message(161) Input "india" matched rule <Rule: (november|sierra|alpha|whiskey|lima|delta|yankee|echo|kilo|bravo|oscar|india|tango|golf|foxtrot|juliet|papa|uniform|zulu|romeo|charlie|mike|quebec|x-ray|victor|hotel)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:37,278 INFO log_message(161) Received input "snipe 3"
+2016-04-12 00:09:37,280 INFO log_message(161) Input "snipe 3" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001AC23DE76D8>
+2016-04-12 00:09:42,222 INFO log_message(161) Received input "foxtrot india zulu zulu single"
+2016-04-12 00:09:42,226 INFO log_message(161) Input "foxtrot" matched rule <Rule: (november|sierra|alpha|whiskey|lima|delta|yankee|echo|kilo|bravo|oscar|india|tango|golf|foxtrot|juliet|papa|uniform|zulu|romeo|charlie|mike|quebec|x-ray|victor|hotel)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:42,241 INFO log_message(161) Input "india" matched rule <Rule: (november|sierra|alpha|whiskey|lima|delta|yankee|echo|kilo|bravo|oscar|india|tango|golf|foxtrot|juliet|papa|uniform|zulu|romeo|charlie|mike|quebec|x-ray|victor|hotel)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:42,256 INFO log_message(161) Input "zulu" matched rule <Rule: (november|sierra|alpha|whiskey|lima|delta|yankee|echo|kilo|bravo|oscar|india|tango|golf|foxtrot|juliet|papa|uniform|zulu|romeo|charlie|mike|quebec|x-ray|victor|hotel)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:42,270 INFO log_message(161) Input "zulu" matched rule <Rule: (november|sierra|alpha|whiskey|lima|delta|yankee|echo|kilo|bravo|oscar|india|tango|golf|foxtrot|juliet|papa|uniform|zulu|romeo|charlie|mike|quebec|x-ray|victor|hotel)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:42,286 INFO log_message(161) Input "single" matched rule <Rule: (greater|dash|lace|wave|percent|race|lesser|comma|rack|space|colon|toad|eke|frog|plus|double|single|bar|lack|semicolon|star)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:09:57,465 INFO log_message(161) Received input "drop"
+2016-04-12 00:09:57,468 INFO log_message(161) Input "drop" matched rule <Rule: drop> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001AC23DF5438>
+2016-04-12 00:10:01,904 INFO log_message(161) Received input "snipe"
+2016-04-12 00:10:01,906 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001AC23DE76D8>
+2016-04-12 00:10:13,717 INFO log_message(161) Received input "condition"
+2016-04-12 00:10:13,719 INFO log_message(161) Input "condition" matched rule <Rule: condition> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001AC23E18D30>
+2016-04-12 00:10:19,403 INFO log_message(161) Received input "snipe 3"
+2016-04-12 00:10:19,409 INFO log_message(161) Input "snipe 3" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001AC23DE76D8>
+2016-04-12 00:10:27,714 INFO log_message(161) Received input "condition"
+2016-04-12 00:10:27,717 INFO log_message(161) Input "condition" matched rule <Rule: condition> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001AC23E18D30>
+2016-04-12 00:10:33,340 INFO log_message(161) Received input "snipe 3"
+2016-04-12 00:10:33,343 INFO log_message(161) Input "snipe 3" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001AC23DE76D8>
+2016-04-12 00:10:35,467 INFO log_message(161) Received input "echo lima"
+2016-04-12 00:10:35,473 INFO log_message(161) Input "echo" matched rule <Rule: (november|sierra|alpha|whiskey|lima|delta|yankee|echo|kilo|bravo|oscar|india|tango|golf|foxtrot|juliet|papa|uniform|zulu|romeo|charlie|mike|quebec|x-ray|victor|hotel)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:10:35,488 INFO log_message(161) Input "lima" matched rule <Rule: (november|sierra|alpha|whiskey|lima|delta|yankee|echo|kilo|bravo|oscar|india|tango|golf|foxtrot|juliet|papa|uniform|zulu|romeo|charlie|mike|quebec|x-ray|victor|hotel)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:10:38,658 INFO log_message(161) Received input "single condition"
+2016-04-12 00:10:38,661 INFO log_message(161) Input "single" matched rule <Rule: (greater|dash|lace|wave|percent|race|lesser|comma|rack|space|colon|toad|eke|frog|plus|double|single|bar|lack|semicolon|star)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001AC23DCA550>
+2016-04-12 00:10:38,673 INFO log_message(161) Input "condition" matched rule <Rule: condition> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001AC23E18D30>
+2016-04-12 00:10:43,593 INFO log_message(161) Received input "left 3 snipe"
+2016-04-12 00:10:43,595 INFO log_message(161) Input "left 3" matched rule <Rule: [(select|grab|delete|copy)] (right|up|left|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001AC23E05EF0>
+2016-04-12 00:10:43,605 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001AC23DE76D8>
+2016-04-12 00:13:20,802 INFO log_message(161) Stopped listening for input
+2016-04-12 00:13:21,632 INFO log_message(161) Started listening for input
+2016-04-12 00:13:25,023 INFO log_message(161) Received input "west"
+2016-04-12 00:17:35,649 INFO log_message(161) Stopped listening for input
+2016-04-12 00:17:36,239 INFO log_message(161) Started listening for input
+2016-04-12 00:17:39,850 INFO log_message(161) Received input "west"
+2016-04-12 00:17:39,852 INFO log_message(161) Input "west" matched rule <Rule: [(copy|delete|grab|select)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F161D24940>
+2016-04-12 00:17:39,857 ERROR log_message(161) ''
+Traceback (most recent call last):
+  File "pynacea.py", line 40, in main
+    raise e
+  File "pynacea.py", line 35, in main
+    command_history.run_command(current_command)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 13, in run_command
+    self.execute_command(pos, -1, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 26, in execute_command
+    self.execute_actions(command_pos, i, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 34, in execute_actions
+    if not self.execute_string_or_func(action):
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 48, in execute_string_or_func
+    action[0](*action[1], **action[2])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\manip.py", line 74, in manip_text_object_card
+    text_obj = self.text_objects[' '.join(words[1:])]
+KeyError: ''
+2016-04-12 00:17:39,881 INFO log_message(161) Stopped listening for input
+2016-04-12 00:17:55,334 INFO log_message(161) Started listening for input
+2016-04-12 00:17:58,483 INFO log_message(161) Received input "west"
+2016-04-12 00:17:58,485 INFO log_message(161) Input "west" matched rule <Rule: [(select|delete|grab|copy)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000002A474824978>
+2016-04-12 00:17:58,489 ERROR log_message(161) ''
+Traceback (most recent call last):
+  File "pynacea.py", line 40, in main
+    raise e
+  File "pynacea.py", line 35, in main
+    command_history.run_command(current_command)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 13, in run_command
+    self.execute_command(pos, -1, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 26, in execute_command
+    self.execute_actions(command_pos, i, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 34, in execute_actions
+    if not self.execute_string_or_func(action):
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 48, in execute_string_or_func
+    action[0](*action[1], **action[2])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\manip.py", line 73, in manip_text_object_card
+    text_obj = self.text_objects[' '.join(words[1:])]
+KeyError: ''
+2016-04-12 00:17:58,514 INFO log_message(161) Stopped listening for input
+2016-04-12 00:20:06,985 INFO log_message(161) Started listening for input
+2016-04-12 00:20:10,483 INFO log_message(161) Received input "west"
+2016-04-12 00:20:10,485 INFO log_message(161) Input "west" matched rule <Rule: [(delete|select|grab|copy)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001C7D9A14978>
+2016-04-12 00:20:10,490 ERROR log_message(161) name 'num' is not defined
+Traceback (most recent call last):
+  File "pynacea.py", line 40, in main
+    raise e
+  File "pynacea.py", line 35, in main
+    command_history.run_command(current_command)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 13, in run_command
+    self.execute_command(pos, -1, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 26, in execute_command
+    self.execute_actions(command_pos, i, -1)
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 34, in execute_actions
+    if not self.execute_string_or_func(action):
+  File "C:\Users\evan\modules\voicecode\pynhost\history.py", line 48, in execute_string_or_func
+    action[0](*action[1], **action[2])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\manip.py", line 79, in manip_text_object_card
+    command = (text_obj + action + cleanup) * num
+NameError: name 'num' is not defined
+2016-04-12 00:20:10,515 INFO log_message(161) Stopped listening for input
+2016-04-12 00:20:28,086 INFO log_message(161) Started listening for input
+2016-04-12 00:20:31,533 INFO log_message(161) Received input "west"
+2016-04-12 00:20:31,535 INFO log_message(161) Input "west" matched rule <Rule: [(copy|grab|delete|select)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001324F314978>
+2016-04-12 00:20:50,653 INFO log_message(161) Received input "select west"
+2016-04-12 00:20:50,656 INFO log_message(161) Input "select west" matched rule <Rule: [(copy|grab|delete|select)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001324F314978>
+2016-04-12 00:22:06,578 INFO log_message(161) Received input "down"
+2016-04-12 00:22:06,580 INFO log_message(161) Input "down" matched rule <Rule: [(copy|grab|delete|select)] (right|down|up|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001324F314978>
+2016-04-12 00:33:14,366 INFO log_message(161) Stopped listening for input
+2016-04-12 00:33:16,157 ERROR log_message(161) invalid syntax (manip.py, line 78)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 40, in load_grammars
+    for module in utilities.get_modules_in_dir(grammar_dir):
+  File "C:\Users\evan\modules\voicecode\pynhost\utilities.py", line 169, in get_modules_in_dir
+    yield __import__('.'.join(['pynhost.grammars' + root, py]), fromlist=[py])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\manip.py", line 78
+    else:
+       ^
+SyntaxError: invalid syntax
+2016-04-12 00:33:16,157 INFO log_message(161) Stopped listening for input
+2016-04-12 00:33:28,567 INFO log_message(161) Started listening for input
+2016-04-12 00:34:21,670 INFO log_message(161) Stopped listening for input
+2016-04-12 00:34:22,230 INFO log_message(161) Started listening for input
+2016-04-12 00:34:25,679 INFO log_message(161) Received input "west"
+2016-04-12 00:34:25,681 INFO log_message(161) Input "west" matched rule <Rule: [(grab|select|delete|copy)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3B3084FD0>
+2016-04-12 00:34:29,810 INFO log_message(161) Received input "select west"
+2016-04-12 00:34:29,813 INFO log_message(161) Input "select west" matched rule <Rule: (grab|select|delete|copy) (word|line|west|module|east) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3B3084FD0>
+2016-04-12 00:35:27,232 INFO log_message(161) Received input "east"
+2016-04-12 00:35:27,234 INFO log_message(161) Input "east" matched rule <Rule: [(grab|select|delete|copy)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3B3084FD0>
+2016-04-12 00:35:30,231 INFO log_message(161) Received input "west"
+2016-04-12 00:35:30,233 INFO log_message(161) Input "west" matched rule <Rule: [(grab|select|delete|copy)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3B3084FD0>
+2016-04-12 00:35:36,018 INFO log_message(161) Received input "select"
+2016-04-12 00:35:36,731 INFO log_message(161) Received input "east"
+2016-04-12 00:35:36,733 INFO log_message(161) Input "east" matched rule <Rule: [(grab|select|delete|copy)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3B3084FD0>
+2016-04-12 00:35:42,983 INFO log_message(161) Received input "select west"
+2016-04-12 00:35:42,986 INFO log_message(161) Input "select west" matched rule <Rule: (grab|select|delete|copy) (word|line|west|module|east) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D3B3084FD0>
+2016-04-12 00:35:59,815 INFO log_message(161) Stopped listening for input
+2016-04-12 00:36:00,785 INFO log_message(161) Started listening for input
+2016-04-12 00:36:05,333 INFO log_message(161) Received input "select west"
+2016-04-12 00:36:05,336 INFO log_message(161) Input "select west" matched rule <Rule: [(select|copy|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022E8C3E4978>
+2016-04-12 00:36:11,217 INFO log_message(161) Received input "clear select"
+2016-04-12 00:36:11,220 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000022E8C3D03C8>
+2016-04-12 00:36:13,157 INFO log_message(161) Received input "select east"
+2016-04-12 00:36:13,159 INFO log_message(161) Input "select east" matched rule <Rule: [(select|copy|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022E8C3E4978>
+2016-04-12 00:36:15,777 INFO log_message(161) Received input "clear select"
+2016-04-12 00:36:15,780 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000022E8C3D03C8>
+2016-04-12 00:36:19,340 INFO log_message(161) Received input "copy west"
+2016-04-12 00:36:19,342 INFO log_message(161) Input "copy west" matched rule <Rule: [(select|copy|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022E8C3E4978>
+2016-04-12 00:36:21,528 INFO log_message(161) Received input "paste"
+2016-04-12 00:36:21,531 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000022E8C3C76D8>
+2016-04-12 00:36:23,338 INFO log_message(161) Received input "undo"
+2016-04-12 00:36:23,341 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000022E8C3D03C8>
+2016-04-12 00:36:27,467 INFO log_message(161) Received input "up"
+2016-04-12 00:36:27,470 INFO log_message(161) Input "up" matched rule <Rule: [(select|copy|grab|delete)] (left|right|up|down) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022E8C3E4978>
+2016-04-12 00:36:30,088 INFO log_message(161) Received input "copy east"
+2016-04-12 00:36:30,091 INFO log_message(161) Input "copy east" matched rule <Rule: [(select|copy|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022E8C3E4978>
+2016-04-12 00:36:32,028 INFO log_message(161) Received input "paste"
+2016-04-12 00:36:32,030 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000022E8C3C76D8>
+2016-04-12 00:36:41,967 INFO log_message(161) Received input "undo"
+2016-04-12 00:36:41,970 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000022E8C3D03C8>
+2016-04-12 00:36:44,027 INFO log_message(161) Received input "west"
+2016-04-12 00:36:44,029 INFO log_message(161) Input "west" matched rule <Rule: [(select|copy|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022E8C3E4978>
+2016-04-12 00:36:46,218 INFO log_message(161) Received input "copy east"
+2016-04-12 00:36:46,222 INFO log_message(161) Input "copy east" matched rule <Rule: [(select|copy|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000022E8C3E4978>
+2016-04-12 00:36:48,217 INFO log_message(161) Received input "paste"
+2016-04-12 00:36:48,219 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000022E8C3C76D8>
+2016-04-12 00:37:56,895 INFO log_message(161) Stopped listening for input
+2016-04-12 00:37:57,542 INFO log_message(161) Started listening for input
+2016-04-12 00:38:01,669 INFO log_message(161) Received input "west"
+2016-04-12 00:38:01,671 INFO log_message(161) Input "west" matched rule <Rule: [(copy|grab|select|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000027168414940>
+2016-04-12 00:38:06,358 INFO log_message(161) Received input "west"
+2016-04-12 00:38:06,360 INFO log_message(161) Input "west" matched rule <Rule: [(copy|grab|select|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000027168414940>
+2016-04-12 00:38:21,092 INFO log_message(161) Stopped listening for input
+2016-04-12 00:38:22,161 INFO log_message(161) Started listening for input
+2016-04-12 00:38:25,222 INFO log_message(161) Received input "west"
+2016-04-12 00:38:25,225 INFO log_message(161) Input "west" matched rule <Rule: [(delete|select|grab|copy)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000015D6DE64978>
+2016-04-12 00:38:29,841 INFO log_message(161) Received input "copy east"
+2016-04-12 00:38:29,844 INFO log_message(161) Input "copy east" matched rule <Rule: (delete|select|grab|copy) (word|module|west|east|line) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000015D6DE64978>
+2016-04-12 00:38:43,592 INFO log_message(161) Received input "copy west"
+2016-04-12 00:38:43,595 INFO log_message(161) Input "copy west" matched rule <Rule: (delete|select|grab|copy) (word|module|west|east|line) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x0000015D6DE64978>
+2016-04-12 00:39:01,425 INFO log_message(161) Stopped listening for input
+2016-04-12 00:39:02,045 INFO log_message(161) Started listening for input
+2016-04-12 00:39:07,108 INFO log_message(161) Received input "copy east"
+2016-04-12 00:39:07,110 INFO log_message(161) Input "copy east" matched rule <Rule: [(grab|select|delete|copy)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001D114124940>
+2016-04-12 00:39:46,149 INFO log_message(161) Stopped listening for input
+2016-04-12 00:39:46,711 INFO log_message(161) Started listening for input
+2016-04-12 00:39:51,885 INFO log_message(161) Received input "copy east"
+2016-04-12 00:39:51,887 INFO log_message(161) Input "copy east" matched rule <Rule: [(copy|grab|delete|select)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A1061B4978>
+2016-04-12 00:40:54,112 INFO log_message(161) Stopped listening for input
+2016-04-12 00:40:54,521 INFO log_message(161) Started listening for input
+2016-04-12 00:41:01,975 INFO log_message(161) Received input "copy east"
+2016-04-12 00:41:01,978 INFO log_message(161) Input "copy east" matched rule <Rule: (delete|copy|grab|select) (module|east|line|west|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001E33AED4898>
+2016-04-12 00:41:33,064 INFO log_message(161) Stopped listening for input
+2016-04-12 00:41:33,757 INFO log_message(161) Started listening for input
+2016-04-12 00:41:38,894 INFO log_message(161) Received input "west"
+2016-04-12 00:41:38,897 INFO log_message(161) Input "west" matched rule <Rule: [(grab|delete|copy|select)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F8EF8AE048>
+2016-04-12 00:42:02,251 INFO log_message(161) Stopped listening for input
+2016-04-12 00:42:02,807 ERROR log_message(161) invalid syntax (manip.py, line 78)
+Traceback (most recent call last):
+  File "pynacea.py", line 24, in main
+    gram_handler.load_grammars()
+  File "C:\Users\evan\modules\voicecode\pynhost\grammarhandler.py", line 40, in load_grammars
+    for module in utilities.get_modules_in_dir(grammar_dir):
+  File "C:\Users\evan\modules\voicecode\pynhost\utilities.py", line 169, in get_modules_in_dir
+    yield __import__('.'.join(['pynhost.grammars' + root, py]), fromlist=[py])
+  File "C:\Users\evan\modules\voicecode\pynhost\grammars\atom\manip.py", line 78
+    f len(words) > 1:
+        ^
+SyntaxError: invalid syntax
+2016-04-12 00:42:02,807 INFO log_message(161) Stopped listening for input
+2016-04-12 00:42:11,507 INFO log_message(161) Started listening for input
+2016-04-12 00:42:15,266 INFO log_message(161) Received input "west"
+2016-04-12 00:42:15,268 INFO log_message(161) Input "west" matched rule <Rule: [(grab|copy|delete|select)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000118221E4940>
+2016-04-12 00:42:18,834 INFO log_message(161) Received input "copy east"
+2016-04-12 00:42:18,837 INFO log_message(161) Input "copy east" matched rule <Rule: (grab|copy|delete|select) (east|module|west|word|line) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x00000118221E4940>
+2016-04-12 00:43:48,037 INFO log_message(161) Stopped listening for input
+2016-04-12 00:43:49,050 INFO log_message(161) Started listening for input
+2016-04-12 00:43:53,407 INFO log_message(161) Received input "copy east"
+2016-04-12 00:43:53,408 INFO log_message(161) Input "copy east" matched rule <Rule: [(delete|select|copy|grab)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F5AD5B49B0>
+2016-04-12 00:44:02,310 INFO log_message(161) Received input "paste"
+2016-04-12 00:44:02,313 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001F5AD597828>
+2016-04-12 00:44:04,746 INFO log_message(161) Received input "undo"
+2016-04-12 00:44:04,749 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001F5AD5A0198>
+2016-04-12 00:44:07,247 INFO log_message(161) Received input "copy west"
+2016-04-12 00:44:07,249 INFO log_message(161) Input "copy west" matched rule <Rule: [(delete|select|copy|grab)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F5AD5B49B0>
+2016-04-12 00:44:09,376 INFO log_message(161) Received input "paste"
+2016-04-12 00:44:09,379 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001F5AD597828>
+2016-04-12 00:44:11,374 INFO log_message(161) Received input "undo"
+2016-04-12 00:44:11,376 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001F5AD5A0198>
+2016-04-12 00:44:17,994 INFO log_message(161) Received input "east left"
+2016-04-12 00:44:17,996 INFO log_message(161) Input "east" matched rule <Rule: [(delete|select|copy|grab)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F5AD5B49B0>
+2016-04-12 00:44:18,002 INFO log_message(161) Input "left" matched rule <Rule: [(delete|select|copy|grab)] (up|down|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F5AD5B49B0>
+2016-04-12 00:44:22,686 INFO log_message(161) Received input "grab"
+2016-04-12 00:44:23,436 INFO log_message(161) Received input "west"
+2016-04-12 00:44:23,438 INFO log_message(161) Input "west" matched rule <Rule: [(delete|select|copy|grab)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F5AD5B49B0>
+2016-04-12 00:44:25,685 INFO log_message(161) Received input "undo"
+2016-04-12 00:44:25,688 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001F5AD5A0198>
+2016-04-12 00:44:28,123 INFO log_message(161) Received input "grab west"
+2016-04-12 00:44:28,125 INFO log_message(161) Input "grab west" matched rule <Rule: [(delete|select|copy|grab)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001F5AD5B49B0>
+2016-04-12 00:44:30,808 INFO log_message(161) Received input "undo"
+2016-04-12 00:44:30,812 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001F5AD5A0198>
+2016-04-12 00:44:38,469 INFO log_message(161) Stopped listening for input
