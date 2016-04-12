@@ -16,8 +16,8 @@ class DumboBaseGrammar(grammarbase.GrammarBase):
         'echo': 'e',
         'foxtrot': 'f',
         'golf': 'g',
-        'india': 'h',
-        'hotel': 'i',
+        'india': 'i',
+        'hotel': 'h',
         'juliet': 'j',
         'kilo': 'k',
         'lima': 'l',
@@ -38,10 +38,10 @@ class DumboBaseGrammar(grammarbase.GrammarBase):
     }
 
     _other_chars = {
-        "late": "(",
-        "rye": ")",
-        "lace": "{",
-        "race": "}",
+        "frog": "(",
+        "toad": ")",
+        "lace": "{{",
+        "race": "}}",
         "lack": "[",
         "rack": "]",
         "dash": "-",
@@ -97,7 +97,7 @@ class DumboBaseGrammar(grammarbase.GrammarBase):
         return int(num_str) if num_str else default
 
     def space(self, text, start=True, end=True):
-        start = self._shortcuts['startConditionalSpace'] if start else ''
+        start = self._shortcuts['beginningConditionalSpace'] if start else ''
         end = self._shortcuts['endConditionalSpace'] if end else ''
         return '{}{}{}'.format(start, text, end)
 

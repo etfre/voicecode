@@ -98,10 +98,9 @@ def get_matching_windows(title_list):
 
 def activate_window(title):
     matches = get_matching_windows(title)
-    if matches:
-        for key in sorted(matches, key=len):
-            ct.windll.user32.SetForegroundWindow(matches[key])
-            return
+    for key in sorted(matches, key=len):
+        ct.windll.user32.SetForegroundWindow(matches[key])
+        return
 
 def get_mouse_location():
     pt = winconstants.POINT()

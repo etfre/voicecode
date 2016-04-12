@@ -9,6 +9,9 @@ class AtomBaseGrammar(DumboBaseGrammar):
         'right': '{ctrl+alt+shift+right}',
         'down': '{ctrl+alt+shift+down}',
         'left': '{ctrl+alt+shift+left}',
+        'clearSelect': '{ctrl+alt+3}',
+        'previousTab': '{ctrl+alt+4}',
+        'nextTab': '{ctrl+alt+5}',
 
     }
     def __init__(self):

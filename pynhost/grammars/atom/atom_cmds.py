@@ -7,7 +7,9 @@ class AtomCommandsGrammar(AtomBaseGrammar):
         self.dict_file = 'atomcmds.json'
         self.mapping = {
             'line <num> <1->': self.go_to_line,
-            'halt': self.space(',', start=False)
+            'halt': self.space(',', start=False),
+            'new scope': self.space('{{}}{left}{enter}{tab}', end=False)
+
         }
         self.load_command('join lines')
         self.load_command('toggle comment'),
@@ -17,6 +19,11 @@ class AtomCommandsGrammar(AtomBaseGrammar):
         self.load_command('climb'),
         self.load_command('save file'),
         self.load_numbered_command('undo'),
+        self.load_numbered_command('duplicate line'),
+        self.load_numbered_command('flip down'),
+        self.load_numbered_command('flip up'),
+        self.load_numbered_command('buffer left'),
+        self.load_numbered_command('buffer right'),
         self.load_numbered_command('snipe') # backspace
         self.load_numbered_command('indent') # backspace
         self.load_numbered_command('outdent') # backspace

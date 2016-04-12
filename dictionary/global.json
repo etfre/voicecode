@@ -6,7 +6,15 @@
     "Commands": {
         "activate atom": "",
         "activate firefox": "",
-        "activate command": ""
+        "activate command": "",
+        "escape": "{escape}",
+        "inside": "",
+        "outside": "",
+        "par": "()",
+        "braces": "{}",
+        "brackets": "[]",
+        "chevrons": "<>"
+
     },
 
     "NumberedCommands": {

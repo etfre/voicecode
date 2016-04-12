@@ -32,10 +32,21 @@ class AtomDictationGrammar(AtomBaseGrammar):
             'module': '{ctrl+a}',
         }
 
+        self.surround_limits = {
+            'par': '()',
+            'braces': '{}',
+            'brackets': '[]',
+            'chevrons': '<>',
+            'single': "''",
+            'double': '""',
+        }
+
         self.mapping = {
             '[{}] {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.numbered_directions)): self.numbered_action,
             '[{}] {} {} <1-> [<num>]'.format(self.cmb(self._actions), self.cmb(self.limits), self.cmb(self.all_chars)): self.scan,
             '{} {} [<num>]'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
+            '[{}] (inside|outside) {}'.format(self.cmb(self._actions), self.cmb(self.surround_limits)): self.surround_action,
+
         }
 
     def numbered_action(self, words):
@@ -52,8 +63,15 @@ class AtomDictationGrammar(AtomBaseGrammar):
         num = self._num(words)
         text_obj = self.text_objects[' '.join(words[1:])]
         action = self._actions[words[0]][0]
-        for i in range(num):
-            api.send_string(text_obj + action)
+        cleanup = '' if words[0] != 'copy' else self._shortcuts['clearSelect']
+        command = (text_obj + action + cleanup) * num
+        api.send_string(command)
+
+    def surround_action(self, words):
+        action_letter = self._actions.get(words[0], '_s')[1]
+        command = '{}s{}{}1'.format(action_letter, self.surround_limits[words[-1]], words[-2][0])
+        print(command)
+        self.do_command(command)
 
     def scan(self, words):
         count = str(self._num(words))

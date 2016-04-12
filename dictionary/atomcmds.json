@@ -19,7 +19,8 @@
         "halt": "",
         "module": "",
         "drop": "{ctrl+enter}",
-        "climb": "{ctrl+shift+enter}"
+        "climb": "{ctrl+shift+enter}",
+        "new scope": ""
     },
 
     "NumberedCommands": {
@@ -31,7 +32,13 @@
         "line": "",
         "word": "",
         "indent": "{ctrl+]}",
-        "outdent": "{ctrl+[}"
+        "outdent": "{ctrl+[}",
+        "buffer left": "{ctrl+alt+4}",
+        "buffer right": "{ctrl+alt+5}",
+        "duplicate line": "{ctrl+shift+d}",
+        "flip down": "{ctrl+down}",
+        "flip up": "{ctrl+up}"
+
     }
 
 }

@@ -36,7 +36,9 @@ class PythonKeywordsGrammar(AtomBaseGrammar):
         self.load_literal('os')
         self.load_literal('time')
         self.load_literal('dunder')
-
+        self.load_command('for loop')
+        self.load_command('for enumerate')
+        self.load_command('print')
 
     def load_literal(self, text):
         self.load_command('crunk {}'.format(text))
