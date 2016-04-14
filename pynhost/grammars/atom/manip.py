@@ -9,9 +9,9 @@ class AtomDictationGrammar(AtomBaseGrammar):
         self.app_context = 'Atom'
 
         self._actions = {
-            'delete': ('{delete}', 'k'),
+            'delete': ('{delete}', 'd'),
             'copy': ('{ctrl+c}', 'y'),
-            'grab': ('{ctrl+x}', 'd'),
+            'grab': ('{ctrl+x}', 'c'),
             'select': ('', 's'),
         }
         self.numbered_directions = {

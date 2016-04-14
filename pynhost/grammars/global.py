@@ -13,6 +13,7 @@ class CommandPromptGrammar(DumboBaseGrammar):
         self.load_numbered_command('enter')
         self.load_command('escape')
         self.load_numbered_command('snipe')
+        self.load_numbered_command('bell') #delete
         self.load_numbered_command('tab')
         self.load_numbered_command('paste')
 

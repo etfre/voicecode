@@ -7,6 +7,8 @@
         "activate atom": "",
         "activate firefox": "",
         "activate command": "",
+        "activate shell": "",
+        "activate sexy": "",
         "escape": "{escape}",
         "inside": "",
         "outside": "",
@@ -20,6 +22,7 @@
     "NumberedCommands": {
         "enter": "{enter}",
         "snipe": "{backspace}",
+        "bell": "{delete}",
         "tab": "{tab}",
         "paste": "{ctrl+v}",
         "num": ""

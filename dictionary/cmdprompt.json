@@ -5,12 +5,12 @@
 
     "Commands": {
         "django restart server": "",
-        "activate firefox": "",
-        "activate command": ""
+        "django run server": "",
+        "launch atom": ""
     },
 
     "NumberedCommands": {
-
+        "climb": "",
     }
 
 }

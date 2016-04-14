@@ -6,9 +6,11 @@ class CommandPromptGrammar(DumboBaseGrammar):
 
     def __init__(self):
         super().__init__()
-        self.app_context = 'Command Prompt'
+        self.app_context = 'command'
         self.mapping = {
-            'django restart server': self.restart_server
+            'django restart server': self.restart_server,
+            'django run server': 'python manage.py runserver{enter}',
+            "launch atom": "atom .{enter}",
         }
 
     def restart_server(self, words):

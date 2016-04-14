@@ -55,6 +55,7 @@ class DumboBaseGrammar(grammarbase.GrammarBase):
         "colon": ":",
         "wave": "",
         "comma": ",",
+        "beer": ".",
         "space": " ",
         "percent": "%",
         "single": "'",
@@ -107,6 +108,11 @@ class DumboBaseGrammar(grammarbase.GrammarBase):
     def load_numbered_command(self, text):
         rule = '{} <num> <0->'.format(text)
         self.mapping[rule] = self.num_cmd_func
+
+    def load_all_commands(self):
+        for cmd, text in self.command.items():
+            if text:
+                self.load_command(cmd)
 
     def num_cmd_func(self, words):
         count = self._num(words)

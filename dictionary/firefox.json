@@ -1,0 +1,13 @@
+{
+    "Scopes": {
+
+    },
+
+    "Commands": {
+        "refresh": "{f5}"
+    },
+
+    "NumberedCommands": {
+    }
+
+}
