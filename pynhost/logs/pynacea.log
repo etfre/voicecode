@@ -5823,3 +5823,436 @@ KeyError: 'new file'
 2016-04-13 23:36:02,336 INFO log_message(161) Received input "space"
 2016-04-13 23:36:02,337 INFO log_message(161) Input "space" matched rule <Rule: (colon|dash|star|semicolon|lace|single|space|lack|rack|toad|beer|race|greater|plus|wave|eke|lesser|comma|percent|double|bar|frog)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000183936E2630>
 2016-04-13 23:36:27,807 INFO log_message(161) Stopped listening for input
+2016-04-13 23:37:29,792 INFO log_message(161) Started listening for input
+2016-04-13 23:37:38,390 INFO log_message(161) Received input "space"
+2016-04-13 23:37:38,391 INFO log_message(161) Input "space" matched rule <Rule: (wave|toad|lesser|colon|star|rack|lack|double|lace|space|plus|bar|eke|comma|frog|race|percent|dash|single|greater|beer|semicolon)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000164ECFE5630>
+2016-04-13 23:37:52,451 INFO log_message(161) Received input "space"
+2016-04-13 23:37:52,452 INFO log_message(161) Input "space" matched rule <Rule: (wave|toad|lesser|colon|star|rack|lack|double|lace|space|plus|bar|eke|comma|frog|race|percent|dash|single|greater|beer|semicolon)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000164ECFE5630>
+2016-04-13 23:38:07,560 INFO log_message(161) Received input "space"
+2016-04-13 23:38:07,560 INFO log_message(161) Input "space" matched rule <Rule: (wave|toad|lesser|colon|star|rack|lack|double|lace|space|plus|bar|eke|comma|frog|race|percent|dash|single|greater|beer|semicolon)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000164ECFE5630>
+2016-04-13 23:38:38,244 INFO log_message(161) Received input "paste"
+2016-04-13 23:38:38,245 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x00000164ED006DD8>
+2016-04-13 23:38:40,557 INFO log_message(161) Received input "right"
+2016-04-13 23:38:43,373 INFO log_message(161) Received input "space"
+2016-04-13 23:38:43,376 INFO log_message(161) Input "space" matched rule <Rule: (wave|toad|lesser|colon|star|rack|lack|double|lace|space|plus|bar|eke|comma|frog|race|percent|dash|single|greater|beer|semicolon)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x00000164ECFE5630>
+2016-04-13 23:39:12,010 INFO log_message(161) Received input "right"
+2016-04-13 23:48:18,933 INFO log_message(161) Stopped listening for input
+2016-04-14 21:17:31,027 INFO log_message(161) Started listening for input
+2016-04-14 21:19:33,060 INFO log_message(161) Received input "launch atom"
+2016-04-14 21:19:33,062 INFO log_message(161) Input "launch atom" matched rule <Rule: launch atom> in grammar <pynhost.grammars.cmdprompt.CommandPromptGrammar object at 0x0000023832730668>
+2016-04-14 21:19:52,941 INFO log_message(161) Received input "close buffer"
+2016-04-14 21:19:52,949 INFO log_message(161) Input "close buffer" matched rule <Rule: close buffer> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000023832747160>
+2016-04-14 21:19:55,378 INFO log_message(161) Received input "close buffer close buffer"
+2016-04-14 21:19:55,379 INFO log_message(161) Input "close buffer" matched rule <Rule: close buffer> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000023832747160>
+2016-04-14 21:19:55,380 INFO log_message(161) Input "close buffer" matched rule <Rule: close buffer> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000023832747160>
+2016-04-14 21:20:04,627 INFO log_message(161) Received input "tree focus"
+2016-04-14 21:20:04,629 INFO log_message(161) Input "tree focus" matched rule <Rule: tree focus> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x00000238327557B8>
+2016-04-14 21:20:07,689 INFO log_message(161) Received input "tree down 4"
+2016-04-14 21:20:07,690 INFO log_message(161) Input "tree down 4" matched rule <Rule: tree down <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x00000238327557B8>
+2016-04-14 21:21:08,938 INFO log_message(161) Received input "enter"
+2016-04-14 21:21:08,939 INFO log_message(161) Input "enter" matched rule <Rule: enter <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x0000023832736D30>
+2016-04-14 21:21:41,868 INFO log_message(161) Stopped listening for input
+2016-04-14 22:22:37,756 INFO log_message(161) Started listening for input
+2016-04-14 22:22:40,794 INFO log_message(161) Received input "activate sexy"
+2016-04-14 22:22:40,795 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BC4A380128>
+2016-04-14 22:22:50,504 INFO log_message(161) Received input "activate shell"
+2016-04-14 22:22:50,506 INFO log_message(161) Input "activate shell" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BC4A380128>
+2016-04-14 22:22:53,815 INFO log_message(161) Received input "activate shell"
+2016-04-14 22:22:53,817 INFO log_message(161) Input "activate shell" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BC4A380128>
+2016-04-14 22:22:56,313 INFO log_message(161) Received input "activate shell"
+2016-04-14 22:22:56,314 INFO log_message(161) Input "activate shell" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BC4A380128>
+2016-04-14 22:23:06,129 INFO log_message(161) Received input "django run server"
+2016-04-14 22:23:06,129 INFO log_message(161) Input "django run server" matched rule <Rule: django run server> in grammar <pynhost.grammars.cmdprompt.CommandPromptGrammar object at 0x000001BC4A372EF0>
+2016-04-14 22:25:09,379 INFO log_message(161) Received input "activate sexy"
+2016-04-14 22:25:09,381 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BC4A380128>
+2016-04-14 22:25:17,310 INFO log_message(161) Received input "fuzzy"
+2016-04-14 22:25:17,311 INFO log_message(161) Input "fuzzy" matched rule <Rule: fuzzy> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BC4A397588>
+2016-04-14 22:25:20,873 INFO log_message(161) Received input "tango echo"
+2016-04-14 22:25:20,874 INFO log_message(161) Input "tango" matched rule <Rule: (oscar|hotel|charlie|bravo|juliet|romeo|lima|golf|x-ray|whiskey|victor|november|echo|zulu|alpha|quebec|india|mike|foxtrot|papa|kilo|delta|sierra|yankee|uniform|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:25:20,874 INFO log_message(161) Input "echo" matched rule <Rule: (oscar|hotel|charlie|bravo|juliet|romeo|lima|golf|x-ray|whiskey|victor|november|echo|zulu|alpha|quebec|india|mike|foxtrot|papa|kilo|delta|sierra|yankee|uniform|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:25:25,128 INFO log_message(161) Received input "mike"
+2016-04-14 22:25:25,130 INFO log_message(161) Input "mike" matched rule <Rule: (oscar|hotel|charlie|bravo|juliet|romeo|lima|golf|x-ray|whiskey|victor|november|echo|zulu|alpha|quebec|india|mike|foxtrot|papa|kilo|delta|sierra|yankee|uniform|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:25:31,692 INFO log_message(161) Received input "papa lima"
+2016-04-14 22:25:31,693 INFO log_message(161) Input "papa" matched rule <Rule: (oscar|hotel|charlie|bravo|juliet|romeo|lima|golf|x-ray|whiskey|victor|november|echo|zulu|alpha|quebec|india|mike|foxtrot|papa|kilo|delta|sierra|yankee|uniform|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:25:31,695 INFO log_message(161) Input "lima" matched rule <Rule: (oscar|hotel|charlie|bravo|juliet|romeo|lima|golf|x-ray|whiskey|victor|november|echo|zulu|alpha|quebec|india|mike|foxtrot|papa|kilo|delta|sierra|yankee|uniform|tango)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:25:37,254 INFO log_message(161) Received input "tree down 2"
+2016-04-14 22:25:37,255 INFO log_message(161) Input "tree down 2" matched rule <Rule: tree down <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x000001BC4A39FF60>
+2016-04-14 22:25:39,940 INFO log_message(161) Received input "enter"
+2016-04-14 22:25:39,942 INFO log_message(161) Input "enter" matched rule <Rule: enter <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001BC4A386D30>
+2016-04-14 22:25:52,692 INFO log_message(161) Received input "activate shell"
+2016-04-14 22:25:52,694 INFO log_message(161) Input "activate shell" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BC4A380128>
+2016-04-14 22:49:38,504 INFO log_message(161) Received input "space"
+2016-04-14 22:49:38,505 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:49:41,692 INFO log_message(161) Received input "space"
+2016-04-14 22:49:41,693 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:49:45,257 INFO log_message(161) Received input "space"
+2016-04-14 22:49:45,258 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:49:47,131 INFO log_message(161) Received input "space"
+2016-04-14 22:49:47,132 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:49:48,816 INFO log_message(161) Received input "space"
+2016-04-14 22:49:48,817 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:49:50,568 INFO log_message(161) Received input "space"
+2016-04-14 22:49:50,570 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:49:56,691 INFO log_message(161) Received input "space"
+2016-04-14 22:49:56,692 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:49:59,066 INFO log_message(161) Received input "space"
+2016-04-14 22:49:59,067 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:50:01,820 INFO log_message(161) Received input "space"
+2016-04-14 22:50:01,821 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:50:06,815 INFO log_message(161) Received input "space"
+2016-04-14 22:50:06,816 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:50:09,193 INFO log_message(161) Received input "space"
+2016-04-14 22:50:09,194 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:50:44,320 INFO log_message(161) Received input "space"
+2016-04-14 22:50:44,321 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:51:15,878 INFO log_message(161) Received input "space"
+2016-04-14 22:51:15,879 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:51:19,504 INFO log_message(161) Received input "space"
+2016-04-14 22:51:19,505 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:51:42,250 INFO log_message(161) Received input "space"
+2016-04-14 22:51:42,251 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:51:59,938 INFO log_message(161) Received input "space"
+2016-04-14 22:51:59,939 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:52:07,065 INFO log_message(161) Received input "space"
+2016-04-14 22:52:07,066 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:53:23,191 INFO log_message(161) Received input "space"
+2016-04-14 22:53:23,191 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:53:29,319 INFO log_message(161) Received input "space"
+2016-04-14 22:53:29,319 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:53:31,440 INFO log_message(161) Received input "space"
+2016-04-14 22:53:31,441 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:53:36,004 INFO log_message(161) Received input "space"
+2016-04-14 22:53:36,005 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:53:42,442 INFO log_message(161) Received input "space"
+2016-04-14 22:53:42,443 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:54:22,196 INFO log_message(161) Received input "space"
+2016-04-14 22:54:22,197 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:54:56,193 INFO log_message(161) Received input "space"
+2016-04-14 22:54:56,194 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:55:17,689 INFO log_message(161) Received input "space"
+2016-04-14 22:55:17,690 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:56:20,193 INFO log_message(161) Received input "space"
+2016-04-14 22:56:20,194 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:56:37,064 INFO log_message(161) Received input "space"
+2016-04-14 22:56:37,064 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:56:40,320 INFO log_message(161) Received input "space"
+2016-04-14 22:56:40,321 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:56:43,067 INFO log_message(161) Received input "space"
+2016-04-14 22:56:43,068 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:56:57,569 INFO log_message(161) Received input "space"
+2016-04-14 22:56:57,571 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:57:00,130 INFO log_message(161) Received input "space"
+2016-04-14 22:57:00,131 INFO log_message(161) Input "space" matched rule <Rule: (space|plus|star|double|race|beer|single|toad|lack|dash|percent|bar|lesser|greater|semicolon|rack|eke|comma|wave|frog|colon|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001BC4A362550>
+2016-04-14 22:57:33,751 INFO log_message(161) Received input "activate sexy"
+2016-04-14 22:57:33,751 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001BC4A380128>
+2016-04-14 22:57:46,003 INFO log_message(161) Received input "tree focus"
+2016-04-14 22:57:46,004 INFO log_message(161) Input "tree focus" matched rule <Rule: tree focus> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x000001BC4A39FF60>
+2016-04-14 22:57:48,819 INFO log_message(161) Received input "tree down 1 0"
+2016-04-14 22:57:48,821 INFO log_message(161) Input "tree down 1 0" matched rule <Rule: tree down <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x000001BC4A39FF60>
+2016-04-14 22:57:50,876 INFO log_message(161) Received input "tree up 2"
+2016-04-14 22:57:50,877 INFO log_message(161) Input "tree up 2" matched rule <Rule: tree up <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x000001BC4A39FF60>
+2016-04-14 22:57:53,379 INFO log_message(161) Received input "enter"
+2016-04-14 22:57:53,381 INFO log_message(161) Input "enter" matched rule <Rule: enter <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001BC4A386D30>
+2016-04-14 22:57:58,628 INFO log_message(161) Received input "line 5 0"
+2016-04-14 22:57:58,630 INFO log_message(161) Input "line 5 0" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BC4A397588>
+2016-04-14 22:58:09,192 INFO log_message(161) Received input "tree focus"
+2016-04-14 22:58:09,193 INFO log_message(161) Input "tree focus" matched rule <Rule: tree focus> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x000001BC4A39FF60>
+2016-04-14 22:58:10,379 INFO log_message(161) Received input "tree up 3"
+2016-04-14 22:58:10,381 INFO log_message(161) Input "tree up 3" matched rule <Rule: tree up <num> <0->> in grammar <pynhost.grammars.atom.treeview.TreeViewGrammar object at 0x000001BC4A39FF60>
+2016-04-14 22:58:11,561 INFO log_message(161) Received input "enter"
+2016-04-14 22:58:11,562 INFO log_message(161) Input "enter" matched rule <Rule: enter <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001BC4A386D30>
+2016-04-14 22:58:18,130 INFO log_message(161) Received input "line 6 0"
+2016-04-14 22:58:18,133 INFO log_message(161) Input "line 6 0" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BC4A397588>
+2016-04-14 22:58:25,439 INFO log_message(161) Received input "line 3 6"
+2016-04-14 22:58:25,440 INFO log_message(161) Input "line 3 6" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BC4A397588>
+2016-04-14 22:58:27,749 INFO log_message(161) Received input "climb"
+2016-04-14 22:58:27,750 INFO log_message(161) Input "climb" matched rule <Rule: climb> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BC4A397588>
+2016-04-14 22:58:34,756 INFO log_message(161) Received input "right"
+2016-04-14 22:58:34,757 INFO log_message(161) Input "right" matched rule <Rule: [(copy|select|delete|grab)] (up|down|left|right) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001BC4A3AFF60>
+2016-04-14 22:58:37,190 INFO log_message(161) Received input "undo"
+2016-04-14 22:58:37,192 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BC4A397588>
+2016-04-14 22:58:39,505 INFO log_message(161) Received input "climb"
+2016-04-14 22:58:39,507 INFO log_message(161) Input "climb" matched rule <Rule: climb> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001BC4A397588>
+2016-04-14 22:58:56,857 INFO log_message(161) Stopped listening for input
+2016-04-14 22:59:00,218 INFO log_message(161) Started listening for input
+2016-04-14 22:59:17,792 INFO log_message(161) Stopped listening for input
+2016-04-14 23:00:02,309 INFO log_message(161) Started listening for input
+2016-04-14 23:00:05,710 INFO log_message(161) Received input "new function"
+2016-04-14 23:00:05,711 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001F7A90E6DD8>
+2016-04-14 23:00:09,987 INFO log_message(161) Received input "print"
+2016-04-14 23:00:09,993 INFO log_message(161) Input "print" matched rule <Rule: print> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001F7A90E6DD8>
+2016-04-14 23:00:15,946 INFO log_message(161) Stopped listening for input
+2016-04-14 23:00:18,288 INFO log_message(161) Started listening for input
+2016-04-14 23:00:21,640 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:00:21,642 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x0000026A2B1F1208>
+2016-04-14 23:00:29,095 INFO log_message(161) Received input "new function"
+2016-04-14 23:00:29,097 INFO log_message(161) Input "new function" matched rule <Rule: new function> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000026A2B22EC88>
+2016-04-14 23:00:31,659 INFO log_message(161) Received input "undo"
+2016-04-14 23:00:31,662 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000026A2B208278>
+2016-04-14 23:00:33,409 INFO log_message(161) Received input "undo"
+2016-04-14 23:00:33,412 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000026A2B208278>
+2016-04-14 23:00:34,847 INFO log_message(161) Received input "print"
+2016-04-14 23:00:34,852 INFO log_message(161) Input "print" matched rule <Rule: print> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000026A2B22EC88>
+2016-04-14 23:00:39,546 INFO log_message(161) Received input "undo undo"
+2016-04-14 23:00:39,550 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000026A2B208278>
+2016-04-14 23:00:39,561 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000026A2B208278>
+2016-04-14 23:00:45,910 INFO log_message(161) Received input "print"
+2016-04-14 23:00:45,913 INFO log_message(161) Input "print" matched rule <Rule: print> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x0000026A2B22EC88>
+2016-04-14 23:00:47,972 INFO log_message(161) Received input "undo"
+2016-04-14 23:00:47,975 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000026A2B208278>
+2016-04-14 23:00:49,410 INFO log_message(161) Received input "undo"
+2016-04-14 23:00:49,414 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x0000026A2B208278>
+2016-04-14 23:01:06,490 INFO log_message(161) Stopped listening for input
+2016-04-14 23:01:57,077 INFO log_message(161) Started listening for input
+2016-04-14 23:02:01,434 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:02:01,435 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001CFB5911208>
+2016-04-14 23:02:04,254 INFO log_message(161) Received input "speak"
+2016-04-14 23:02:04,257 INFO log_message(161) Input "speak" matched rule <Rule: speak> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001CFB5946DD8>
+2016-04-14 23:02:17,195 INFO log_message(161) Received input "sierra echo"
+2016-04-14 23:02:17,200 INFO log_message(161) Input "sierra" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:02:17,213 INFO log_message(161) Input "echo" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:02:18,627 INFO log_message(161) Received input "lima frog"
+2016-04-14 23:02:18,629 INFO log_message(161) Input "lima" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:02:18,639 INFO log_message(161) Input "frog" matched rule <Rule: (dash|lack|rack|lace|comma|single|space|colon|percent|plus|lesser|race|star|wave|toad|beer|frog|eke|semicolon|bar|greater|double)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:02:22,811 INFO log_message(161) Received input "snipe foxtrot"
+2016-04-14 23:02:22,812 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001CFB5916CC0>
+2016-04-14 23:02:22,814 INFO log_message(161) Input "foxtrot" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:02:30,126 INFO log_message(161) Received input "speak"
+2016-04-14 23:02:30,130 INFO log_message(161) Input "speak" matched rule <Rule: speak> in grammar <pynhost.grammars.atom.python.keywords.PythonKeywordsGrammar object at 0x000001CFB5946DD8>
+2016-04-14 23:02:32,442 INFO log_message(161) Received input "undo"
+2016-04-14 23:02:32,447 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001CFB5928048>
+2016-04-14 23:02:34,128 INFO log_message(161) Received input "undo"
+2016-04-14 23:02:34,131 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001CFB5928048>
+2016-04-14 23:02:43,127 INFO log_message(161) Received input "bell"
+2016-04-14 23:02:43,130 INFO log_message(161) Input "bell" matched rule <Rule: bell <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001CFB5916CC0>
+2016-04-14 23:02:45,002 INFO log_message(161) Received input "undo"
+2016-04-14 23:02:45,006 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001CFB5928048>
+2016-04-14 23:03:18,063 INFO log_message(161) Received input "beer"
+2016-04-14 23:03:18,066 INFO log_message(161) Input "beer" matched rule <Rule: (dash|lack|rack|lace|comma|single|space|colon|percent|plus|lesser|race|star|wave|toad|beer|frog|eke|semicolon|bar|greater|double)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:03:27,131 INFO log_message(161) Received input "uniform 8"
+2016-04-14 23:03:27,135 INFO log_message(161) Input "uniform" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:03:28,004 INFO log_message(161) Received input "lima"
+2016-04-14 23:03:28,007 INFO log_message(161) Input "lima" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:03:29,064 INFO log_message(161) Received input "oscar"
+2016-04-14 23:03:29,066 INFO log_message(161) Input "oscar" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:03:30,939 INFO log_message(161) Received input "alpha"
+2016-04-14 23:03:30,943 INFO log_message(161) Input "alpha" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:03:31,941 INFO log_message(161) Received input "delta"
+2016-04-14 23:03:31,945 INFO log_message(161) Input "delta" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:03:40,383 INFO log_message(161) Received input "left 4 snipe papa"
+2016-04-14 23:03:40,386 INFO log_message(161) Input "left 4" matched rule <Rule: [(copy|grab|delete|select)] (right|down|up|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001CFB5940FD0>
+2016-04-14 23:03:40,396 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001CFB5916CC0>
+2016-04-14 23:03:40,405 INFO log_message(161) Input "papa" matched rule <Rule: (echo|bravo|quebec|hotel|alpha|kilo|sierra|juliet|oscar|romeo|india|delta|mike|tango|golf|x-ray|zulu|lima|foxtrot|whiskey|uniform|november|charlie|papa|victor|yankee)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001CFB5911710>
+2016-04-14 23:03:47,877 INFO log_message(161) Received input "activate shell"
+2016-04-14 23:03:47,881 INFO log_message(161) Input "activate shell" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001CFB5911208>
+2016-04-14 23:03:56,191 INFO log_message(161) Received input "django restart server"
+2016-04-14 23:03:56,194 INFO log_message(161) Input "django restart server" matched rule <Rule: django restart server> in grammar <pynhost.grammars.cmdprompt.CommandPromptGrammar object at 0x000001CFB59119B0>
+2016-04-14 23:04:01,877 INFO log_message(161) Received input "activate firefox"
+2016-04-14 23:04:01,878 INFO log_message(161) Input "activate firefox" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001CFB5911208>
+2016-04-14 23:04:03,880 INFO log_message(161) Received input "refresh"
+2016-04-14 23:04:03,883 INFO log_message(161) Input "refresh" matched rule <Rule: refresh> in grammar <pynhost.grammars.firefox.FirefoxGrammar object at 0x000001CFB5916BE0>
+2016-04-14 23:04:06,689 INFO log_message(161) Received input "refresh"
+2016-04-14 23:04:06,690 INFO log_message(161) Input "refresh" matched rule <Rule: refresh> in grammar <pynhost.grammars.firefox.FirefoxGrammar object at 0x000001CFB5916BE0>
+2016-04-14 23:04:09,504 INFO log_message(161) Received input "activate shell"
+2016-04-14 23:04:09,507 INFO log_message(161) Input "activate shell" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001CFB5911208>
+2016-04-14 23:07:06,371 INFO log_message(161) Stopped listening for input
+2016-04-14 23:07:07,501 INFO log_message(161) Started listening for input
+2016-04-14 23:07:41,709 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:07:41,711 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:07:44,296 INFO log_message(161) Received input "lack"
+2016-04-14 23:07:44,297 INFO log_message(161) Input "lack" matched rule <Rule: (colon|semicolon|rack|star|frog|greater|double|space|dash|bar|wave|lack|eke|single|lesser|toad|percent|race|beer|comma|plus|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:08:06,111 INFO log_message(161) Received input "up right"
+2016-04-14 23:08:06,112 INFO log_message(161) Input "up" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:06,117 INFO log_message(161) Input "right" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:08,051 INFO log_message(161) Received input "right"
+2016-04-14 23:08:08,052 INFO log_message(161) Input "right" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:12,236 INFO log_message(161) Received input "delete word"
+2016-04-14 23:08:12,239 INFO log_message(161) Input "delete word" matched rule <Rule: (copy|select|grab|delete) (west|line|east|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:18,110 INFO log_message(161) Received input "down copy word up paste"
+2016-04-14 23:08:18,112 INFO log_message(161) Input "down" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:18,115 INFO log_message(161) Input "copy word" matched rule <Rule: (copy|select|grab|delete) (west|line|east|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:18,120 INFO log_message(161) Input "up" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:18,124 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:08:20,297 INFO log_message(161) Received input "undo"
+2016-04-14 23:08:20,299 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:08:22,798 INFO log_message(161) Received input "down"
+2016-04-14 23:08:22,799 INFO log_message(161) Input "down" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:24,547 INFO log_message(161) Received input "copy word"
+2016-04-14 23:08:24,549 INFO log_message(161) Input "copy word" matched rule <Rule: (copy|select|grab|delete) (west|line|east|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:27,546 INFO log_message(161) Received input "up west"
+2016-04-14 23:08:27,546 INFO log_message(161) Input "up" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:27,551 INFO log_message(161) Input "west" matched rule <Rule: [(copy|select|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:28,985 INFO log_message(161) Received input "paste"
+2016-04-14 23:08:28,987 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:08:31,109 INFO log_message(161) Received input "undo"
+2016-04-14 23:08:31,110 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:08:32,983 INFO log_message(161) Received input "down"
+2016-04-14 23:08:32,984 INFO log_message(161) Input "down" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:34,922 INFO log_message(161) Received input "select word"
+2016-04-14 23:08:34,923 INFO log_message(161) Input "select word" matched rule <Rule: (copy|select|grab|delete) (west|line|east|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:36,671 INFO log_message(161) Received input "copy"
+2016-04-14 23:08:38,608 INFO log_message(161) Received input "undo"
+2016-04-14 23:08:38,609 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:08:44,486 INFO log_message(161) Received input "clear select"
+2016-04-14 23:08:44,488 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:08:46,548 INFO log_message(161) Received input "up"
+2016-04-14 23:08:46,550 INFO log_message(161) Input "up" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:51,739 INFO log_message(161) Received input "left"
+2016-04-14 23:08:51,741 INFO log_message(161) Input "left" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:53,735 INFO log_message(161) Received input "west"
+2016-04-14 23:08:53,736 INFO log_message(161) Input "west" matched rule <Rule: [(copy|select|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:08:55,609 INFO log_message(161) Received input "paste"
+2016-04-14 23:08:55,611 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:08:57,670 INFO log_message(161) Received input "space"
+2016-04-14 23:08:57,671 INFO log_message(161) Input "space" matched rule <Rule: (colon|semicolon|rack|star|frog|greater|double|space|dash|bar|wave|lack|eke|single|lesser|toad|percent|race|beer|comma|plus|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:09:01,734 INFO log_message(161) Received input "bell"
+2016-04-14 23:09:01,736 INFO log_message(161) Input "bell" matched rule <Rule: bell <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:09:05,737 INFO log_message(161) Received input "east"
+2016-04-14 23:09:05,739 INFO log_message(161) Input "east" matched rule <Rule: [(copy|select|grab|delete)] (west|east)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:09:06,608 INFO log_message(161) Received input "snipe"
+2016-04-14 23:09:06,610 INFO log_message(161) Input "snipe" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:09:17,000 INFO log_message(161) Received input "activate firefox"
+2016-04-14 23:09:17,004 INFO log_message(161) Input "activate firefox" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:09:19,737 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:09:19,739 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:09:22,420 INFO log_message(161) Received input "save buffer"
+2016-04-14 23:09:22,421 INFO log_message(161) Input "save buffer" matched rule <Rule: save buffer> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:09:25,118 INFO log_message(161) Received input "activate firefox"
+2016-04-14 23:09:25,123 INFO log_message(161) Input "activate firefox" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:09:26,739 INFO log_message(161) Received input "refresh"
+2016-04-14 23:09:26,742 INFO log_message(161) Input "refresh" matched rule <Rule: refresh> in grammar <pynhost.grammars.firefox.FirefoxGrammar object at 0x000001A47FA16C50>
+2016-04-14 23:09:54,674 INFO log_message(161) Received input "refresh"
+2016-04-14 23:09:54,675 INFO log_message(161) Input "refresh" matched rule <Rule: refresh> in grammar <pynhost.grammars.firefox.FirefoxGrammar object at 0x000001A47FA16C50>
+2016-04-14 23:11:45,986 INFO log_message(161) Received input "left 0 tango romeo"
+2016-04-14 23:11:45,987 INFO log_message(161) Input "left 0" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:11:45,991 INFO log_message(161) Input "tango" matched rule <Rule: (juliet|bravo|foxtrot|zulu|oscar|november|tango|yankee|india|echo|hotel|alpha|whiskey|x-ray|lima|charlie|mike|kilo|golf|uniform|delta|quebec|sierra|papa|victor|romeo)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:11:45,998 INFO log_message(161) Input "romeo" matched rule <Rule: (juliet|bravo|foxtrot|zulu|oscar|november|tango|yankee|india|echo|hotel|alpha|whiskey|x-ray|lima|charlie|mike|kilo|golf|uniform|delta|quebec|sierra|papa|victor|romeo)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:11:50,492 INFO log_message(161) Received input "snipe 2 left sierra tango"
+2016-04-14 23:11:50,496 INFO log_message(161) Input "snipe 2" matched rule <Rule: snipe <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:11:50,504 INFO log_message(161) Input "left" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:11:50,514 INFO log_message(161) Input "sierra" matched rule <Rule: (juliet|bravo|foxtrot|zulu|oscar|november|tango|yankee|india|echo|hotel|alpha|whiskey|x-ray|lima|charlie|mike|kilo|golf|uniform|delta|quebec|sierra|papa|victor|romeo)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:11:50,533 INFO log_message(161) Input "tango" matched rule <Rule: (juliet|bravo|foxtrot|zulu|oscar|november|tango|yankee|india|echo|hotel|alpha|whiskey|x-ray|lima|charlie|mike|kilo|golf|uniform|delta|quebec|sierra|papa|victor|romeo)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:11:52,489 INFO log_message(161) Received input "romeo"
+2016-04-14 23:11:52,491 INFO log_message(161) Input "romeo" matched rule <Rule: (juliet|bravo|foxtrot|zulu|oscar|november|tango|yankee|india|echo|hotel|alpha|whiskey|x-ray|lima|charlie|mike|kilo|golf|uniform|delta|quebec|sierra|papa|victor|romeo)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:11:54,053 INFO log_message(161) Received input "save buffer"
+2016-04-14 23:11:54,056 INFO log_message(161) Input "save buffer" matched rule <Rule: save buffer> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:11:56,990 INFO log_message(161) Received input "activate shell"
+2016-04-14 23:11:56,993 INFO log_message(161) Input "activate shell" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:12:01,236 INFO log_message(161) Received input "django restart server"
+2016-04-14 23:12:01,237 INFO log_message(161) Input "django restart server" matched rule <Rule: django restart server> in grammar <pynhost.grammars.cmdprompt.CommandPromptGrammar object at 0x000001A47FA11978>
+2016-04-14 23:12:08,614 INFO log_message(161) Received input "activate firefox"
+2016-04-14 23:12:08,616 INFO log_message(161) Input "activate firefox" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:12:10,243 INFO log_message(161) Received input "refresh"
+2016-04-14 23:12:10,245 INFO log_message(161) Input "refresh" matched rule <Rule: refresh> in grammar <pynhost.grammars.firefox.FirefoxGrammar object at 0x000001A47FA16C50>
+2016-04-14 23:14:22,427 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:14:22,430 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:16:56,742 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:16:56,745 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:17:36,430 INFO log_message(161) Received input "buffer left 2"
+2016-04-14 23:17:36,434 INFO log_message(161) Input "buffer left 2" matched rule <Rule: buffer left <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:17:47,303 INFO log_message(161) Received input "right 1 5"
+2016-04-14 23:17:47,305 INFO log_message(161) Input "right 1 5" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:17:51,679 INFO log_message(161) Received input "inside double"
+2016-04-14 23:17:51,680 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:17:54,803 INFO log_message(161) Received input "inside double"
+2016-04-14 23:17:54,805 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:18:31,736 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:18:31,737 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:18:43,612 INFO log_message(161) Received input "line 1 0"
+2016-04-14 23:18:43,614 INFO log_message(161) Input "line 1 0" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:18:46,555 INFO log_message(161) Received input "right 1 5"
+2016-04-14 23:18:46,558 INFO log_message(161) Input "right 1 5" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:18:47,985 INFO log_message(161) Received input "left 4"
+2016-04-14 23:18:47,986 INFO log_message(161) Input "left 4" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:18:51,243 INFO log_message(161) Received input "inside par"
+2016-04-14 23:18:51,246 INFO log_message(161) Input "inside par" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:18:53,796 INFO log_message(161) Received input "clear select"
+2016-04-14 23:18:53,797 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:19:47,109 INFO log_message(161) Received input "line 5 0"
+2016-04-14 23:19:47,111 INFO log_message(161) Input "line 5 0" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:20:10,364 INFO log_message(161) Received input "line 4 4"
+2016-04-14 23:20:10,368 INFO log_message(161) Input "line 4 4" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:20:16,804 INFO log_message(161) Received input "until papa romeo"
+2016-04-14 23:20:16,806 INFO log_message(161) Input "until papa romeo" matched rule <Rule: [(copy|select|grab|delete)] (before|until|after) (semicolon|india|rack|greater|double|zulu|percent|november|tango|dash|echo|hotel|alpha|whiskey|plus|charlie|mike|kilo|toad|uniform|delta|quebec|sierra|colon|juliet|bravo|star|frog|space|oscar|yankee|bar|wave|lack|eke|single|lesser|x-ray|lima|foxtrot|golf|race|beer|comma|papa|victor|romeo|lace) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:20:21,991 INFO log_message(161) Received input "inside double"
+2016-04-14 23:20:21,993 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:20:49,116 INFO log_message(161) Received input "bell 7"
+2016-04-14 23:20:49,119 INFO log_message(161) Input "bell 7" matched rule <Rule: bell <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:20:53,992 INFO log_message(161) Received input "num 2"
+2016-04-14 23:20:53,996 INFO log_message(161) Input "num 2" matched rule <Rule: num <num> <1->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:21:15,865 INFO log_message(161) Received input "left"
+2016-04-14 23:21:15,867 INFO log_message(161) Input "left" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:21:26,056 INFO log_message(161) Received input "delta oscar charlie"
+2016-04-14 23:21:26,060 INFO log_message(161) Input "delta" matched rule <Rule: (juliet|bravo|foxtrot|zulu|oscar|november|tango|yankee|india|echo|hotel|alpha|whiskey|x-ray|lima|charlie|mike|kilo|golf|uniform|delta|quebec|sierra|papa|victor|romeo)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:21:26,076 INFO log_message(161) Input "oscar" matched rule <Rule: (juliet|bravo|foxtrot|zulu|oscar|november|tango|yankee|india|echo|hotel|alpha|whiskey|x-ray|lima|charlie|mike|kilo|golf|uniform|delta|quebec|sierra|papa|victor|romeo)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:21:26,084 INFO log_message(161) Input "charlie" matched rule <Rule: (juliet|bravo|foxtrot|zulu|oscar|november|tango|yankee|india|echo|hotel|alpha|whiskey|x-ray|lima|charlie|mike|kilo|golf|uniform|delta|quebec|sierra|papa|victor|romeo)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:21:29,109 INFO log_message(161) Received input "dash"
+2016-04-14 23:21:29,110 INFO log_message(161) Input "dash" matched rule <Rule: (colon|semicolon|rack|star|frog|greater|double|space|dash|bar|wave|lack|eke|single|lesser|toad|percent|race|beer|comma|plus|lace)> in grammar <pynhost.grammars.chars.CharactersGrammar object at 0x000001A47F9FC668>
+2016-04-14 23:21:33,671 INFO log_message(161) Received input "copy left 4"
+2016-04-14 23:21:33,673 INFO log_message(161) Input "copy left 4" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:21:38,869 INFO log_message(161) Received input "paste"
+2016-04-14 23:21:38,872 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:21:40,990 INFO log_message(161) Received input "undo"
+2016-04-14 23:21:40,993 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:21:52,050 INFO log_message(161) Received input "paste"
+2016-04-14 23:21:52,053 INFO log_message(161) Input "paste" matched rule <Rule: paste <num> <0->> in grammar <pynhost.grammars.global.CommandPromptGrammar object at 0x000001A47FA16D30>
+2016-04-14 23:21:59,241 INFO log_message(161) Received input "activate firefox"
+2016-04-14 23:21:59,245 INFO log_message(161) Input "activate firefox" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:22:03,179 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:22:03,182 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:22:04,741 INFO log_message(161) Received input "save buffer"
+2016-04-14 23:22:04,744 INFO log_message(161) Input "save buffer" matched rule <Rule: save buffer> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:22:06,868 INFO log_message(161) Received input "activate firefox"
+2016-04-14 23:22:06,873 INFO log_message(161) Input "activate firefox" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:22:12,172 INFO log_message(161) Received input "refresh"
+2016-04-14 23:22:12,172 INFO log_message(161) Input "refresh" matched rule <Rule: refresh> in grammar <pynhost.grammars.firefox.FirefoxGrammar object at 0x000001A47FA16C50>
+2016-04-14 23:24:39,618 INFO log_message(161) Received input "activate atom"
+2016-04-14 23:24:39,621 INFO log_message(161) Input "activate atom" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:24:43,928 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:24:43,931 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:24:59,489 INFO log_message(161) Received input "up"
+2016-04-14 23:24:59,491 INFO log_message(161) Input "up" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:25:03,865 INFO log_message(161) Received input "select line 3"
+2016-04-14 23:25:03,869 INFO log_message(161) Input "select line 3" matched rule <Rule: (copy|select|grab|delete) (west|line|east|module|word) [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:25:06,546 INFO log_message(161) Received input "indent"
+2016-04-14 23:25:06,547 INFO log_message(161) Input "indent" matched rule <Rule: indent <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:25:08,986 INFO log_message(161) Received input "clear select"
+2016-04-14 23:25:08,988 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:25:22,368 INFO log_message(161) Received input "line 3 4"
+2016-04-14 23:25:22,371 INFO log_message(161) Input "line 3 4" matched rule <Rule: line <num> <1->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:25:35,740 INFO log_message(161) Received input "select after lace"
+2016-04-14 23:25:35,742 INFO log_message(161) Input "select after lace" matched rule <Rule: [(copy|select|grab|delete)] (before|until|after) (semicolon|india|rack|greater|double|zulu|percent|november|tango|dash|echo|hotel|alpha|whiskey|plus|charlie|mike|kilo|toad|uniform|delta|quebec|sierra|colon|juliet|bravo|star|frog|space|oscar|yankee|bar|wave|lack|eke|single|lesser|x-ray|lima|foxtrot|golf|race|beer|comma|papa|victor|romeo|lace) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:25:40,425 INFO log_message(161) Received input "clear select"
+2016-04-14 23:25:40,428 INFO log_message(161) Input "clear select" matched rule <Rule: clear select> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:25:42,865 INFO log_message(161) Received input "left"
+2016-04-14 23:25:42,867 INFO log_message(161) Input "left" matched rule <Rule: [(copy|select|grab|delete)] (down|up|right|left) <num> <0->> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:25:45,549 INFO log_message(161) Received input "select after race"
+2016-04-14 23:25:45,551 INFO log_message(161) Input "select after race" matched rule <Rule: [(copy|select|grab|delete)] (before|until|after) (semicolon|india|rack|greater|double|zulu|percent|november|tango|dash|echo|hotel|alpha|whiskey|plus|charlie|mike|kilo|toad|uniform|delta|quebec|sierra|colon|juliet|bravo|star|frog|space|oscar|yankee|bar|wave|lack|eke|single|lesser|x-ray|lima|foxtrot|golf|race|beer|comma|papa|victor|romeo|lace) <1-> [<num>]> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:26:04,546 INFO log_message(161) Received input "grab"
+2016-04-14 23:26:06,366 INFO log_message(161) Received input "undo"
+2016-04-14 23:26:06,368 INFO log_message(161) Input "undo" matched rule <Rule: undo <num> <0->> in grammar <pynhost.grammars.atom.atom_cmds.AtomCommandsGrammar object at 0x000001A47FA270F0>
+2016-04-14 23:27:19,172 INFO log_message(161) Received input "activate sexy"
+2016-04-14 23:27:19,173 INFO log_message(161) Input "activate sexy" matched rule <Rule: activate <any> <1->> in grammar <pynhost.grammars.contexts.ContextsGrammar object at 0x000001A47FA112B0>
+2016-04-14 23:35:28,118 INFO log_message(161) Received input "inside double"
+2016-04-14 23:35:28,122 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:38:16,987 INFO log_message(161) Received input "inside double"
+2016-04-14 23:38:16,989 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:40:12,927 INFO log_message(161) Received input "inside double"
+2016-04-14 23:40:12,930 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:41:16,171 INFO log_message(161) Received input "inside double"
+2016-04-14 23:41:16,172 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:41:30,805 INFO log_message(161) Received input "inside single"
+2016-04-14 23:41:30,808 INFO log_message(161) Input "inside single" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:41:43,051 INFO log_message(161) Received input "inside par"
+2016-04-14 23:41:43,054 INFO log_message(161) Input "inside par" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:43:15,118 INFO log_message(161) Received input "inside double"
+2016-04-14 23:43:15,121 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:45:34,736 INFO log_message(161) Received input "inside double"
+2016-04-14 23:45:34,738 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:46:54,867 INFO log_message(161) Received input "inside double"
+2016-04-14 23:46:54,870 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:49:50,862 INFO log_message(161) Received input "inside double"
+2016-04-14 23:49:50,863 INFO log_message(161) Input "inside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:49:53,804 INFO log_message(161) Received input "outside double"
+2016-04-14 23:49:53,807 INFO log_message(161) Input "outside double" matched rule <Rule: [(copy|select|grab|delete)] (inside|outside) (braces|par|single|brackets|double|chevrons)> in grammar <pynhost.grammars.atom.manip.AtomDictationGrammar object at 0x000001A47FA46080>
+2016-04-14 23:50:21,354 INFO log_message(161) Stopped listening for input

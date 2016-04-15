@@ -9,7 +9,7 @@
         "new dictionary": "{{}}{left}",
         "new function": "def ():{left}{left}{left}",
         "new class": "class :{left}",
-        "print": "print(){left}",
+        "speak": "print(){left}",
         "condition": "if",
         "crunk path": "path",
         "crunk os": "os",

@@ -38,7 +38,7 @@ class PythonKeywordsGrammar(AtomBaseGrammar):
         self.load_literal('dunder')
         self.load_command('for loop')
         self.load_command('for enumerate')
-        self.load_command('print')
+        self.load_command('speak') #print
 
     def load_literal(self, text):
         self.load_command('crunk {}'.format(text))
