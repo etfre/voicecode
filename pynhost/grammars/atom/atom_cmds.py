@@ -11,24 +11,17 @@ class AtomCommandsGrammar(AtomBaseGrammar):
             'new scope': self.space('{{}}{left}{enter}{tab}', end=False)
 
         }
-        self.load_command('join lines')
-        self.load_command('toggle comment'),
-        self.load_command('clear select'),
-        self.load_command('fuzzy'),
-        self.load_command('drop'),
-        self.load_command('climb'),
-        self.load_command('save buffer'),
-        self.load_command('new buffer'),
-        self.load_command('close buffer'),
-        self.load_numbered_command('undo'),
-        self.load_numbered_command('duplicate line'),
-        self.load_numbered_command('flip down'),
-        self.load_numbered_command('flip up'),
-        self.load_numbered_command('buffer left'),
-        self.load_numbered_command('buffer right'),
-        self.load_numbered_command('snipe') # backspace
-        self.load_numbered_command('indent') # backspace
-        self.load_numbered_command('outdent') # backspace
+        self.load_all_commands()
+        self.load_all_numbered_commands()
+        # self.load_numbered_command('undo'),
+        # self.load_numbered_command('duplicate line'),
+        # self.load_numbered_command('flip down'),
+        # self.load_numbered_command('flip up'),
+        # self.load_numbered_command('buffer left'),
+        # self.load_numbered_command('buffer right'),
+        # self.load_numbered_command('snipe') # backspace
+        # self.load_numbered_command('indent') # backspace
+        # self.load_numbered_command('outdent') # backspace
 
 
     def go_to_line(self, words):

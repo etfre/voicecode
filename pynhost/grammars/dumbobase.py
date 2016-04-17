@@ -114,6 +114,11 @@ class DumboBaseGrammar(grammarbase.GrammarBase):
             if text:
                 self.load_command(cmd)
 
+    def load_all_numbered_commands(self):
+        for cmd, text in self.num_command.items():
+            if text:
+                self.load_numbered_command(cmd)
+
     def num_cmd_func(self, words):
         count = self._num(words)
         text = self.num_command[' '.join(words)]

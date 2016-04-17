@@ -31,10 +31,11 @@
         "zulu": "z",
         "frog": "(",
         "toad": ")",
-        "lace": "{",
-        "race": "}",
+        "lace": "{{",
+        "race": "}}",
         "lack": "[",
         "rack": "]",
+        "skate": "_",
         "dash": "-",
         "eke": "=",
         "plus": "+",
@@ -50,7 +51,9 @@
         "space": " ",
         "percent": "%",
         "single": "'",
-        "double": "\""
+        "double": "\"",
+        "spring": "/",
+        "fall": "\\"
     },
 
     "DictationCommands": [

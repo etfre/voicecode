@@ -11,9 +11,9 @@
         "delete": "",
         "copy": "",
         "grab": "",
-        "until": "t",
-        "after": "f",
-        "before": "F",
+        "until": "",
+        "after": "",
+        "before": "",
         "fuzzy": "{ctrl+t}",
         "save buffer": "{ctrl+s}",
         "new buffer": "{ctrl+n}",
@@ -29,6 +29,7 @@
 
     "NumberedCommands": {
         "undo": "{ctrl+z}",
+        "redo": "{ctrl+y}",
         "up": "{left}",
         "left": "{left}",
         "down": "{left}",

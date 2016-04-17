@@ -11,13 +11,17 @@ class AtomDictationGrammar(AtomBaseGrammar):
         super().__init__()
         self.app_context = 'Atom'
         self.mapping = {
-            '(camel|score) <any><1->': self.dictate,
-            'sample goodbye <num>': self.goodbye,
+            '(camel|score|word|dictate|title) <any><1->': self.dictate,
         }
 
     def dictate(self, words):
-        print(words)
         if words[0] == 'camel':
-            api.send_string(words[1] + ''.join([w.title() for w in words[2:]]))
+            api.send_string(words[1] + ''.join(w.title() for w in words[2:]))
         elif words[0] == 'score':
             api.send_string('_'.join(words[1:]))
+        elif words[0] == 'word':
+            api.send_string(''.join(words[1:]))
+        elif words[0] == 'dictate':
+            api.send_string(' '.join(words[1:]))
+        elif words[0] == 'title':
+            api.send_string(''.join(w.title() for w in words[1:]))
