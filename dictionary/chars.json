@@ -41,6 +41,7 @@
         "plus": "+",
         "bar": "-",
         "star": "*",
+        "ampersand": "&",
         "lesser": "<",
         "greater": ">",
         "semicolon": ";",

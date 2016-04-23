@@ -18,27 +18,8 @@ class PythonKeywordsGrammar(AtomBaseGrammar):
             'yield': 'yield' + self._shortcuts['endConditionalSpace'],
             'continue': 'continue',
             'break': 'break',
-            'assert': 'assert' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-            'while': 'while' + self._shortcuts['endConditionalSpace'],
-
-            'sample goodbye <num>': self.goodbye,
         }
-        self.load_literal('path')
-        self.load_literal('os')
-        self.load_literal('time')
-        self.load_literal('dunder')
-        self.load_command('for loop')
-        self.load_command('for enumerate')
-        self.load_command('speak') #print
+        self.load_all_commands()
 
     def load_literal(self, text):
         self.load_command('crunk {}'.format(text))

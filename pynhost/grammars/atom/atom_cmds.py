@@ -6,7 +6,7 @@ class AtomCommandsGrammar(AtomBaseGrammar):
         super().__init__()
         self.dict_file = 'atomcmds.json'
         self.mapping = {
-            'line <num> <1->': self.go_to_line,
+            'spark <num> <1->': self.go_to_line,
             'halt': self.space(',', start=False),
             'new scope': self.space('{{}}{left}{enter}{tab}', end=False)
 

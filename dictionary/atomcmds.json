@@ -34,7 +34,7 @@
         "left": "{left}",
         "down": "{left}",
         "right": "{left}",
-        "line": "",
+        "spark": "",
         "word": "",
         "indent": "{ctrl+]}",
         "outdent": "{ctrl+[}",

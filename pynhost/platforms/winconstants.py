@@ -5,6 +5,7 @@ class POINT(ct.Structure):
 
 PUL = ct.POINTER(ct.c_ulong)
 GMEM_DDESHARE = 0x2000
+ASFW_ANY = -1
 
 class KEYBOARD_INPUT(ct.Structure):
     _fields_ = [("wVk", ct.c_ushort),

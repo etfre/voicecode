@@ -100,6 +100,7 @@ def activate_window(title):
     matches = get_matching_windows(title)
     for key in sorted(matches, key=len):
         ct.windll.user32.SetForegroundWindow(matches[key])
+        ct.windll.user32.AllowSetForegroundWindow(winconstants.ASFW_ANY)
         return
 
 def get_mouse_location():
