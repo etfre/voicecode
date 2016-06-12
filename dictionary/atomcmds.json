@@ -16,7 +16,7 @@
         "before": "",
         "fuzzy": "{ctrl+t}",
         "save buffer": "{ctrl+s}",
-        "new buffer": "{ctrl+n}",
+        "new buffer": "{ctrl+shift+q}",
         "close buffer": "{ctrl+w}",
         "halt": "",
         "module": "",

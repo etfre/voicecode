@@ -20,6 +20,10 @@ def flush_io_buffer():
 def get_active_window_name():
     hwnd = ct.windll.user32.GetForegroundWindow()
     return get_window_title(hwnd)
+    
+def maximize_active_window():
+    hwnd = ct.windll.user32.GetForegroundWindow()
+    ct.windll.user32.ShowWindow(hwnd, 3)
 
 def get_window_title(hwnd):
     length = GetWindowTextLength(hwnd)
@@ -28,6 +32,7 @@ def get_window_title(hwnd):
     return buff.value
 
 def transcribe_line(key_inputs, delay, direction):
+    print(key_inputs)
     for i, key_input in enumerate(key_inputs):
         if i != 0:
             time.sleep(delay)
@@ -61,6 +66,7 @@ def press_key(key_input, direction):
 def press_key_combination(keys, direction):
     if direction in ('both', 'down'):
         for key_stroke in keys:
+            print(key_stroke, winconstants.WINDOWS_KEYCODES[key_stroke], direction)
             keydown(winconstants.WINDOWS_KEYCODES[key_stroke])
         time.sleep(.01)
     if direction in ('both', 'up'):
@@ -99,8 +105,9 @@ def get_matching_windows(title_list):
 def activate_window(title):
     matches = get_matching_windows(title)
     for key in sorted(matches, key=len):
-        ct.windll.user32.SetForegroundWindow(matches[key])
         ct.windll.user32.AllowSetForegroundWindow(winconstants.ASFW_ANY)
+        ct.windll.user32.ShowWindow(matches[key], 3)
+        ct.windll.user32.SetForegroundWindow(matches[key])
         return
 
 def get_mouse_location():

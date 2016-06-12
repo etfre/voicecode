@@ -1,0 +1,41 @@
+{
+    "name": "vscodetalk",
+    "displayName": "vscodetalk",
+    "description": "Voice controlled Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Evan",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.sayHello",
+                "title": "Hello World"
+            },
+            {
+                "command": "extension.left",
+                "title": "Hello World"
+            }
+        ]
+    },
+    "keybindings": [
+        //{ "key": "ctrl+alt+shift+B", "command": "vscodetalk.condSpaceBehind", "when": "editorTextFocus" }
+    ],
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
+    }
+}

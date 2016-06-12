@@ -18,6 +18,9 @@ def flush_io_buffer():
 
 def get_active_window_name():
 	return platform_dict[sys.platform].get_active_window_name()
+	
+def maximize_active_window():
+	platform_dict[sys.platform].maximize_active_window()
 
 def transcribe_line(key_inputs, delay, direction):
     platform_dict[sys.platform].transcribe_line(key_inputs, delay, direction)

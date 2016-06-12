@@ -2,19 +2,9 @@ from pynhost import grammarbase, api
 from pynhost.grammars.dumbobase import DumboBaseGrammar
 
 class AtomBaseGrammar(DumboBaseGrammar):
-    _shortcuts = {
-        'beginningConditionalSpace': '{ctrl+alt+1}',
-        'endConditionalSpace': '{ctrl+alt+2}',
-        'up': '{ctrl+alt+shift+up}',
-        'right': '{ctrl+alt+shift+right}',
-        'down': '{ctrl+alt+shift+down}',
-        'left': '{ctrl+alt+shift+left}',
-        'clearSelect': '{ctrl+alt+3}',
-        'previousTab': '{ctrl+alt+4}',
-        'nextTab': '{ctrl+alt+5}',
 
-    }
     def __init__(self):
+        self.app_context = 'Atom'
         super().__init__()
 
     def do_command(self, letters):

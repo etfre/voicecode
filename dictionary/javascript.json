@@ -4,6 +4,9 @@
     },
 
     "Commands": {
-        "new function": "function () {{{enter}{enter}{back}}}{left}{left}{left}{left}{left}{left}{left}"
+        "new function": "function () {{{enter}{enter}{back}}}{left}{left}{left}{left}{left}{left}{left}",
+        "class": "{ctrl+alt+1}class{ctrl+alt+2}",
+        "export": "{ctrl+alt+1}export{ctrl+alt+2}",
+        "speak": "console.log(){left}"
     }
 }

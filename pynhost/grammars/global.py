@@ -8,15 +8,15 @@ class CommandPromptGrammar(DumboBaseGrammar):
         super().__init__()
         self.dict_file = 'global.json'
         self.mapping = {
-            'num <num> <1->': self.number
+            'num <num> <1->': self.number,
+            "click": self.click,
         }
-        self.load_numbered_command('enter')
         self.load_command('escape')
-        self.load_numbered_command('snipe')
-        self.load_numbered_command('bell') #delete
-        self.load_numbered_command('tab')
-        self.load_numbered_command('paste')
+        self.load_all_numbered_commands()
 
     def number(self, words):
         num = str(self._num(words))
         api.send_string(num)
+
+    def click(self, words):
+        api.mouse_click()

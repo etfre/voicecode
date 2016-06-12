@@ -6,7 +6,31 @@ class DumboBaseGrammar(grammarbase.GrammarBase):
 
     dictionary_root = os.path.join('..', 'dictionary')
     dict_file = None
-    print(os.getcwd())
+
+    _shortcuts = {
+        'beginningConditionalSpace': '{ctrl+alt+1}',
+        'endConditionalSpace': '{ctrl+alt+2}',
+        'begSpace': '{ctrl+alt+shift+b}',
+        'endSpace': '{ctrl+alt+shift+v}',
+        'up': '{ctrl+alt+shift+up}',
+        'right': '{ctrl+alt+shift+right}',
+        'down': '{ctrl+alt+shift+down}',
+        'left': '{ctrl+alt+shift+left}',
+        'clearSelect': '{ctrl+alt+3}',
+        'previousTab': '{ctrl+alt+4}',
+        'nextTab': '{ctrl+alt+5}',
+    }
+
+    _operators = {
+        'compare': '==',
+        'star': '*',
+        'dash': '-',
+        'greater': '>',
+        'lesser': '<',
+        'plus': '+',
+        'eke': '=',
+        "percent": '%',
+    }
 
     _letters = {
         'alpha': 'a',
@@ -98,8 +122,8 @@ class DumboBaseGrammar(grammarbase.GrammarBase):
         return int(num_str) if num_str else default
 
     def space(self, text, start=True, end=True):
-        start = self._shortcuts['beginningConditionalSpace'] if start else ''
-        end = self._shortcuts['endConditionalSpace'] if end else ''
+        start = self._shortcuts['begSpace'] if start else ''
+        end = self._shortcuts['endSpace'] if end else ''
         return '{}{}{}'.format(start, text, end)
 
     def load_command(self, text):

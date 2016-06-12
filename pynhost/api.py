@@ -1,7 +1,7 @@
 from pynhost import keyinput
 from pynhost.platforms import platformhandler
 
-def send_string(string_to_send, delay=0, direction='both'):
+def send_string(string_to_send, delay=.02, direction='both'):
     tokenized_keys = keyinput.tokenize_keypresses(string_to_send)
     platformhandler.transcribe_line(tokenized_keys, delay, direction)
 
@@ -16,3 +16,6 @@ def activate_window(title):
 	title is a string or list of strings
 	'''
 	platformhandler.activate_window(title)
+    
+def maximize_active_window():
+    platformhandler.maximize_active_window()

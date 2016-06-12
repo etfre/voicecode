@@ -6,11 +6,15 @@
     "Commands": {
         "django restart server": "",
         "django run server": "",
-        "launch atom": ""
+        "launch atom": "",
+        "open project": "code .{enter}",
+        "new file": "copy NUL ",
+        "make directory": "mkdir ",
+        "run docstash": "..\\scripts\\activate && python runserver.py{enter}"
     },
 
     "NumberedCommands": {
-        "climb": "",
+        "climb": ""
     }
 
 }

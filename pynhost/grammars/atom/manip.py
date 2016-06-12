@@ -29,7 +29,7 @@ class AtomDictationGrammar(AtomBaseGrammar):
 
         self.text_objects = {
             'word': '{ctrl+d}',
-            'line': '{ctrl+l}',
+            'spark': '{ctrl+l}',
             'module': '{ctrl+a}',
             'east': 'end',
             'west': 'home'
@@ -46,8 +46,8 @@ class AtomDictationGrammar(AtomBaseGrammar):
 
         self.mapping = {
             '[{}] {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.numbered_directions)): self.numbered_action,
-            '[{}] {} {} <1-> [<num>]'.format(self.cmb(self._actions), self.cmb(self.limits), self.cmb(self.num_command)): self.scan,
-            '{} {} [<num>]'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
+            '[{}] {} [grow] {} <1-> [<num>]'.format(self.cmb(self._actions), self.cmb(self.limits), self.cmb(self.num_command)): self.scan,
+            '{} {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
             '[{}] (west|east)'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object_card,
             '[{}] (inside|outside) {}'.format(self.cmb(self._actions), self.cmb(self.surround_limits)): self.surround_action,
         }
@@ -68,9 +68,6 @@ class AtomDictationGrammar(AtomBaseGrammar):
         action = self._actions[words[0]][0]
         cleanup = '' if words[0] != 'copy' else self._shortcuts['clearSelect']
         command = (text_obj + action + cleanup) * num
-        print(command)
-        import time
-        # api.send_string(text_obj)
         api.send_string(command)
 
     def manip_text_object_card(self, words):
@@ -80,7 +77,6 @@ class AtomDictationGrammar(AtomBaseGrammar):
         cleanup = '' if words[0] != 'copy' else self._shortcuts['clearSelect']
         text_obj = self.text_objects[words[-1]]
         if len(words) > 1:
-            print('{{shift+{}}}{}{}'.format(text_obj, action, cleanup))
             api.send_string('{{shift+{}}}{}{}'.format(text_obj, action, cleanup))
         else:
             api.send_string('{{{}}}{}{}'.format(text_obj, action, cleanup))
@@ -96,18 +92,21 @@ class AtomDictationGrammar(AtomBaseGrammar):
         if words[0] in self._actions:
             words = words[1:]
         limit_letter = self.limits[words[0]]
-        search_text = ''.join(self.num_command[word] for word in words[1:])
+        if words[1] == 'grow':
+            search_text = ''.join(self.num_command[word].title() for word in words[2:])
+        else:
+            search_text = ''.join(self.num_command[word] for word in words[1:])
         command = action_letter + limit_letter + search_text + count
         self.do_command(command)
 
-class AtomCUAGrammar(AtomBaseGrammar):
-
-    def __init__(self):
-        super().__init__()
-        self.app_context = ''
-        self.priority = -1
-        self.mapping = {
-            'grab': '{ctrl+x}',
-            'copy': '{ctrl+x}{ctrl+v}',
-            'paste': '{ctrl+v}',
-        }
+# class AtomCUAGrammar(AtomBaseGrammar):
+#
+#     def __init__(self):
+#         super().__init__()
+#         self.app_context = ''
+#         self.priority = -1
+#         self.mapping = {
+#             'grab': '{ctrl+x}',
+#             'copy': '{ctrl+x}{ctrl+v}',
+#             'paste': '{ctrl+v}',
+#         }

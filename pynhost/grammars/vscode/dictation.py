@@ -1,7 +1,7 @@
-from pynhost.grammars.atom.atombase import AtomBaseGrammar
+from pynhost.grammars.vscode.vscodebase import VSCodeBaseGrammar
 from pynhost import api
 
-class AtomDictationGrammar(AtomBaseGrammar):
+class VSCodeDictationGrammar(VSCodeBaseGrammar):
     '''
     Barebones grammar class that can be used as a template for new
     grammars. See grammars/sample2.py for a more indepth example
@@ -9,7 +9,6 @@ class AtomDictationGrammar(AtomBaseGrammar):
     '''
     def __init__(self):
         super().__init__()
-        self.app_context = 'Atom'
         self.mapping = {
             '(camel|score|word|dictate|title) <any><1->': self.dictate,
         }
