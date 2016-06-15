@@ -6,7 +6,6 @@
     "Commands": {
         "join lines": "{ctrl+j}",
         "toggle comment": "{ctrl+/}",
-        "clear select": "{ctrl+alt+3}",
         "select": "",
         "delete": "",
         "copy": "",
@@ -30,10 +29,10 @@
     "NumberedCommands": {
         "undo": "{ctrl+z}",
         "redo": "{ctrl+y}",
-        "up": "{left}",
+        "up": "{up}",
         "left": "{left}",
-        "down": "{left}",
-        "right": "{left}",
+        "down": "{down}",
+        "right": "{right}",
         "spark": "",
         "word": "",
         "indent": "{ctrl+]}",

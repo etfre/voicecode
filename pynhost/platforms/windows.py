@@ -32,7 +32,6 @@ def get_window_title(hwnd):
     return buff.value
 
 def transcribe_line(key_inputs, delay, direction):
-    print(key_inputs)
     for i, key_input in enumerate(key_inputs):
         if i != 0:
             time.sleep(delay)
@@ -66,7 +65,6 @@ def press_key(key_input, direction):
 def press_key_combination(keys, direction):
     if direction in ('both', 'down'):
         for key_stroke in keys:
-            print(key_stroke, winconstants.WINDOWS_KEYCODES[key_stroke], direction)
             keydown(winconstants.WINDOWS_KEYCODES[key_stroke])
         time.sleep(.01)
     if direction in ('both', 'up'):

@@ -45,11 +45,11 @@ class AtomDictationGrammar(AtomBaseGrammar):
         }
 
         self.mapping = {
-            '[{}] {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.numbered_directions)): self.numbered_action,
-            '[{}] {} [grow] {} <1-> [<num>]'.format(self.cmb(self._actions), self.cmb(self.limits), self.cmb(self.num_command)): self.scan,
-            '{} {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
-            '[{}] (west|east)'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object_card,
-            '[{}] (inside|outside) {}'.format(self.cmb(self._actions), self.cmb(self.surround_limits)): self.surround_action,
+            # '[{}] {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.numbered_directions)): self.numbered_action,
+            # '[{}] {} [grow] {} <1-> [<num>]'.format(self.cmb(self._actions), self.cmb(self.limits), self.cmb(self.num_command)): self.scan,
+            # '{} {} <num> <0->'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object,
+            # '[{}] (west|east)'.format(self.cmb(self._actions), self.cmb(self.text_objects)): self.manip_text_object_card,
+            # '[{}] (inside|outside) {}'.format(self.cmb(self._actions), self.cmb(self.surround_limits)): self.surround_action,
         }
 
     def numbered_action(self, words):

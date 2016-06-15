@@ -1,11 +1,10 @@
 {
     "Scopes": {
-        "language": "javascript"
+
     },
 
     "Commands": {
-        "react component did mount": "componentDidMount() {{{enter}{enter}{shift+tab}}}{up}{tab}",
-        "react create class": "React.createClass({{{enter}{enter}render() {{{enter}return ({enter}<div />{enter}){shift+tab}}}",
-        "react import": "import React from 'react';"
+        "react create element": "React.createElement(){left}",
+        "react find node": "ReactDOM.findDOMNode(){left}"
     }
 }

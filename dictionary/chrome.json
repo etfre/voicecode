@@ -4,7 +4,8 @@
     },
 
     "Commands": {
-        "refresh": "{f5}"
+        "refresh": "{f5}",
+        "debug tools": "{f12}"
     }
 
 }

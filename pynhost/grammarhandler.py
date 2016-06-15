@@ -101,6 +101,7 @@ class GrammarHandler:
 
     def get_context(self, action_list):
         if action_list.rule_match is None:
+            print('x', platformhandler.get_active_window_name().lower())
             return platformhandler.get_active_window_name().lower()
         return action_list.rule_match.rule.grammar.app_context
 

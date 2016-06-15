@@ -5,7 +5,7 @@ class JavascriptKeywordsGrammar(VSCodeBaseGrammar):
     def __init__(self):
         super().__init__()
         self.context_filters = {
-            'language': 'javascript'
+            # 'language': 'javascript'
         }
         self.dict_file = 'react.json'
         self.load_all_commands()
